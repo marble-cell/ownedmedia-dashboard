@@ -6,9 +6,9 @@
 <meta name="robots" content="noindex">
 <title>온드미디어 11월 전광판</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="base.css?v=1120c">
+<link rel="stylesheet" href="base.css?v=1120d">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
-<script src="dash.js?v=1120c"></script>
+<script src="dash.js?v=1120d"></script>
 </head>
 <body>
 <div id="dash-root">
@@ -177,8 +177,8 @@
     <button class="om-tab" role="tab" data-tab="all" aria-selected="true">전체</button>
     <button class="om-tab" role="tab" data-tab="chunja" data-ci="0" aria-selected="false"><i></i>김춘자</button>
     <button class="om-tab" role="tab" data-tab="taesik" data-ci="2" aria-selected="false"><i></i>김태식</button>
-    <button class="om-tab" role="tab" data-tab="mong" data-ci="1" aria-selected="false"><i></i>몽인턴 <span class="om-paused">잠정 중지</span></button>
     <button class="om-tab" role="tab" data-tab="bot" data-ci="3" aria-selected="false"><i></i>건강봇</button>
+    <button class="om-tab" role="tab" data-tab="mong" data-ci="1" aria-selected="false"><i></i>몽인턴 <span class="om-paused">잠정 중지</span></button>
     <button class="om-tab" role="tab" data-tab="links" aria-selected="false">링크 유입</button>
   </nav>
 
@@ -249,12 +249,6 @@
       <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="김태식"></div>
       <button class="om-goto" data-goto="taesik">김태식 게시물별 추이 보기 →</button>
     </section>
-    <section class="om-col" data-ci="1" id="mong">
-      <div class="om-col-head"><h2>몽인턴</h2><span class="om-paused">잠정 중지</span><span>에이헬스 신입 강아지 인턴</span></div>
-      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=몽인턴">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=몽인턴">—</b></span></p>
-      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="몽인턴"></div>
-      <button class="om-goto" data-goto="mong">몽인턴 게시물별 추이 보기 →</button>
-    </section>
   </div>
 
   <p class="om-section-label">건강봇 (11/19 시작)</p>
@@ -276,6 +270,16 @@
       <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=건강봇 대만">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=건강봇 대만">—</b></span></p>
       <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="건강봇 대만"></div>
       <button class="om-goto" data-goto="bot">건강봇 게시물별 추이 보기 →</button>
+    </section>
+  </div>
+
+  <p class="om-section-label">몽인턴 (잠정 중지)</p>
+  <div class="om-cols" id="mong-cols" style="grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr))">
+    <section class="om-col" data-ci="1" id="mong">
+      <div class="om-col-head"><h2>몽인턴</h2><span class="om-paused">잠정 중지</span><span>에이헬스 신입 강아지 인턴</span></div>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=몽인턴">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=몽인턴">—</b></span></p>
+      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="몽인턴"></div>
+      <button class="om-goto" data-goto="mong">몽인턴 게시물별 추이 보기 →</button>
     </section>
   </div>
 
@@ -433,7 +437,7 @@
   <p class="om-method" id="method">매일 9·12·15·18·21시에 로그인된 Chrome으로 각 계정 화면을 읽어 기록해요. 유튜브는 영상 페이지의 정확한 조회수, 인스타그램과 틱톡은 프로필에 보이는 재생 수예요. 그 시간에 맥이 꺼져 있으면 그날 기록은 빠져요.</p>
 </div>
 </div>
-<script src="app.js?v=1120c"></script>
+<script src="app.js?v=1120d"></script>
 <script>dash.start();</script>
 </body>
 </html>
