@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>온드미디어 11월 전광판</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="base.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="dash.js"></script>
+</head>
+<body>
+<div id="dash-root">
+<style>
+  #dash-root { --dash-gutter: clamp(16px, 3vw, 40px); }
+  #dash-root .om { --om-font: "Pretendard Variable", "Pretendard", "Pretendard Web", -apple-system, "Apple SD Gothic Neo", system-ui, sans-serif;
+    --om-shadow: 0 2px 4px rgba(29, 29, 31, .04), 0 8px 24px rgba(29, 29, 31, .04);
+    --om-track: color-mix(in srgb, var(--color-fg) 7%, transparent);
+    --om-r: 20px;
+    display: flex; flex-direction: column; gap: 28px; font-family: var(--om-font); color: var(--color-fg); font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
+  #dash-root .om * { font-family: inherit; }
+  #dash-root .om svg text { font-family: var(--om-font); }
+
+  /* header */
+  #dash-root .om-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px; }
+  #dash-root .om-title { font-weight: 800; font-size: clamp(26px, 3.2vw, 34px); line-height: 1.2; margin: 0; letter-spacing: -.03em; }
+  #dash-root .om-clock { display: flex; align-items: center; gap: 10px; margin-top: 10px; color: var(--color-fg-muted); font-size: 14px; font-weight: 500; }
+  #dash-root .om-clock b { color: var(--color-fg); font-weight: 700; }
+  #dash-root .om-clock-track { width: 160px; max-width: 32vw; height: 8px; border-radius: 999px; background: var(--om-track); overflow: hidden; }
+  #dash-root .om-clock-fill { height: 100%; background: #0096FA; border-radius: 999px; }
+  #dash-root .om-stamp { color: var(--color-fg-muted); font-size: 12px; font-weight: 500; text-align: right; line-height: 1.6; }
+
+  /* tabs: Yona Tabs variant=text */
+  #dash-root .om-tabs { display: flex; gap: 4px; flex-wrap: wrap; border-bottom: 1px solid var(--color-border-line); position: sticky; top: 0; z-index: 5; background: var(--color-bg); margin-top: -8px; padding-top: 8px; }
+  #dash-root .om-tab { appearance: none; background: none; border: 0; border-bottom: 2.5px solid transparent; margin-bottom: -1px; padding: 12px 16px; font-size: 16px; font-weight: 600; color: var(--color-fg-muted); cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+  #dash-root .om-tab:hover { color: var(--color-fg); }
+  #dash-root .om-tab[aria-selected=true] { color: var(--color-fg); border-bottom-color: var(--om-c, var(--color-fg)); font-weight: 700; }
+  #dash-root .om-tab:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; border-radius: 6px; }
+  #dash-root .om-tab i { width: 8px; height: 8px; border-radius: 50%; background: var(--om-c); display: inline-block; }
+  #dash-root .om-page { display: flex; flex-direction: column; gap: 28px; }
+
+  #dash-root .om-obj { display: flex; gap: 10px; align-items: center; margin: 0; font-size: 18px; font-weight: 700; letter-spacing: -.02em; }
+  #dash-root .om-obj-tag { font-size: 13px; font-weight: 800; color: #FFFFFF; background: #0096FA; border-radius: 8px; width: 26px; height: 26px; display: inline-flex; align-items: center; justify-content: center; flex: none; }
+  #dash-root .om-kr-def { margin: -4px 0 0; font-size: 13px; font-weight: 500; color: var(--color-fg-muted); line-height: 1.5; }
+  #dash-root .om-section-label { margin: 0 0 -16px; font-size: 13px; font-weight: 600; color: var(--color-fg-muted); }
+
+  /* cards: Yona Card2 */
+  #dash-root .om-card { background: var(--color-panel); border: .6px solid var(--color-border-line); border-radius: var(--om-r); box-shadow: var(--om-shadow); padding: 20px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+  #dash-root .om-card-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  #dash-root .om-chip { font-size: 12px; font-weight: 700; border-radius: 6px; padding: 3px 7px; background: var(--om-track); color: var(--color-fg); flex: none; }
+  #dash-root .om-card-title { font-size: 16px; font-weight: 700; margin: 0; flex: 1; min-width: 0; letter-spacing: -.02em; }
+  #dash-root .om-pill { font-size: 12px; font-weight: 600; border-radius: 999px; padding: 4px 10px; background: var(--om-track); color: var(--color-fg-muted); flex: none; white-space: nowrap; }
+  #dash-root .om-pill.ok { color: #0096FA; background: color-mix(in srgb, #0096FA 12%, transparent); }
+  #dash-root .om-pill.warn { color: #FF383C; background: color-mix(in srgb, #FF383C 12%, transparent); }
+  #dash-root .om-note { color: var(--color-fg-muted); font-size: 13px; font-weight: 500; margin: 0; line-height: 1.6; }
+  #dash-root .om-note b { color: var(--color-fg); font-weight: 700; }
+
+  /* KR: the main */
+  #dash-root .om-krs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  @media (max-width: 680px) { #dash-root .om-krs { grid-template-columns: minmax(0, 1fr); } }
+  #dash-root .om-kr { padding: 24px; gap: 12px; container-type: inline-size; position: relative; overflow: hidden; }
+  #dash-root .om-kr::before { content: ""; position: absolute; inset: 0 0 auto; height: 5px; background: var(--om-c); }
+  #dash-root .om-kr .om-chip { background: color-mix(in srgb, var(--om-c) 14%, transparent); color: var(--om-c); font-size: 13px; }
+  #dash-root .om-kr .om-card-title { font-size: clamp(17px, 4.6cqi, 22px); font-weight: 800; }
+  #dash-root .om-hero { display: flex; align-items: flex-end; gap: 6px 14px; flex-wrap: wrap; }
+  #dash-root .om-big { font-weight: 800; font-size: clamp(44px, 15cqi, 80px); line-height: 1; letter-spacing: -.045em; }
+  #dash-root .om-hero-side { display: flex; flex-direction: column; gap: 3px; padding-bottom: 6px; font-size: 13px; font-weight: 500; color: var(--color-fg-muted); }
+  #dash-root .om-hero-side .om-delta { font-size: 16px; font-weight: 800; }
+  #dash-root .om-hero-side b { color: var(--color-fg); font-weight: 700; }
+  #dash-root .om-rate { display: flex; justify-content: space-between; align-items: baseline; margin-top: 6px; font-size: 14px; font-weight: 600; color: var(--color-fg-muted); }
+  #dash-root .om-rate strong { font-size: clamp(22px, 6cqi, 30px); font-weight: 800; color: var(--om-c); letter-spacing: -.03em; }
+  #dash-root .om-track { height: 12px; border-radius: 999px; background: var(--om-track); overflow: hidden; }
+  #dash-root .om-fill { height: 100%; border-radius: 999px; background: var(--om-c); min-width: 12px; }
+  #dash-root .om-ends { display: flex; justify-content: space-between; font-size: 12px; font-weight: 500; color: var(--color-fg-muted); }
+  #dash-root .om-ends b { color: var(--color-fg); font-weight: 800; }
+  #dash-root .om-chart { position: relative; min-height: 200px; margin-top: 4px; }
+
+  /* characters overview */
+  #dash-root .om-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 16px; align-items: start; }
+  #dash-root .om-col { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+  #dash-root .om-col-head { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; padding-top: 14px; border-top: 4px solid var(--om-c); }
+  #dash-root .om-col-head h2 { margin: 0; font-size: 20px; font-weight: 800; letter-spacing: -.03em; }
+  #dash-root .om-col-head span { color: var(--color-fg-muted); font-size: 13px; font-weight: 500; }
+  #dash-root .om-col-sum { display: flex; gap: 16px; margin: 0 0 4px; font-size: 13px; font-weight: 500; color: var(--color-fg-muted); }
+  #dash-root .om-col-sum b { color: var(--color-fg); font-weight: 800; margin-left: 5px; font-size: 15px; }
+  #dash-root .om-accts { display: flex; flex-direction: column; gap: 8px; }
+  #dash-root .om-acct { background: var(--color-panel); border: .6px solid var(--color-border-line); border-radius: var(--om-r); box-shadow: var(--om-shadow); padding: 16px 18px; display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; align-items: end; }
+  #dash-root .om-acct-top { grid-column: 1 / -1; display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 700; }
+  #dash-root .om-acct-top a { color: var(--color-fg-muted); text-decoration: none; font-size: 12px; font-weight: 500; margin-left: auto; }
+  #dash-root .om-acct-top a:hover { color: var(--color-fg); }
+  #dash-root .om-acct-num { font-size: 28px; font-weight: 800; line-height: 1.15; letter-spacing: -.03em; }
+  #dash-root .om-acct-num small { font-size: 12px; font-weight: 500; color: var(--color-fg-muted); margin-left: 3px; letter-spacing: 0; }
+  #dash-root .om-acct-meta { font-size: 12px; font-weight: 500; color: var(--color-fg-muted); }
+  #dash-root .om-acct-meta b { color: var(--color-fg); font-weight: 700; }
+  #dash-root .om-acct svg { display: block; }
+  #dash-root .om-goto { appearance: none; background: var(--om-track); border: 0; border-radius: 999px; padding: 10px 14px; font-size: 13px; font-weight: 700; color: var(--color-fg); cursor: pointer; align-self: flex-start; }
+  #dash-root .om-goto:hover { background: color-mix(in srgb, var(--om-c) 16%, transparent); }
+  #dash-root .om-empty { border: 1px dashed var(--color-border-line); border-radius: var(--om-r); padding: 16px 18px; color: var(--color-fg-muted); font-size: 13px; font-weight: 500; }
+
+  /* character page */
+  #dash-root .om-char-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; padding-top: 16px; border-top: 4px solid var(--om-c); }
+  #dash-root .om-char-head h2 { margin: 0; font-weight: 800; font-size: 28px; letter-spacing: -.03em; }
+  #dash-root .om-char-head .om-col-sum { margin: 0 0 0 auto; }
+  #dash-root .om-accts.row { flex-direction: row; flex-wrap: wrap; }
+  #dash-root .om-accts.row .om-acct { flex: 1 1 240px; }
+  #dash-root .om-eps { display: grid; grid-template-columns: minmax(220px, 300px) minmax(0, 1fr); gap: 16px; align-items: start; }
+  @media (max-width: 760px) { #dash-root .om-eps { grid-template-columns: minmax(0, 1fr); } }
+  #dash-root .om-eplist { display: flex; flex-direction: column; gap: 8px; }
+  #dash-root .om-ep { appearance: none; text-align: left; color: inherit; background: var(--color-panel); border: .6px solid var(--color-border-line); border-radius: 16px; padding: 14px 16px; cursor: pointer; display: flex; flex-direction: column; gap: 4px; box-shadow: var(--om-shadow); }
+  #dash-root .om-ep:hover { border-color: var(--om-c); }
+  #dash-root .om-ep[aria-pressed=true] { border: 1.5px solid var(--om-c); background: color-mix(in srgb, var(--om-c) 6%, var(--color-panel)); }
+  #dash-root .om-ep:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+  #dash-root .om-ep-title { font-size: 15px; font-weight: 700; letter-spacing: -.02em; }
+  #dash-root .om-ep-meta { font-size: 12px; font-weight: 500; color: var(--color-fg-muted); display: flex; gap: 8px; flex-wrap: wrap; }
+  #dash-root .om-ep-meta b { color: var(--color-fg); font-weight: 800; }
+  #dash-root .om-epdetail { display: flex; flex-direction: column; gap: 12px; min-width: 0; background: var(--color-panel); border: .6px solid var(--color-border-line); border-radius: var(--om-r); box-shadow: var(--om-shadow); padding: 20px; }
+  #dash-root .om-ep-h { display: flex; align-items: baseline; gap: 6px 12px; flex-wrap: wrap; }
+  #dash-root .om-ep-h h3 { margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -.03em; }
+  #dash-root .om-ep-h span { color: var(--color-fg-muted); font-size: 13px; font-weight: 500; }
+  #dash-root .om-plats { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr)); gap: 8px; }
+  #dash-root .om-plat { background: color-mix(in srgb, var(--om-pc) 6%, var(--color-panel)); border-radius: 16px; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; }
+  #dash-root .om-plat-name { display: flex; justify-content: space-between; align-items: center; font-size: 13px; font-weight: 700; color: var(--om-pc); }
+  #dash-root .om-plat-name a { font-size: 12px; color: var(--color-fg-muted); font-weight: 500; text-decoration: none; }
+  #dash-root .om-plat-big { font-size: 28px; font-weight: 800; line-height: 1.1; letter-spacing: -.03em; }
+  #dash-root .om-plat-big small { font-size: 12px; font-weight: 500; color: var(--color-fg-muted); margin-left: 3px; letter-spacing: 0; }
+  #dash-root .om-stats { display: grid; grid-template-columns: auto 1fr; gap: 3px 12px; font-size: 12px; font-weight: 500; color: var(--color-fg-muted); }
+  #dash-root .om-stats b { color: var(--color-fg); font-weight: 700; text-align: right; }
+  #dash-root .om-plat.none { background: none; border: 1px dashed var(--color-border-line); color: var(--color-fg-muted); font-size: 12px; font-weight: 500; justify-content: center; }
+  #dash-root .om-epchart { position: relative; min-height: 220px; }
+
+  /* videos table */
+  #dash-root .om-scroll { overflow-x: auto; }
+  #dash-root .om-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  #dash-root .om-table th, #dash-root .om-table td { text-align: left; padding: 12px 10px; border-bottom: .6px solid var(--color-border-line); white-space: nowrap; }
+  #dash-root .om-table tbody tr:last-child td { border-bottom: 0; }
+  #dash-root .om-table th { color: var(--color-fg-muted); font-weight: 600; font-size: 12px; }
+  #dash-root .om-table td { font-weight: 500; }
+  #dash-root .om-table .num { text-align: right; }
+  #dash-root .om-table a { color: inherit; text-decoration: none; font-weight: 700; }
+  #dash-root .om-table a:hover { text-decoration: underline; }
+  #dash-root .om-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+  #dash-root .om-viewbar { display: flex; align-items: center; gap: 10px; justify-content: flex-end; font-weight: 700; }
+  #dash-root .om-viewbar i { display: block; height: 8px; border-radius: 999px; min-width: 3px; }
+
+  #dash-root .om-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: 12px; box-shadow: var(--cds-shadow-popover); padding: 8px 10px; font-size: 12px; font-weight: 600; white-space: nowrap; z-index: 2; }
+  #dash-root .om-tip .d { color: var(--cds-text-secondary); font-weight: 500; }
+  #dash-root [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+  #dash-root .om-method { color: var(--color-fg-muted); font-size: 12px; font-weight: 500; line-height: 1.6; margin: 0; max-width: 720px; }
+  #dash-root .om-paused { font-size: 11px; font-weight: 700; color: var(--color-fg-muted); background: var(--om-track); border-radius: 999px; padding: 2px 8px; margin-left: 2px; letter-spacing: 0; white-space: nowrap; vertical-align: middle; }
+  #dash-root .om-archived { opacity: .45; }
+  #dash-root tr.om-archived td { color: var(--color-fg-muted); }
+  /* link inflow */
+  #dash-root .om-lk-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 8px; }
+  #dash-root .om-lk { background: var(--color-panel); border: .6px solid var(--color-border-line); border-radius: 16px; box-shadow: var(--om-shadow); padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+  #dash-root .om-lk.old { background: none; box-shadow: none; border-style: dashed; }
+  #dash-root .om-lk-name { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 700; }
+  #dash-root .om-lk-url { font-size: 11px; font-weight: 500; color: var(--color-fg-muted); word-break: break-all; }
+  #dash-root .om-lk-big { font-size: 28px; font-weight: 800; line-height: 1.1; letter-spacing: -.03em; }
+  #dash-root .om-lk-big small { font-size: 12px; font-weight: 500; color: var(--color-fg-muted); margin-left: 3px; letter-spacing: 0; }
+</style>
+
+<div class="om">
+  <header class="om-top" id="top">
+    <div>
+      <h1 class="om-title">2026 온드미디어 한 달 OKR</h1>
+      <div class="om-clock">
+        <span>10/28~11/30 · <b data-draw="v" data-source="kr" data-field="day" data-row="0">—</b>일째 / 34일</span>
+        <div class="om-clock-track" data-draw="clock" data-source="kr" data-field="day" data-row="0">—</div>
+        <span><b data-draw="v" data-source="kr" data-field="elapsed" data-row="0" data-fmt="pct0">—</b> 지남</span>
+      </div>
+    </div>
+    <div class="om-stamp">마지막 기록 <span data-draw="v" data-source="kr" data-field="as_of_time" data-row="0" data-fmt="t">—</span><br>3시간마다 자동 기록 (9·12·15·18·21시)</div>
+  </header>
+
+  <nav class="om-tabs" id="tabs" role="tablist">
+    <button class="om-tab" role="tab" data-tab="all" aria-selected="true">전체</button>
+    <button class="om-tab" role="tab" data-tab="chunja" data-ci="0" aria-selected="false"><i></i>김춘자</button>
+    <button class="om-tab" role="tab" data-tab="taesik" data-ci="2" aria-selected="false"><i></i>김태식</button>
+    <button class="om-tab" role="tab" data-tab="mong" data-ci="1" aria-selected="false"><i></i>몽인턴 <span class="om-paused">잠정 중지</span></button>
+    <button class="om-tab" role="tab" data-tab="links" aria-selected="false">링크 유입</button>
+  </nav>
+
+  <div class="om-page" data-page="all" id="all">
+  <p class="om-obj" id="objective"><span class="om-obj-tag">O</span><span>에이헬스 캐릭터로 사람들이 에이헬스를 알게 만든다</span></p>
+
+  <p class="om-section-label">핵심 결과</p>
+  <div class="om-krs" id="krs">
+    <section class="om-card om-kr" data-kr="1" id="kr1">
+      <div class="om-card-head">
+        <span class="om-chip">KR1</span>
+        <h2 class="om-card-title">계정 1개 한 달 누적 조회수 1,000만 회 달성</h2>
+        <span class="om-pill" data-state="before">시작 전</span>
+        <span class="om-pill ok" data-state="ahead" hidden>순항 중</span>
+        <span class="om-pill warn" data-state="behind" hidden>페이스 아래</span>
+        <span data-draw="status" data-source="kr" data-field="kr1_state" data-row="0">—</span>
+      </div>
+      <p class="om-kr-def">10월 28일 첫 업로드부터 11월 30일까지, 캐릭터 × 플랫폼 계정 하나의 누적 조회수가 1,000만 회를 넘으면 달성</p>
+      <div class="om-hero">
+        <div class="om-big" data-draw="v" data-source="kr" data-field="kr1_value" data-row="0">—</div>
+        <div class="om-hero-side">
+          <span><span class="om-delta" data-draw="delta" data-source="kr" data-field="kr1_delta" data-row="0">—</span> 전날 대비</span>
+          <span><b data-draw="v" data-source="kr" data-field="kr1_account" data-row="0" data-fmt="t">—</b> · 10/28부터 누적 조회수</span>
+        </div>
+      </div>
+      <div class="om-rate"><span>달성률</span><strong data-draw="v" data-source="kr" data-field="kr1_share" data-row="0" data-fmt="pct">—</strong></div>
+      <div class="om-track" data-draw="bar" data-source="kr" data-field="kr1_share" data-row="0">—</div>
+      <div class="om-ends"><span>시작 <b>0</b> 10/28</span><span>목표 <b>1,000만 회</b> 11/30</span></div>
+      <div class="om-chart" data-draw="krchart" data-source="kr_series" data-kr="1"></div>
+      <p class="om-note">계정 하나(캐릭터 × 플랫폼)의 누적 조회수 중 가장 큰 값. 11월 30일 기록까지 셉니다. 점선은 34일 동안 고르게 늘 때의 페이스예요. 지금 누적 조회수 1위는 <b data-draw="v" data-source="kr" data-field="lead_account" data-row="0" data-fmt="t">—</b> <b data-draw="v" data-source="kr" data-field="lead_views" data-row="0">—</b>회예요.</p>
+    </section>
+
+    <section class="om-card om-kr" data-kr="2" id="kr2">
+      <div class="om-card-head">
+        <span class="om-chip">KR2</span>
+        <h2 class="om-card-title">계정 1개 팔로워 1만 명 달성</h2>
+        <span class="om-pill" data-state="before">시작 전</span>
+        <span class="om-pill ok" data-state="ahead" hidden>순항 중</span>
+        <span class="om-pill warn" data-state="behind" hidden>페이스 아래</span>
+        <span data-draw="status" data-source="kr" data-field="kr2_state" data-row="0">—</span>
+      </div>
+      <p class="om-kr-def">11월 30일 기준, 캐릭터 × 플랫폼 계정 하나의 팔로워(유튜브는 구독자)가 1만 명을 넘으면 달성</p>
+      <div class="om-hero">
+        <div class="om-big" data-draw="v" data-source="kr" data-field="kr2_value" data-row="0">—</div>
+        <div class="om-hero-side">
+          <span><span class="om-delta" data-draw="delta" data-source="kr" data-field="kr2_delta" data-row="0">—</span> 전날 대비</span>
+          <span><b data-draw="v" data-source="kr" data-field="kr2_account" data-row="0" data-fmt="t">—</b> · 팔로워(유튜브는 구독자)</span>
+        </div>
+      </div>
+      <div class="om-rate"><span>달성률</span><strong data-draw="v" data-source="kr" data-field="kr2_share" data-row="0" data-fmt="pct">—</strong></div>
+      <div class="om-track" data-draw="bar" data-source="kr" data-field="kr2_share" data-row="0">—</div>
+      <div class="om-ends"><span>시작 <b data-draw="v" data-source="kr" data-field="kr2_start" data-row="0">—</b> 10/29</span><span>목표 <b>1만 명</b> 11/30</span></div>
+      <div class="om-chart" data-draw="krchart" data-source="kr_series" data-kr="2"></div>
+      <p class="om-note">계정 하나의 팔로워 수 중 가장 큰 값. 회색 칸이 11월이에요.</p>
+    </section>
+  </div>
+
+  <div class="om-cols" id="characters">
+    <section class="om-col" data-ci="0" id="chunja">
+      <div class="om-col-head"><h2>김춘자</h2><span>남미새 MZ 할머니 · 82살</span></div>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=김춘자">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=김춘자">—</b></span></p>
+      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="김춘자"></div>
+      <button class="om-goto" data-goto="chunja">김춘자 게시물별 추이 보기 →</button>
+    </section>
+    <section class="om-col" data-ci="2" id="taesik">
+      <div class="om-col-head"><h2>김태식</h2><span>옆집남자</span></div>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=김태식">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=김태식">—</b></span></p>
+      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="김태식"></div>
+      <button class="om-goto" data-goto="taesik">김태식 게시물별 추이 보기 →</button>
+    </section>
+    <section class="om-col" data-ci="1" id="mong">
+      <div class="om-col-head"><h2>몽인턴</h2><span class="om-paused">잠정 중지</span><span>에이헬스 신입 강아지 인턴</span></div>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=몽인턴">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=몽인턴">—</b></span></p>
+      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="몽인턴"></div>
+      <button class="om-goto" data-goto="mong">몽인턴 게시물별 추이 보기 →</button>
+    </section>
+  </div>
+
+  <section class="om-card" id="videos">
+    <div class="om-card-head"><h2 class="om-card-title">영상별 조회수</h2></div>
+    <p class="om-note">가장 최근 기록 기준, 조회수 순. 보관 처리한 영상은 흐리게 맨 아래에 둬요. 인스타그램은 릴스 재생 수예요. 저장·공유는 지금 틱톡만 공개돼요. 유튜브는 저장이 없고 공유는 스튜디오에서만, 인스타 저장·공유는 프로페셔널 계정으로 바꾸면 채워요. 비어 있는 칸(—)은 공개되지 않았거나 못 읽은 값이에요.</p>
+    <div class="om-scroll">
+      <table class="om-table" data-source="videos_latest" data-row-key="video_key">
+        <thead><tr>
+          <th data-field="title">영상</th>
+          <th data-field="character">캐릭터</th>
+          <th data-field="platform">플랫폼</th>
+          <th data-field="posted_at">올린 시각</th>
+          <th class="num" data-field="likes">좋아요</th>
+          <th class="num" data-field="comments">댓글</th>
+          <th class="num" data-field="saves">저장</th>
+          <th class="num" data-field="shares">공유</th>
+          <th class="num" data-field="views">조회수</th>
+        </tr></thead>
+        <tbody data-draw="vids"></tbody>
+      </table>
+    </div>
+  </section>
+
+  </div>
+
+  <div class="om-page" data-page="chunja" data-ci="0" id="p-chunja" hidden>
+    <div class="om-char-head">
+      <h2>김춘자</h2><span class="om-note">남미새 MZ 할머니 · 82살</span>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=김춘자">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=김춘자">—</b></span></p>
+    </div>
+    <div class="om-accts row" data-draw="accts" data-source="accounts_latest accounts" data-character="김춘자"></div>
+    <div class="om-eps">
+      <div class="om-eplist" data-draw="eplist" data-source="episodes" data-character="김춘자"></div>
+      <div class="om-epdetail" data-draw="epdetail" data-source="videos videos_latest" data-character="김춘자"></div>
+    </div>
+    <p class="om-note">왼쪽에서 게시물을 고르면 플랫폼별 숫자와 날짜별 조회수 추이가 나와요. 같은 영상을 여러 플랫폼에 올린 건 제목으로 묶었어요.</p>
+  </div>
+
+  <div class="om-page" data-page="taesik" data-ci="2" id="p-taesik" hidden>
+    <div class="om-char-head">
+      <h2>김태식</h2><span class="om-note">옆집남자</span>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=김태식">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=김태식">—</b></span></p>
+    </div>
+    <div class="om-accts row" data-draw="accts" data-source="accounts_latest accounts" data-character="김태식"></div>
+    <div class="om-eps">
+      <div class="om-eplist" data-draw="eplist" data-source="episodes" data-character="김태식"></div>
+      <div class="om-epdetail" data-draw="epdetail" data-source="videos videos_latest" data-character="김태식"></div>
+    </div>
+    <p class="om-note">왼쪽에서 게시물을 고르면 플랫폼별 숫자와 날짜별 조회수 추이가 나와요. 같은 영상을 여러 플랫폼에 올린 건 제목으로 묶었어요.</p>
+  </div>
+
+  <div class="om-page" data-page="mong" data-ci="1" id="p-mong" hidden>
+    <div class="om-char-head">
+      <h2>몽인턴</h2><span class="om-paused">잠정 중지</span><span class="om-note">에이헬스 신입 강아지 인턴</span>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=몽인턴">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=몽인턴">—</b></span></p>
+    </div>
+    <div class="om-accts row" data-draw="accts" data-source="accounts_latest accounts" data-character="몽인턴"></div>
+    <div class="om-eps">
+      <div class="om-eplist" data-draw="eplist" data-source="episodes" data-character="몽인턴"></div>
+      <div class="om-epdetail" data-draw="epdetail" data-source="videos videos_latest" data-character="몽인턴"></div>
+    </div>
+    <p class="om-note">왼쪽에서 게시물을 고르면 플랫폼별 숫자와 날짜별 조회수 추이가 나와요. 같은 영상을 여러 플랫폼에 올린 건 제목으로 묶었어요.</p>
+  </div>
+
+  <div class="om-page" data-page="links" id="p-links" hidden>
+    <p class="om-obj"><span>프로필 방문과 소개 링크로 들어온 사람</span></p>
+    <p class="om-kr-def">유튜브·인스타·틱톡 소개란의 에이헬스 다운로드 링크를 누른 수(클릭)와 그 링크로 앱을 깐 수(설치)예요. 앱스플라이어 기준이고, 11/16부터 채널마다 링크를 따로 걸었어요.</p>
+    <section class="om-col" data-ci="0">
+      <div class="om-col-head"><h2>김춘자</h2><span>누적 클릭 <b data-draw="v" data-source="link_char" data-field="clicks" data-where="character=김춘자">—</b> · 설치 <b data-draw="v" data-source="link_char" data-field="installs" data-where="character=김춘자">—</b></span></div>
+      <p class="om-section-label" style="margin:4px 0 0">프로필 방문</p>
+      <div class="om-lk-grid" data-draw="visits" data-source="visit_latest" data-character="김춘자"></div>
+      <p class="om-section-label" style="margin:8px 0 0">소개 링크 클릭·설치</p>
+      <div class="om-lk-grid" data-draw="links" data-source="link_totals" data-character="김춘자"></div>
+    </section>
+    <section class="om-col" data-ci="2">
+      <div class="om-col-head"><h2>김태식</h2><span>누적 클릭 <b data-draw="v" data-source="link_char" data-field="clicks" data-where="character=김태식">—</b> · 설치 <b data-draw="v" data-source="link_char" data-field="installs" data-where="character=김태식">—</b></span></div>
+      <p class="om-section-label" style="margin:4px 0 0">프로필 방문</p>
+      <div class="om-lk-grid" data-draw="visits" data-source="visit_latest" data-character="김태식"></div>
+      <p class="om-section-label" style="margin:8px 0 0">소개 링크 클릭·설치</p>
+      <div class="om-lk-grid" data-draw="links" data-source="link_totals" data-character="김태식"></div>
+    </section>
+    <section class="om-card">
+      <div class="om-card-head"><h2 class="om-card-title">날짜별 클릭·설치</h2></div>
+      <div class="om-epchart" data-draw="linkchart" data-source="links"></div>
+      <div class="om-scroll">
+        <table class="om-table" data-source="links">
+          <thead><tr><th>날짜</th><th>캐릭터</th><th>채널</th><th class="num">클릭</th><th class="num">설치</th></tr></thead>
+          <tbody data-draw="linkrows"></tbody>
+        </table>
+      </div>
+    </section>
+    <p class="om-method">날짜는 앱스플라이어 기준(UTC)이라 한국 시간보다 9시간 늦게 하루가 바뀌어요. 클릭은 같은 사람이 여러 번 눌러도 다 세고, 설치는 링크를 누른 뒤 7일 안에 처음 연 경우예요. 앱스플라이어 숫자는 몇 시간 늦게 들어와서 다음 수집 때 늘 수 있어요. 「채널 구분 전」은 채널을 나누기 전 캐릭터 공용 링크(chunja·taesik)로 들어온 수예요. 11/10~11/12 클릭에는 링크를 만들고 시험하느라 우리가 직접 누른 것이 섞여 있어요(표에 「시험 포함」).<br>프로필 방문: 틱톡은 틱톡 스튜디오의 날짜별 프로필 조회 수(2~3일 늦게 확정돼요), 인스타그램은 계정 인사이트 「최근 90일」 프로필 방문(계정을 연 10/28부터 누적과 같아요)과 외부 링크 누름이에요. 유튜브는 프로필 방문 수를 제공하지 않아요.</p>
+  </div>
+
+  <p class="om-method" id="method">매일 9·12·15·18·21시에 로그인된 Chrome으로 각 계정 화면을 읽어 기록해요. 유튜브는 영상 페이지의 정확한 조회수, 인스타그램과 틱톡은 프로필에 보이는 재생 수예요. 그 시간에 맥이 꺼져 있으면 그날 기록은 빠져요.</p>
+</div>
+</div>
+<script src="app.js"></script>
+<script>dash.start();</script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+{
+ "rows": [
+  {
+   "date": "2026-11-10",
+   "character": "김춘자",
+   "media_source": "Social_chunja",
+   "channel": "채널 구분 전",
+   "clicks": 2,
+   "installs": 0
+  },
+  {
+   "date": "2026-11-10",
+   "character": "김태식",
+   "media_source": "Social_taesik",
+   "channel": "채널 구분 전",
+   "clicks": 2,
+   "installs": 0
+  },
+  {
+   "date": "2026-11-11",
+   "character": "김춘자",
+   "media_source": "Social_chunja",
+   "channel": "채널 구분 전",
+   "clicks": 62,
+   "installs": 0
+  },
+  {
+   "date": "2026-11-11",
+   "character": "김태식",
+   "media_source": "Social_taesik",
+   "channel": "채널 구분 전",
+   "clicks": 9,
+   "installs": 0
+  },
+  {
+   "date": "2026-11-12",
+   "character": "김춘자",
+   "media_source": "Social_chunja",
+   "channel": "채널 구분 전",
+   "clicks": 22,
+   "installs": 0
+  },
+  {
+   "date": "2026-11-12",
+   "character": "김태식",
+   "media_source": "Social_taesik",
+   "channel": "채널 구분 전",
+   "clicks": 8,
+   "installs": 0
+  },
+  {
+   "date": "2026-11-13",
+   "character": "김춘자",
+   "media_source": "Social_chunja",
+   "channel": "채널 구분 전",
+   "clicks": 2,
+   "installs": 1
+  },
+  {
+   "date": "2026-11-15",
+   "character": "김춘자",
+   "media_source": "Social_chunja",
+   "channel": "채널 구분 전",
+   "clicks": 4,
+   "installs": 0
+  },
+  {
+   "date": "2026-11-16",
+   "character": "김춘자",
+   "media_source": "Social_chunja",
+   "channel": "유튜브",
+   "clicks": 4,
+   "installs": 0
+  },
+  {
+   "date": "2026-11-16",
+   "character": "김춘자",
+   "media_source": "Social_chunja",
+   "channel": "인스타그램",
+   "clicks": 11,
+   "installs": 0
+  },
+  {
+   "date": "2026-11-16",
+   "character": "김춘자",
+   "media_source": "Social_chunja",
+   "channel": "채널 구분 전",
+   "clicks": 3,
+   "installs": 0
+  },
+  {
+   "date": "2026-11-16",
+   "character": "김춘자",
+   "media_source": "Social_chunja",
+   "channel": "틱톡",
+   "clicks": 10,
+   "installs": 0
+  },
+  {
+   "date": "2026-11-16",
+   "character": "김태식",
+   "media_source": "Social_taesik",
+   "channel": "유튜브",
+   "clicks": 4,
+   "installs": 0
+  },
+  {
+   "date": "2026-11-16",
+   "character": "김태식",
+   "media_source": "Social_taesik",
+   "channel": "인스타그램",
+   "clicks": 13,
+   "installs": 0
+  },
+  {
+   "date": "2026-11-16",
+   "character": "김태식",
+   "media_source": "Social_taesik",
+   "channel": "채널 구분 전",
+   "clicks": 7,
+   "installs": 0
+  },
+  {
+   "date": "2026-11-16",
+   "character": "김태식",
+   "media_source": "Social_taesik",
+   "channel": "틱톡",
+   "clicks": 6,
+   "installs": 0
+  },
+  {
+   "date": "2026-11-17",
+   "character": "김춘자",
+   "media_source": "Social_chunja",
+   "channel": "틱톡",
+   "clicks": 16,
+   "installs": 0
+  },
+  {
+   "date": "2026-11-18",
+   "character": "김춘자",
+   "media_source": "Social_chunja",
+   "channel": "틱톡",
+   "clicks": 6,
+   "installs": 0
+  }
+ ]
+}
