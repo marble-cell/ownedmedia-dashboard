@@ -1729,10 +1729,10 @@
    "handle": "ahealth_bot_tw",
    "url": "https://www.youtube.com/@ahealth_bot_tw",
    "followers": 0,
-   "posts": 3,
+   "posts": 4,
    "views": 8,
    "date": "2026-11-20",
-   "collected_at": "2026-11-20 12:59:47",
+   "collected_at": "2026-11-20 15:18:19",
    "account": "건강봇 대만 유튜브"
   },
   {
@@ -1741,10 +1741,10 @@
    "handle": "ahealth_bot_tw",
    "url": "https://www.instagram.com/ahealth_bot_tw/",
    "followers": 0,
-   "posts": 3,
-   "views": 290,
+   "posts": 4,
+   "views": 291,
    "date": "2026-11-20",
-   "collected_at": "2026-11-20 12:59:47",
+   "collected_at": "2026-11-20 15:18:19",
    "account": "건강봇 대만 인스타그램"
   },
   {
@@ -1753,10 +1753,10 @@
    "handle": "ahealth_bot_jp",
    "url": "https://www.youtube.com/@ahealth_bot_jp",
    "followers": 0,
-   "posts": 3,
-   "views": 188,
+   "posts": 4,
+   "views": 189,
    "date": "2026-11-20",
-   "collected_at": "2026-11-20 12:59:47",
+   "collected_at": "2026-11-20 15:18:19",
    "account": "건강봇 일본 유튜브"
   },
   {
@@ -1764,11 +1764,11 @@
    "platform": "인스타그램",
    "handle": "ahealth_bot_jp",
    "url": "https://www.instagram.com/ahealth_bot_jp/",
-   "followers": 9,
-   "posts": 3,
-   "views": 61780,
+   "followers": 18,
+   "posts": 4,
+   "views": 74176,
    "date": "2026-11-20",
-   "collected_at": "2026-11-20 12:59:47",
+   "collected_at": "2026-11-20 15:18:19",
    "account": "건강봇 일본 인스타그램"
   },
   {
@@ -1777,10 +1777,10 @@
    "handle": "ahealth_bot_kr",
    "url": "https://www.youtube.com/@ahealth_bot_kr",
    "followers": 0,
-   "posts": 3,
-   "views": 7,
+   "posts": 4,
+   "views": 8,
    "date": "2026-11-20",
-   "collected_at": "2026-11-20 12:59:47",
+   "collected_at": "2026-11-20 15:18:19",
    "account": "건강봇 한국 유튜브"
   },
   {
@@ -1788,12 +1788,24 @@
    "platform": "인스타그램",
    "handle": "ahealth_bot_kr",
    "url": "https://www.instagram.com/ahealth_bot_kr/",
-   "followers": 1,
-   "posts": 2,
-   "views": 3162,
+   "followers": 2,
+   "posts": 3,
+   "views": 3478,
    "date": "2026-11-20",
-   "collected_at": "2026-11-20 12:59:47",
+   "collected_at": "2026-11-20 15:18:19",
    "account": "건강봇 한국 인스타그램"
+  },
+  {
+   "character": "건강봇 한국",
+   "platform": "틱톡",
+   "handle": "ahealth_bot_kr",
+   "url": "https://www.tiktok.com/@ahealth_bot_kr",
+   "followers": 0,
+   "posts": 1,
+   "views": 0,
+   "date": "2026-11-20",
+   "collected_at": "2026-11-20 15:18:19",
+   "account": "건강봇 한국 틱톡"
   },
   {
    "character": "김춘자",
@@ -1802,9 +1814,9 @@
    "url": "https://www.youtube.com/@chun_ja82",
    "followers": 57,
    "posts": 12,
-   "views": 23087,
+   "views": 23091,
    "date": "2026-11-20",
-   "collected_at": "2026-11-20 12:59:47",
+   "collected_at": "2026-11-20 15:18:19",
    "account": "김춘자 유튜브"
   },
   {
@@ -1814,9 +1826,9 @@
    "url": "https://www.instagram.com/chun_ja82/",
    "followers": 61,
    "posts": 12,
-   "views": 49830,
+   "views": 49843,
    "date": "2026-11-20",
-   "collected_at": "2026-11-20 12:59:47",
+   "collected_at": "2026-11-20 15:18:19",
    "account": "김춘자 인스타그램"
   },
   {
@@ -1824,11 +1836,11 @@
    "platform": "틱톡",
    "handle": "chun_ja82",
    "url": "https://www.tiktok.com/@chun_ja82",
-   "followers": 2160,
+   "followers": 2159,
    "posts": 12,
-   "views": 835700,
+   "views": 836500,
    "date": "2026-11-20",
-   "collected_at": "2026-11-20 12:59:47",
+   "collected_at": "2026-11-20 15:18:19",
    "account": "김춘자 틱톡"
   },
   {
@@ -1838,9 +1850,9 @@
    "url": "https://www.youtube.com/@taesik_nextdoor",
    "followers": 4,
    "posts": 5,
-   "views": 7673,
+   "views": 7717,
    "date": "2026-11-20",
-   "collected_at": "2026-11-20 12:59:47",
+   "collected_at": "2026-11-20 15:18:19",
    "account": "김태식 유튜브"
   },
   {
@@ -1850,9 +1862,9 @@
    "url": "https://www.instagram.com/taesik_nextdoor/",
    "followers": 14,
    "posts": 5,
-   "views": 6869,
+   "views": 6873,
    "date": "2026-11-20",
-   "collected_at": "2026-11-20 12:59:47",
+   "collected_at": "2026-11-20 15:18:19",
    "account": "김태식 인스타그램"
   },
   {
@@ -1864,7 +1876,7 @@
    "posts": 3,
    "views": 274,
    "date": "2026-11-20",
-   "collected_at": "2026-11-20 12:59:47",
+   "collected_at": "2026-11-20 15:18:19",
    "account": "김태식 틱톡"
   }
  ]
