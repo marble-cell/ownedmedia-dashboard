@@ -348,6 +348,33 @@
     svg.on('mouseleave', () => { tip.hidden = true; });
   });
 
+  dash.calc('bot_eps', {
+    inputs: ['videos_latest'],
+    title: '건강봇 편별 나라 비교',
+    description: '건강봇 한국·일본·대만 계정의 같은 제목 영상을 묶어 나라별 조회수(인스타+유튜브)와 합계.',
+    fn: (videos_latest) => Array.from(d3.group(videos_latest.filter((r) => r.character.startsWith('건강봇')), (r) => r.title), ([title, rs]) => {
+      const by = (c) => { const x = rs.filter((r) => r.character === c); return x.length ? d3.sum(x, (r) => r.views) : null; };
+      return {title, posted: d3.min(rs, (r) => r.posted), kr: by('건강봇 한국'), jp: by('건강봇 일본'), tw: by('건강봇 대만'), total: d3.sum(rs, (r) => r.views)};
+    }).sort((a, b) => b.posted.localeCompare(a.posted) || b.total - a.total),
+  });
+
+  dash.draw('boteps', (el) => {
+    const rows = rowsOf('bot_eps');
+    if (!rows) { el.replaceChildren(); return; }
+    el.replaceChildren(...rows.map((r) => {
+      const tr = document.createElement('tr');
+      const td = (t, cls) => { const c = document.createElement('td'); if (cls) c.className = cls; c.textContent = t; tr.append(c); return c; };
+      td(r.title); td(when(r.posted));
+      const best = d3.max([r.kr, r.jp, r.tw].map((v) => v || 0));
+      for (const [k, ch] of [['kr', '건강봇 한국'], ['jp', '건강봇 일본'], ['tw', '건강봇 대만']]) {
+        const c = td(r[k] == null ? '—' : num(r[k]), 'num');
+        if (r[k] != null && r[k] === best && best > 0) { c.style.fontWeight = '800'; c.style.color = colorOf(ch); }
+      }
+      td(num(r.total), 'num').style.fontWeight = '700';
+      return tr;
+    }));
+  });
+
   dash.draw('vids', (el) => {
     const rows = rowsOf('videos_latest');
     if (!rows) { el.replaceChildren(); return; }

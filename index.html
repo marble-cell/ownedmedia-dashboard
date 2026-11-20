@@ -6,9 +6,9 @@
 <meta name="robots" content="noindex">
 <title>온드미디어 11월 전광판</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="base.css?v=1120b">
+<link rel="stylesheet" href="base.css?v=1120c">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
-<script src="dash.js?v=1120b"></script>
+<script src="dash.js?v=1120c"></script>
 </head>
 <body>
 <div id="dash-root">
@@ -342,6 +342,34 @@
   </div>
 
   <div class="om-page" data-page="bot" data-ci="3" id="p-bot" hidden>
+  <div class="om-cols">
+    <section class="om-col" data-ci="3">
+      <div class="om-col-head"><h2>건강봇 한국</h2><span>ahealth_bot_kr · 한국어</span></div>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=건강봇 한국">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=건강봇 한국">—</b></span></p>
+      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="건강봇 한국"></div>
+    </section>
+    <section class="om-col" data-ci="4">
+      <div class="om-col-head"><h2>건강봇 일본</h2><span>ahealth_bot_jp · 일본어</span></div>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=건강봇 일본">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=건강봇 일본">—</b></span></p>
+      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="건강봇 일본"></div>
+    </section>
+    <section class="om-col" data-ci="5">
+      <div class="om-col-head"><h2>건강봇 대만</h2><span>ahealth_bot_tw · 번체 중국어</span></div>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=건강봇 대만">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=건강봇 대만">—</b></span></p>
+      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="건강봇 대만"></div>
+    </section>
+  </div>
+  <section class="om-card">
+    <div class="om-card-head"><h2 class="om-card-title">편별 나라 비교</h2></div>
+    <p class="om-note">같은 편을 나라마다 올린 조회수예요. 인스타그램과 유튜브를 더한 값이고, 나라마다 가장 많이 본 칸을 진하게 표시해요.</p>
+    <div class="om-scroll">
+      <table class="om-table">
+        <thead><tr><th>편</th><th>올린 날</th><th class="num">한국</th><th class="num">일본</th><th class="num">대만</th><th class="num">합계</th></tr></thead>
+        <tbody data-draw="boteps"></tbody>
+      </table>
+    </div>
+  </section>
+  <p class="om-section-label">나라별 편 추이</p>
     <div class="om-char-head" data-ci="3" style="margin-top:8px">
       <h2>건강봇 한국</h2><span class="om-note">ahealth_bot_kr · 한국어</span>
       <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=건강봇 한국">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=건강봇 한국">—</b></span></p>
@@ -405,7 +433,7 @@
   <p class="om-method" id="method">매일 9·12·15·18·21시에 로그인된 Chrome으로 각 계정 화면을 읽어 기록해요. 유튜브는 영상 페이지의 정확한 조회수, 인스타그램과 틱톡은 프로필에 보이는 재생 수예요. 그 시간에 맥이 꺼져 있으면 그날 기록은 빠져요.</p>
 </div>
 </div>
-<script src="app.js?v=1120b"></script>
+<script src="app.js?v=1120c"></script>
 <script>dash.start();</script>
 </body>
 </html>
