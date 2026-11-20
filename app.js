@@ -24,14 +24,20 @@
   dash.calc('kr_series', {
     inputs: ['accounts'],
     title: 'KR 날짜별 추이',
-    description: '날짜마다 누적 조회수가 가장 많은 계정의 값(KR1, 11/30까지)과 팔로워가 가장 많은 계정의 값(KR2).',
+    description: '날짜마다 계정별 그날까지의 마지막 기록을 모아, 모든 계정 누적 조회수 합(KR1, 11/30까지)과 팔로워가 가장 많은 계정의 값(KR2).',
     fn: (accounts) => {
-      return Array.from(new Set(accounts.map((r) => r.date))).sort().map((date) => {
-        const rs = accounts.filter((r) => r.date === date);
+      const dates = Array.from(new Set(accounts.map((r) => r.date))).sort();
+      const lastOf = new Map();
+      const byDate = d3.group(accounts, (r) => r.date);
+      return dates.map((date) => {
+        for (const r of byDate.get(date) || []) lastOf.set(r.account, r);
+        const rs = Array.from(lastOf.values());
         return {
           date,
-          kr1: date <= '2026-11-30' ? d3.max(rs, (r) => Number(r.views)) : null,
+          kr1: date <= '2026-11-30' ? d3.sum(rs, (r) => Number(r.views)) : null,
           kr2: d3.max(rs, (r) => Number(r.followers)),
+          kr2_account: (rs.slice().sort((a, b) => Number(b.followers) - Number(a.followers))[0] || {}).account || '',
+          accounts: rs.length,
         };
       });
     },
@@ -40,20 +46,21 @@
   dash.calc('kr', {
     inputs: ['accounts_latest', 'kr_series'],
     title: 'KR 진행 상황',
-    description: '가장 앞선 계정의 한 달 누적 조회수(목표 10,000,000회)와 팔로워(목표 10,000명), 달성률, 전날 대비, 10/28부터 며칠째인지.',
+    description: '모든 계정 누적 조회수 합(목표 10,000,000회)과 팔로워가 가장 많은 계정의 팔로워(목표 10,000명), 달성률, 전날 대비, 10/28부터 며칠째인지.',
     fn: (accounts_latest, kr_series) => {
       const top = (k) => accounts_latest.slice().sort((a, b) => b[k] - a[k])[0] || {};
-      const v = top('month_views'), f = top('followers'), l = top('views');
+      const f = top('followers'), l = top('views');
       const asOf = d3.max(accounts_latest, (r) => r.date) || '';
       const day = asOf >= '2026-10-28' ? Math.min(34, Math.round((Date.parse(asOf) - Date.parse('2026-10-28')) / 86400000) + 1) : 0;
       const elapsed = day / 34;
       const s = kr_series.slice().sort((a, b) => a.date.localeCompare(b.date));
       const last = s[s.length - 1] || {}, prev = s[s.length - 2] || null;
-      const kr1 = v.month_views || 0, kr2 = f.followers || 0;
+      const inWin = s.filter((r) => r.kr1 != null);
+      const kr1 = inWin.length ? inWin[inWin.length - 1].kr1 : 0, kr2 = f.followers || 0;
       const state = (share) => day === 0 ? 'before' : share >= elapsed ? 'ahead' : 'behind';
       return [{
         as_of: asOf, as_of_time: d3.max(accounts_latest, (r) => r.collected_at) || asOf, day, elapsed,
-        kr1_account: kr1 > 0 ? v.account : '아직 없음', kr1_value: kr1, kr1_share: kr1 / 10000000, kr1_state: state(kr1 / 10000000),
+        kr1_account: '계정 ' + accounts_latest.length + '개 합', kr1_value: kr1, kr1_share: kr1 / 10000000, kr1_state: state(kr1 / 10000000),
         kr1_delta: prev && prev.kr1 != null && last.kr1 != null ? last.kr1 - prev.kr1 : null,
         kr2_account: f.account || '', kr2_value: kr2, kr2_share: kr2 / 10000, kr2_state: state(kr2 / 10000),
         kr2_delta: prev ? last.kr2 - prev.kr2 : null, kr2_start: s.length ? s[0].kr2 : 0,
@@ -135,14 +142,14 @@
     },
   });
 
-  const CHARS = ['김춘자', '몽인턴', '김태식'];
+  const CHARS = ['김춘자', '몽인턴', '김태식', '건강봇 한국', '건강봇 일본', '건강봇 대만'];
   const PLAT = {'인스타그램': 'IG', '유튜브': 'YT', '틱톡': 'TT'};
   const num = d3.format(',');
   const compact = (x) => x >= 10000 ? Intl.NumberFormat('ko', {notation: 'compact', maximumFractionDigits: 1}).format(x) : num(x);
   const fmts = {n: num, pct: (x) => (x > 0 && x < 0.01 ? d3.format('.2%') : d3.format('.1%'))(x), pct0: d3.format('.0%'), t: (x) => String(x)};
   const rowsOf = (id) => { const g = dash.data(id); return g.status === 'ok' && Array.isArray(g.data) ? g.data : null; };
   const YONA = {blue: '#0096FA', pink: '#FF2D55', green: '#34C759', purple: '#CB30E0'};
-  const CHAR_COLOR = {'김춘자': YONA.pink, '몽인턴': YONA.green, '김태식': YONA.purple};
+  const CHAR_COLOR = {'김춘자': YONA.pink, '몽인턴': YONA.green, '김태식': YONA.purple, '건강봇 한국': YONA.blue, '건강봇 일본': '#5856D6', '건강봇 대만': '#00A3A3'};
   const colorOf = (character) => CHAR_COLOR[character] || YONA.blue;
   const when = (iso) => iso ? iso.slice(5, 10).replace('-', '/') + (iso.length > 10 ? ' ' + iso.slice(11, 16) : '') : '—';
   const signed = (x) => x == null ? '—' : (x > 0 ? '▲ +' : x < 0 ? '▼ ' : '') + num(x);

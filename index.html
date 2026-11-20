@@ -178,6 +178,7 @@
     <button class="om-tab" role="tab" data-tab="chunja" data-ci="0" aria-selected="false"><i></i>김춘자</button>
     <button class="om-tab" role="tab" data-tab="taesik" data-ci="2" aria-selected="false"><i></i>김태식</button>
     <button class="om-tab" role="tab" data-tab="mong" data-ci="1" aria-selected="false"><i></i>몽인턴 <span class="om-paused">잠정 중지</span></button>
+    <button class="om-tab" role="tab" data-tab="bot" data-ci="3" aria-selected="false"><i></i>건강봇</button>
     <button class="om-tab" role="tab" data-tab="links" aria-selected="false">링크 유입</button>
   </nav>
 
@@ -189,13 +190,13 @@
     <section class="om-card om-kr" data-kr="1" id="kr1">
       <div class="om-card-head">
         <span class="om-chip">KR1</span>
-        <h2 class="om-card-title">계정 1개 한 달 누적 조회수 1,000만 회 달성</h2>
+        <h2 class="om-card-title">모든 계정 누적 조회수 1,000만 회 달성</h2>
         <span class="om-pill" data-state="before">시작 전</span>
         <span class="om-pill ok" data-state="ahead" hidden>순항 중</span>
         <span class="om-pill warn" data-state="behind" hidden>페이스 아래</span>
         <span data-draw="status" data-source="kr" data-field="kr1_state" data-row="0">—</span>
       </div>
-      <p class="om-kr-def">10월 28일 첫 업로드부터 11월 30일까지, 캐릭터 × 플랫폼 계정 하나의 누적 조회수가 1,000만 회를 넘으면 달성</p>
+      <p class="om-kr-def">10월 28일 첫 업로드부터 11월 30일까지, 온드미디어 모든 계정(캐릭터 × 플랫폼, 건강봇 나라별 계정 포함)의 누적 조회수를 더한 값이 1,000만 회를 넘으면 달성</p>
       <div class="om-hero">
         <div class="om-big" data-draw="v" data-source="kr" data-field="kr1_value" data-row="0">—</div>
         <div class="om-hero-side">
@@ -207,7 +208,7 @@
       <div class="om-track" data-draw="bar" data-source="kr" data-field="kr1_share" data-row="0">—</div>
       <div class="om-ends"><span>시작 <b>0</b> 10/28</span><span>목표 <b>1,000만 회</b> 11/30</span></div>
       <div class="om-chart" data-draw="krchart" data-source="kr_series" data-kr="1"></div>
-      <p class="om-note">계정 하나(캐릭터 × 플랫폼)의 누적 조회수 중 가장 큰 값. 11월 30일 기록까지 셉니다. 점선은 34일 동안 고르게 늘 때의 페이스예요. 지금 누적 조회수 1위는 <b data-draw="v" data-source="kr" data-field="lead_account" data-row="0" data-fmt="t">—</b> <b data-draw="v" data-source="kr" data-field="lead_views" data-row="0">—</b>회예요.</p>
+      <p class="om-note">모든 계정의 누적 조회수를 더한 값이에요. 그날 읽지 못한 계정(몽인턴 등)은 마지막 기록을 그대로 더해요. 11월 30일 기록까지 셉니다. 점선은 34일 동안 고르게 늘 때의 페이스예요.</p>
     </section>
 
     <section class="om-card om-kr" data-kr="2" id="kr2">
@@ -253,6 +254,28 @@
       <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=몽인턴">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=몽인턴">—</b></span></p>
       <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="몽인턴"></div>
       <button class="om-goto" data-goto="mong">몽인턴 게시물별 추이 보기 →</button>
+    </section>
+  </div>
+
+  <p class="om-section-label">건강봇 (11/19 시작)</p>
+  <div class="om-cols" id="bots">
+    <section class="om-col" data-ci="3">
+      <div class="om-col-head"><h2>건강봇 한국</h2><span>ahealth_bot_kr · 한국어</span></div>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=건강봇 한국">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=건강봇 한국">—</b></span></p>
+      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="건강봇 한국"></div>
+      <button class="om-goto" data-goto="bot">건강봇 게시물별 추이 보기 →</button>
+    </section>
+    <section class="om-col" data-ci="4">
+      <div class="om-col-head"><h2>건강봇 일본</h2><span>ahealth_bot_jp · 일본어</span></div>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=건강봇 일본">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=건강봇 일본">—</b></span></p>
+      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="건강봇 일본"></div>
+      <button class="om-goto" data-goto="bot">건강봇 게시물별 추이 보기 →</button>
+    </section>
+    <section class="om-col" data-ci="5">
+      <div class="om-col-head"><h2>건강봇 대만</h2><span>ahealth_bot_tw · 번체 중국어</span></div>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=건강봇 대만">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=건강봇 대만">—</b></span></p>
+      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="건강봇 대만"></div>
+      <button class="om-goto" data-goto="bot">건강봇 게시물별 추이 보기 →</button>
     </section>
   </div>
 
@@ -316,6 +339,37 @@
       <div class="om-epdetail" data-draw="epdetail" data-source="videos videos_latest" data-character="몽인턴"></div>
     </div>
     <p class="om-note">왼쪽에서 게시물을 고르면 플랫폼별 숫자와 날짜별 조회수 추이가 나와요. 같은 영상을 여러 플랫폼에 올린 건 제목으로 묶었어요.</p>
+  </div>
+
+  <div class="om-page" data-page="bot" data-ci="3" id="p-bot" hidden>
+    <div class="om-char-head" data-ci="3" style="margin-top:8px">
+      <h2>건강봇 한국</h2><span class="om-note">ahealth_bot_kr · 한국어</span>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=건강봇 한국">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=건강봇 한국">—</b></span></p>
+    </div>
+    <div class="om-accts row" data-draw="accts" data-source="accounts_latest accounts" data-character="건강봇 한국"></div>
+    <div class="om-eps">
+      <div class="om-eplist" data-draw="eplist" data-source="episodes" data-character="건강봇 한국"></div>
+      <div class="om-epdetail" data-draw="epdetail" data-source="videos videos_latest" data-character="건강봇 한국"></div>
+    </div>
+    <div class="om-char-head" data-ci="4" style="margin-top:8px">
+      <h2>건강봇 일본</h2><span class="om-note">ahealth_bot_jp · 일본어</span>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=건강봇 일본">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=건강봇 일본">—</b></span></p>
+    </div>
+    <div class="om-accts row" data-draw="accts" data-source="accounts_latest accounts" data-character="건강봇 일본"></div>
+    <div class="om-eps">
+      <div class="om-eplist" data-draw="eplist" data-source="episodes" data-character="건강봇 일본"></div>
+      <div class="om-epdetail" data-draw="epdetail" data-source="videos videos_latest" data-character="건강봇 일본"></div>
+    </div>
+    <div class="om-char-head" data-ci="5" style="margin-top:8px">
+      <h2>건강봇 대만</h2><span class="om-note">ahealth_bot_tw · 번체 중국어</span>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=건강봇 대만">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=건강봇 대만">—</b></span></p>
+    </div>
+    <div class="om-accts row" data-draw="accts" data-source="accounts_latest accounts" data-character="건강봇 대만"></div>
+    <div class="om-eps">
+      <div class="om-eplist" data-draw="eplist" data-source="episodes" data-character="건강봇 대만"></div>
+      <div class="om-epdetail" data-draw="epdetail" data-source="videos videos_latest" data-character="건강봇 대만"></div>
+    </div>
+    <p class="om-note">나라마다 같은 편을 그 나라 말로 올려요. 제목은 한국어로 맞춰 묶었어요. 틱톡 ahealth_bot_kr 는 아직 계정이 열리지 않아 빠져 있어요. 인스타 릴스는 올린 날만 적었어요.</p>
   </div>
 
   <div class="om-page" data-page="links" id="p-links" hidden>

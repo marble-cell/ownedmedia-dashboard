@@ -1722,6 +1722,78 @@
    "date": "2026-11-19",
    "collected_at": "2026-11-19 11:53:31",
    "account": "김태식 틱톡"
+  },
+  {
+   "character": "건강봇 대만",
+   "platform": "유튜브",
+   "handle": "ahealth_bot_tw",
+   "url": "https://www.youtube.com/@ahealth_bot_tw",
+   "followers": 0,
+   "posts": 3,
+   "views": 8,
+   "date": "2026-11-20",
+   "collected_at": "2026-11-20 10:45:52",
+   "account": "건강봇 대만 유튜브"
+  },
+  {
+   "character": "건강봇 대만",
+   "platform": "인스타그램",
+   "handle": "ahealth_bot_tw",
+   "url": "https://www.instagram.com/ahealth_bot_tw/",
+   "followers": 0,
+   "posts": 3,
+   "views": 286,
+   "date": "2026-11-20",
+   "collected_at": "2026-11-20 10:45:52",
+   "account": "건강봇 대만 인스타그램"
+  },
+  {
+   "character": "건강봇 일본",
+   "platform": "유튜브",
+   "handle": "ahealth_bot_jp",
+   "url": "https://www.youtube.com/@ahealth_bot_jp",
+   "followers": 0,
+   "posts": 3,
+   "views": 188,
+   "date": "2026-11-20",
+   "collected_at": "2026-11-20 10:45:52",
+   "account": "건강봇 일본 유튜브"
+  },
+  {
+   "character": "건강봇 일본",
+   "platform": "인스타그램",
+   "handle": "ahealth_bot_jp",
+   "url": "https://www.instagram.com/ahealth_bot_jp/",
+   "followers": 5,
+   "posts": 3,
+   "views": 54548,
+   "date": "2026-11-20",
+   "collected_at": "2026-11-20 10:45:52",
+   "account": "건강봇 일본 인스타그램"
+  },
+  {
+   "character": "건강봇 한국",
+   "platform": "유튜브",
+   "handle": "ahealth_bot_kr",
+   "url": "https://www.youtube.com/@ahealth_bot_kr",
+   "followers": 0,
+   "posts": 3,
+   "views": 7,
+   "date": "2026-11-20",
+   "collected_at": "2026-11-20 10:45:52",
+   "account": "건강봇 한국 유튜브"
+  },
+  {
+   "character": "건강봇 한국",
+   "platform": "인스타그램",
+   "handle": "ahealth_bot_kr",
+   "url": "https://www.instagram.com/ahealth_bot_kr/",
+   "followers": 1,
+   "posts": 3,
+   "views": 2940,
+   "date": "2026-11-20",
+   "collected_at": "2026-11-20 10:45:52",
+   "account": "건강봇 한국 인스타그램"
   }
  ]
 }
