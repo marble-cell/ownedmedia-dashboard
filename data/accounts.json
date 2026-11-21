@@ -1878,6 +1878,66 @@
    "date": "2026-11-20",
    "collected_at": "2026-11-20 15:18:19",
    "account": "김태식 틱톡"
+  },
+  {
+   "character": "건강봇 대만",
+   "platform": "유튜브",
+   "handle": "ahealth_bot_tw",
+   "url": "https://www.youtube.com/@ahealth_bot_tw",
+   "followers": 0,
+   "posts": 4,
+   "views": 19,
+   "date": "2026-11-21",
+   "collected_at": "2026-11-21 09:41:25",
+   "account": "건강봇 대만 유튜브"
+  },
+  {
+   "character": "건강봇 일본",
+   "platform": "유튜브",
+   "handle": "ahealth_bot_jp",
+   "url": "https://www.youtube.com/@ahealth_bot_jp",
+   "followers": 0,
+   "posts": 4,
+   "views": 201,
+   "date": "2026-11-21",
+   "collected_at": "2026-11-21 09:41:25",
+   "account": "건강봇 일본 유튜브"
+  },
+  {
+   "character": "건강봇 한국",
+   "platform": "유튜브",
+   "handle": "ahealth_bot_kr",
+   "url": "https://www.youtube.com/@ahealth_bot_kr",
+   "followers": 0,
+   "posts": 4,
+   "views": 34,
+   "date": "2026-11-21",
+   "collected_at": "2026-11-21 09:41:25",
+   "account": "건강봇 한국 유튜브"
+  },
+  {
+   "character": "김춘자",
+   "platform": "유튜브",
+   "handle": "chun_ja82",
+   "url": "https://www.youtube.com/@chun_ja82",
+   "followers": 57,
+   "posts": 12,
+   "views": 23233,
+   "date": "2026-11-21",
+   "collected_at": "2026-11-21 09:41:25",
+   "account": "김춘자 유튜브"
+  },
+  {
+   "character": "김태식",
+   "platform": "유튜브",
+   "handle": "taesik_nextdoor",
+   "url": "https://www.youtube.com/@taesik_nextdoor",
+   "followers": 4,
+   "posts": 5,
+   "views": 8461,
+   "date": "2026-11-21",
+   "collected_at": "2026-11-21 09:41:25",
+   "account": "김태식 유튜브"
   }
  ]
 }
