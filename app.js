@@ -381,6 +381,35 @@
     }));
   });
 
+  // 묶음(뼈톡·냉미남 등) 편별 나라 비교 — 건강봇 표와 같은 모양
+  for (const [gk, gname] of [['bone', '뼈톡'], ['lover', '냉미남']]) {
+    dash.calc('eps_' + gk, {
+      inputs: ['videos_latest'],
+      title: gname + ' 편별 나라 비교',
+      description: gname + ' 한국·일본·대만 계정의 같은 제목 영상을 묶어 나라별 조회수(인스타+유튜브+틱톡)와 합계.',
+      fn: (videos_latest) => Array.from(d3.group(videos_latest.filter((r) => r.character.startsWith(gname + ' ')), (r) => r.title), ([title, rs]) => {
+        const by = (c) => { const x = rs.filter((r) => r.character === c); return x.length ? d3.sum(x, (r) => r.views) : null; };
+        return {title, posted: d3.min(rs, (r) => r.posted) || '', kr: by(gname + ' 한국'), jp: by(gname + ' 일본'), tw: by(gname + ' 대만'), total: d3.sum(rs, (r) => r.views)};
+      }).sort((a, b) => b.posted.localeCompare(a.posted) || b.total - a.total),
+    });
+    dash.draw('grpeps_' + gk, (el) => {
+      const rows = rowsOf('eps_' + gk);
+      if (!rows) { el.replaceChildren(); return; }
+      el.replaceChildren(...rows.map((r) => {
+        const tr = document.createElement('tr');
+        const td = (t, cls) => { const c = document.createElement('td'); if (cls) c.className = cls; c.textContent = t; tr.append(c); return c; };
+        td(r.title); td(when(r.posted));
+        const best = d3.max([r.kr, r.jp, r.tw].map((v) => v || 0));
+        for (const [k, ch] of [['kr', gname + ' 한국'], ['jp', gname + ' 일본'], ['tw', gname + ' 대만']]) {
+          const c = td(r[k] == null ? '—' : num(r[k]), 'num');
+          if (r[k] != null && r[k] === best && best > 0) { c.style.fontWeight = '800'; c.style.color = colorOf(ch); }
+        }
+        td(num(r.total), 'num').style.fontWeight = '700';
+        return tr;
+      }));
+    });
+  }
+
   dash.draw('vids', (el) => {
     const rows = rowsOf('videos_latest');
     if (!rows) { el.replaceChildren(); return; }
