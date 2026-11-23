@@ -142,14 +142,17 @@
     },
   });
 
-  const CHARS = ['김춘자', '몽인턴', '김태식', '건강봇 한국', '건강봇 일본', '건강봇 대만'];
+  // GROUPS:chars
+  const CHARS = ["김춘자", "몽인턴", "김태식", "건강봇 한국", "건강봇 일본", "건강봇 대만", "뼈톡 한국", "뼈톡 일본", "뼈톡 대만", "냉미남 한국", "냉미남 일본", "냉미남 대만"];
+  const GROUP_COLOR = {"뼈톡 한국": "#FF9500", "뼈톡 일본": "#E0A800", "뼈톡 대만": "#FF6B3D", "냉미남 한국": "#30B0C7", "냉미남 일본": "#3A7BD5", "냉미남 대만": "#2BB5A0"};
+  // /GROUPS:chars
   const PLAT = {'인스타그램': 'IG', '유튜브': 'YT', '틱톡': 'TT'};
   const num = d3.format(',');
   const compact = (x) => x >= 10000 ? Intl.NumberFormat('ko', {notation: 'compact', maximumFractionDigits: 1}).format(x) : num(x);
   const fmts = {n: num, pct: (x) => (x > 0 && x < 0.01 ? d3.format('.2%') : d3.format('.1%'))(x), pct0: d3.format('.0%'), t: (x) => String(x)};
   const rowsOf = (id) => { const g = dash.data(id); return g.status === 'ok' && Array.isArray(g.data) ? g.data : null; };
   const YONA = {blue: '#0096FA', pink: '#FF2D55', green: '#34C759', purple: '#CB30E0'};
-  const CHAR_COLOR = {'김춘자': YONA.pink, '몽인턴': YONA.green, '김태식': YONA.purple, '건강봇 한국': YONA.blue, '건강봇 일본': '#5856D6', '건강봇 대만': '#00A3A3'};
+  const CHAR_COLOR = {'김춘자': YONA.pink, '몽인턴': YONA.green, '김태식': YONA.purple, '건강봇 한국': YONA.blue, '건강봇 일본': '#5856D6', '건강봇 대만': '#00A3A3', ...GROUP_COLOR};
   const colorOf = (character) => CHAR_COLOR[character] || YONA.blue;
   const when = (iso) => iso ? iso.slice(5, 10).replace('-', '/') + (iso.length > 10 ? ' ' + iso.slice(11, 16) : '') : '—';
   const signed = (x) => x == null ? '—' : (x > 0 ? '▲ +' : x < 0 ? '▼ ' : '') + num(x);
