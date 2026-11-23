@@ -94,19 +94,21 @@
   });
 
 
+  // GROUPS:linkmap
+  const LINKMAP = {"김춘자": {"인스타그램": "chunja_ins", "유튜브": "chunja_yt", "틱톡": "chunja_tt", "채널 구분 전": "chunja"}, "김태식": {"인스타그램": "taesik_ins", "유튜브": "taesik_yt", "틱톡": "taesik_tt", "채널 구분 전": "taesik"}, "건강봇 한국": {"인스타그램": "ahealth_bot_ins", "유튜브": "ahealth_bot_yt"}, "건강봇 일본": {"인스타그램": "ahealth_bot_jp_ins", "유튜브": "ahealth_bot_jp_yt"}, "건강봇 대만": {"인스타그램": "ahealth_bot_tw_ins", "유튜브": "ahealth_bot_tw_yt"}, "뼈톡 한국": {"인스타그램": "bonetalk_ins", "유튜브": "bonetalk_yt", "틱톡": "bonetalk_tt"}, "뼈톡 일본": {"인스타그램": "bonetalk_jp_ins", "유튜브": "bonetalk_jp_yt"}, "뼈톡 대만": {"인스타그램": "bonetalk_tw_ins", "유튜브": "bonetalk_tw_yt"}, "냉미남 한국": {"인스타그램": "ahealth_lover_ins", "유튜브": "ahealth_lover_yt"}, "냉미남 일본": {"인스타그램": "ahealth_lover_jp_ins", "유튜브": "ahealth_lover_jp_yt"}, "냉미남 대만": {"인스타그램": "ahealth_lover_tw_ins", "유튜브": "ahealth_lover_tw_yt"}};
+  // /GROUPS:linkmap
   dash.calc('link_totals', {
     inputs: ['links'],
     title: '링크별 누적 클릭·설치',
     description: '캐릭터 × 채널 링크마다 누적 클릭·설치와 가장 최근 날짜의 클릭.',
     fn: (links) => {
-      const SLUG = {'김춘자': 'chunja', '김태식': 'taesik'};
-      const SUF = {'인스타그램': '_ins', '유튜브': '_yt', '틱톡': '_tt', '채널 구분 전': ''};
       const out = [];
-      for (const ch of ['김춘자', '김태식']) for (const channel of ['인스타그램', '유튜브', '틱톡', '채널 구분 전']) {
+      for (const ch of Object.keys(LINKMAP)) for (const channel of ['인스타그램', '유튜브', '틱톡', '채널 구분 전']) {
         const rs = links.filter((r) => r.character === ch && r.channel === channel);
-        if (channel === '채널 구분 전' && !rs.length) continue;
+        const slug = LINKMAP[ch][channel];
+        if (!slug && !rs.length) continue;
         const lastDate = d3.max(rs, (r) => r.date) || null;
-        out.push({character: ch, channel, link: 'ahealth.onelink.me/0mmS/' + SLUG[ch] + SUF[channel],
+        out.push({character: ch, channel, link: slug ? 'ahealth.onelink.me/0mmS/' + slug : '',
           clicks: d3.sum(rs, (r) => Number(r.clicks)), installs: d3.sum(rs, (r) => Number(r.installs)),
           last_date: lastDate, last_clicks: lastDate ? d3.sum(rs.filter((r) => r.date === lastDate), (r) => Number(r.clicks)) : 0});
       }
@@ -118,7 +120,7 @@
     inputs: ['links'],
     title: '캐릭터별 링크 합계',
     description: '캐릭터마다 모든 소개 링크의 누적 클릭·설치.',
-    fn: (links) => ['김춘자', '김태식'].map((character) => ({character,
+    fn: (links) => Object.keys(LINKMAP).map((character) => ({character,
       clicks: d3.sum(links.filter((r) => r.character === character), (r) => Number(r.clicks)),
       installs: d3.sum(links.filter((r) => r.character === character), (r) => Number(r.installs))})),
   });
@@ -130,7 +132,8 @@
     description: '캐릭터 × 플랫폼마다 가장 최근 누적 프로필 방문, 마지막 하루 방문(틱톡), 외부 링크 누름(인스타).',
     fn: (pv) => {
       const out = [];
-      for (const ch of ['김춘자', '김태식']) for (const platform of ['인스타그램', '틱톡', '유튜브']) {
+      for (const ch of Object.keys(LINKMAP)) for (const platform of ['인스타그램', '틱톡', '유튜브']) {
+        if (!LINKMAP[ch][platform] && !pv.some((r) => r.character === ch && r.platform === platform)) continue;
         const rs = pv.filter((r) => r.character === ch && r.platform === platform).sort((a, b) => a.date.localeCompare(b.date));
         const last = rs[rs.length - 1];
         const lastDaily = rs.filter((r) => r.daily != null).pop();
@@ -427,7 +430,8 @@
       const nm = document.createElement('div'); nm.className = 'om-lk-name';
       const chip = document.createElement('span'); chip.className = 'om-chip'; chip.textContent = CHAN_CHIP[r.channel];
       nm.append(chip, r.channel);
-      const url = document.createElement('div'); url.className = 'om-lk-url'; url.textContent = r.link;
+      const url = document.createElement(r.link ? 'a' : 'div'); url.className = 'om-lk-url'; url.textContent = r.link || '링크 없음';
+      if (r.link) { url.href = 'https://' + r.link; url.target = '_blank'; url.rel = 'noopener'; }
       const big = document.createElement('div'); big.className = 'om-lk-big'; big.textContent = num(r.clicks);
       const u = document.createElement('small'); u.textContent = '클릭'; big.append(u);
       const meta = document.createElement('div'); meta.className = 'om-acct-meta';
@@ -453,7 +457,7 @@
       card.append(nm);
       if (!r.has) {
         const m = document.createElement('div'); m.className = 'om-acct-meta';
-        m.textContent = r.platform === '유튜브' ? '유튜브는 프로필 방문 수를 제공하지 않아요' : '아직 못 읽었어요';
+        m.textContent = r.platform === '유튜브' ? '유튜브는 프로필 방문 수를 제공하지 않아요' : r.platform === '틱톡' ? '틱톡은 로그인된 계정만 읽혀요' : '아직 못 읽었어요';
         card.append(m); return card;
       }
       const big = document.createElement('div'); big.className = 'om-lk-big'; big.textContent = num(r.total);
@@ -489,7 +493,7 @@
     el.replaceChildren();
     if (!rows || !rows.length) return;
     const days = Array.from(new Set(rows.map((r) => r.date))).sort();
-    const chars = ['김춘자', '김태식'];
+    const chars = Array.from(new Set(rows.map((r) => r.character))).filter((c) => LINKMAP[c]);
     const data = days.map((d) => ({d, ...Object.fromEntries(chars.map((c) => [c, d3.sum(rows.filter((r) => r.date === d && r.character === c), (r) => Number(r.clicks))]))}));
     const W = Math.max(280, el.clientWidth || 560), H = 200;
     const ymax = d3.max(data, (r) => d3.max(chars, (c) => r[c])) || 1;
