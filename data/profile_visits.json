@@ -118,29 +118,11 @@
    "source": "틱톡 스튜디오 일별"
   },
   {
-   "date": "2026-11-09",
-   "character": "김태식",
-   "platform": "틱톡",
-   "daily": 1,
-   "total": 1,
-   "link_taps": null,
-   "source": "틱톡 스튜디오 일별"
-  },
-  {
    "date": "2026-11-10",
    "character": "김춘자",
    "platform": "틱톡",
    "daily": 6136,
    "total": 34143,
-   "link_taps": null,
-   "source": "틱톡 스튜디오 일별"
-  },
-  {
-   "date": "2026-11-10",
-   "character": "김태식",
-   "platform": "틱톡",
-   "daily": 0,
-   "total": 1,
    "link_taps": null,
    "source": "틱톡 스튜디오 일별"
   },
@@ -154,29 +136,11 @@
    "source": "틱톡 스튜디오 일별"
   },
   {
-   "date": "2026-11-11",
-   "character": "김태식",
-   "platform": "틱톡",
-   "daily": 0,
-   "total": 1,
-   "link_taps": null,
-   "source": "틱톡 스튜디오 일별"
-  },
-  {
    "date": "2026-11-12",
    "character": "김춘자",
    "platform": "틱톡",
    "daily": 6410,
    "total": 48210,
-   "link_taps": null,
-   "source": "틱톡 스튜디오 일별"
-  },
-  {
-   "date": "2026-11-12",
-   "character": "김태식",
-   "platform": "틱톡",
-   "daily": 0,
-   "total": 1,
    "link_taps": null,
    "source": "틱톡 스튜디오 일별"
   },
@@ -190,15 +154,6 @@
    "source": "틱톡 스튜디오 일별"
   },
   {
-   "date": "2026-11-13",
-   "character": "김태식",
-   "platform": "틱톡",
-   "daily": 0,
-   "total": 1,
-   "link_taps": null,
-   "source": "틱톡 스튜디오 일별"
-  },
-  {
    "date": "2026-11-14",
    "character": "김춘자",
    "platform": "틱톡",
@@ -208,29 +163,11 @@
    "source": "틱톡 스튜디오 일별"
   },
   {
-   "date": "2026-11-14",
-   "character": "김태식",
-   "platform": "틱톡",
-   "daily": 0,
-   "total": 1,
-   "link_taps": null,
-   "source": "틱톡 스튜디오 일별"
-  },
-  {
    "date": "2026-11-15",
    "character": "김춘자",
    "platform": "틱톡",
    "daily": 1477,
    "total": 55552,
-   "link_taps": null,
-   "source": "틱톡 스튜디오 일별"
-  },
-  {
-   "date": "2026-11-15",
-   "character": "김태식",
-   "platform": "틱톡",
-   "daily": 0,
-   "total": 1,
    "link_taps": null,
    "source": "틱톡 스튜디오 일별"
   },
@@ -260,15 +197,6 @@
    "total": 87,
    "link_taps": null,
    "source": "인스타 계정 인사이트 최근 90일"
-  },
-  {
-   "date": "2026-11-16",
-   "character": "김태식",
-   "platform": "틱톡",
-   "daily": 0,
-   "total": 1,
-   "link_taps": null,
-   "source": "틱톡 스튜디오 일별"
   },
   {
    "date": "2026-11-17",
@@ -386,6 +314,123 @@
    "total": 0,
    "link_taps": 0,
    "source": "Graph API insights 10/28~"
+  },
+  {
+   "date": "2026-11-09",
+   "character": "김태식",
+   "platform": "틱톡",
+   "daily": 1,
+   "total": 1,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
+  },
+  {
+   "date": "2026-11-10",
+   "character": "김태식",
+   "platform": "틱톡",
+   "daily": 0,
+   "total": 1,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
+  },
+  {
+   "date": "2026-11-11",
+   "character": "김태식",
+   "platform": "틱톡",
+   "daily": 0,
+   "total": 1,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
+  },
+  {
+   "date": "2026-11-12",
+   "character": "김태식",
+   "platform": "틱톡",
+   "daily": 0,
+   "total": 1,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
+  },
+  {
+   "date": "2026-11-13",
+   "character": "김태식",
+   "platform": "틱톡",
+   "daily": 0,
+   "total": 1,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
+  },
+  {
+   "date": "2026-11-14",
+   "character": "김태식",
+   "platform": "틱톡",
+   "daily": 0,
+   "total": 1,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
+  },
+  {
+   "date": "2026-11-15",
+   "character": "김태식",
+   "platform": "틱톡",
+   "daily": 0,
+   "total": 1,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
+  },
+  {
+   "date": "2026-11-16",
+   "character": "김태식",
+   "platform": "틱톡",
+   "daily": 0,
+   "total": 1,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
+  },
+  {
+   "date": "2026-11-17",
+   "character": "김태식",
+   "platform": "틱톡",
+   "daily": 1,
+   "total": 2,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
+  },
+  {
+   "date": "2026-11-18",
+   "character": "김태식",
+   "platform": "틱톡",
+   "daily": 0,
+   "total": 2,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
+  },
+  {
+   "date": "2026-11-19",
+   "character": "김태식",
+   "platform": "틱톡",
+   "daily": 1,
+   "total": 3,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
+  },
+  {
+   "date": "2026-11-20",
+   "character": "김태식",
+   "platform": "틱톡",
+   "daily": 0,
+   "total": 3,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
+  },
+  {
+   "date": "2026-11-21",
+   "character": "김태식",
+   "platform": "틱톡",
+   "daily": 1,
+   "total": 4,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
   }
  ]
 }
