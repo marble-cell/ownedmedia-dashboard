@@ -95,7 +95,7 @@
 
 
   // GROUPS:linkmap
-  const LINKMAP = {"김춘자": {"인스타그램": "chunja_ins", "유튜브": "chunja_yt", "틱톡": "chunja_tt", "채널 구분 전": "chunja"}, "김태식": {"인스타그램": "taesik_ins", "유튜브": "taesik_yt", "틱톡": "taesik_tt", "채널 구분 전": "taesik"}, "건강봇 한국": {"인스타그램": "ahealth_bot_ins", "유튜브": "ahealth_bot_yt"}, "건강봇 일본": {"인스타그램": "ahealth_bot_jp_ins", "유튜브": "ahealth_bot_jp_yt"}, "건강봇 대만": {"인스타그램": "ahealth_bot_tw_ins", "유튜브": "ahealth_bot_tw_yt"}, "뼈톡 한국": {"인스타그램": "bonetalk_ins", "유튜브": "bonetalk_yt", "틱톡": "bonetalk_tt"}, "뼈톡 일본": {"인스타그램": "bonetalk_jp_ins", "유튜브": "bonetalk_jp_yt"}, "뼈톡 대만": {"인스타그램": "bonetalk_tw_ins", "유튜브": "bonetalk_tw_yt"}, "냉미남 한국": {"인스타그램": "ahealth_lover_ins", "유튜브": "ahealth_lover_yt"}, "냉미남 일본": {"인스타그램": "ahealth_lover_jp_ins", "유튜브": "ahealth_lover_jp_yt"}, "냉미남 대만": {"인스타그램": "ahealth_lover_tw_ins", "유튜브": "ahealth_lover_tw_yt"}};
+  const LINKMAP = {"김춘자": {"인스타그램": "chunja_ins", "유튜브": "chunja_yt", "틱톡": "chunja_tt", "채널 구분 전": "chunja"}, "김태식": {"인스타그램": "taesik_ins", "유튜브": "taesik_yt", "틱톡": "taesik_tt", "채널 구분 전": "taesik"}, "건강봇 한국": {"인스타그램": "ahealth_bot_ins", "유튜브": "ahealth_bot_yt"}, "건강봇 일본": {"인스타그램": "ahealth_bot_jp_ins", "유튜브": "ahealth_bot_jp_yt"}, "건강봇 대만": {"인스타그램": "ahealth_bot_tw_ins", "유튜브": "ahealth_bot_tw_yt"}, "뼈톡 한국": {"인스타그램": "bonetalk_ins", "유튜브": "bonetalk_yt", "틱톡": "bonetalk_tt"}, "뼈톡 일본": {"인스타그램": "bonetalk_jp_ins", "유튜브": "bonetalk_jp_yt"}, "뼈톡 대만": {"인스타그램": "bonetalk_tw_ins", "유튜브": "bonetalk_tw_yt"}, "냉미남 한국": {"인스타그램": "ahealth_lover_ins", "유튜브": "ahealth_lover_yt"}, "냉미남 일본": {"인스타그램": "ahealth_lover_jp_ins", "유튜브": "ahealth_lover_jp_yt"}, "냉미남 대만": {"인스타그램": "ahealth_lover_tw_ins", "유튜브": "ahealth_lover_tw_yt"}, "뇌해설 한국": {}, "뇌해설 일본": {}, "뇌해설 대만": {}};
   // /GROUPS:linkmap
   dash.calc('link_totals', {
     inputs: ['links'],
@@ -146,8 +146,8 @@
   });
 
   // GROUPS:chars
-  const CHARS = ["김춘자", "몽인턴", "김태식", "건강봇 한국", "건강봇 일본", "건강봇 대만", "뼈톡 한국", "뼈톡 일본", "뼈톡 대만", "냉미남 한국", "냉미남 일본", "냉미남 대만"];
-  const GROUP_COLOR = {"뼈톡 한국": "#FF9500", "뼈톡 일본": "#E0A800", "뼈톡 대만": "#FF6B3D", "냉미남 한국": "#30B0C7", "냉미남 일본": "#3A7BD5", "냉미남 대만": "#2BB5A0"};
+  const CHARS = ["김춘자", "몽인턴", "김태식", "건강봇 한국", "건강봇 일본", "건강봇 대만", "뼈톡 한국", "뼈톡 일본", "뼈톡 대만", "냉미남 한국", "냉미남 일본", "냉미남 대만", "뇌해설 한국", "뇌해설 일본", "뇌해설 대만"];
+  const GROUP_COLOR = {"뼈톡 한국": "#FF9500", "뼈톡 일본": "#E0A800", "뼈톡 대만": "#FF6B3D", "냉미남 한국": "#30B0C7", "냉미남 일본": "#3A7BD5", "냉미남 대만": "#2BB5A0", "뇌해설 한국": "#AF52DE", "뇌해설 일본": "#8E44AD", "뇌해설 대만": "#C77DFF"};
   // /GROUPS:chars
   const PLAT = {'인스타그램': 'IG', '유튜브': 'YT', '틱톡': 'TT'};
   const num = d3.format(',');
@@ -382,7 +382,7 @@
   });
 
   // 묶음(뼈톡·냉미남 등) 편별 나라 비교 — 건강봇 표와 같은 모양
-  for (const [gk, gname] of [['bone', '뼈톡'], ['lover', '냉미남']]) {
+  for (const [gk, gname] of [['bone', '뼈톡'], ['lover', '냉미남'], ['brain', '뇌해설']]) {
     dash.calc('eps_' + gk, {
       inputs: ['videos_latest'],
       title: gname + ' 편별 나라 비교',
