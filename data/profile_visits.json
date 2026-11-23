@@ -287,6 +287,105 @@
    "total": 692,
    "link_taps": 8,
    "source": "인스타 계정 인사이트 최근 90일"
+  },
+  {
+   "date": "2026-11-23",
+   "character": "건강봇 대만",
+   "platform": "인스타그램",
+   "daily": null,
+   "total": 12,
+   "link_taps": 0,
+   "source": "Graph API insights 10/28~"
+  },
+  {
+   "date": "2026-11-23",
+   "character": "건강봇 일본",
+   "platform": "인스타그램",
+   "daily": null,
+   "total": 3606,
+   "link_taps": 3,
+   "source": "Graph API insights 10/28~"
+  },
+  {
+   "date": "2026-11-23",
+   "character": "건강봇 한국",
+   "platform": "인스타그램",
+   "daily": null,
+   "total": 14,
+   "link_taps": 0,
+   "source": "Graph API insights 10/28~"
+  },
+  {
+   "date": "2026-11-23",
+   "character": "김춘자",
+   "platform": "인스타그램",
+   "daily": null,
+   "total": 813,
+   "link_taps": 9,
+   "source": "Graph API insights 10/28~"
+  },
+  {
+   "date": "2026-11-23",
+   "character": "김태식",
+   "platform": "인스타그램",
+   "daily": null,
+   "total": 141,
+   "link_taps": 1,
+   "source": "Graph API insights 10/28~"
+  },
+  {
+   "date": "2026-11-23",
+   "character": "냉미남 대만",
+   "platform": "인스타그램",
+   "daily": null,
+   "total": 0,
+   "link_taps": 0,
+   "source": "Graph API insights 10/28~"
+  },
+  {
+   "date": "2026-11-23",
+   "character": "냉미남 일본",
+   "platform": "인스타그램",
+   "daily": null,
+   "total": 0,
+   "link_taps": 0,
+   "source": "Graph API insights 10/28~"
+  },
+  {
+   "date": "2026-11-23",
+   "character": "냉미남 한국",
+   "platform": "인스타그램",
+   "daily": null,
+   "total": 0,
+   "link_taps": 0,
+   "source": "Graph API insights 10/28~"
+  },
+  {
+   "date": "2026-11-23",
+   "character": "뼈톡 대만",
+   "platform": "인스타그램",
+   "daily": null,
+   "total": 0,
+   "link_taps": 0,
+   "source": "Graph API insights 10/28~"
+  },
+  {
+   "date": "2026-11-23",
+   "character": "뼈톡 일본",
+   "platform": "인스타그램",
+   "daily": null,
+   "total": 5,
+   "link_taps": 0,
+   "source": "Graph API insights 10/28~"
+  },
+  {
+   "date": "2026-11-23",
+   "character": "뼈톡 한국",
+   "platform": "인스타그램",
+   "daily": null,
+   "total": 0,
+   "link_taps": 0,
+   "source": "Graph API insights 10/28~"
   }
  ]
 }
