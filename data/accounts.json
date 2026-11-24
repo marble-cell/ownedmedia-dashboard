@@ -2584,7 +2584,7 @@
    "posts": 11,
    "views": 1339,
    "date": "2026-11-24",
-   "collected_at": "2026-11-24 09:16:09",
+   "collected_at": "2026-11-24 09:34:44",
    "account": "건강봇 대만 인스타그램"
   },
   {
@@ -2606,9 +2606,9 @@
    "url": "https://www.instagram.com/ahealth_bot_jp/",
    "followers": 308,
    "posts": 11,
-   "views": 916875,
+   "views": 917655,
    "date": "2026-11-24",
-   "collected_at": "2026-11-24 09:16:09",
+   "collected_at": "2026-11-24 09:34:44",
    "account": "건강봇 일본 인스타그램"
   },
   {
@@ -2630,10 +2630,22 @@
    "url": "https://www.instagram.com/ahealth_bot_kr/",
    "followers": 3,
    "posts": 11,
-   "views": 8140,
+   "views": 8197,
    "date": "2026-11-24",
-   "collected_at": "2026-11-24 09:16:09",
+   "collected_at": "2026-11-24 09:34:44",
    "account": "건강봇 한국 인스타그램"
+  },
+  {
+   "character": "건강봇 한국",
+   "platform": "틱톡",
+   "handle": "ahealth_bot_kr",
+   "url": "https://www.tiktok.com/@ahealth_bot_kr",
+   "followers": 5,
+   "posts": 9,
+   "views": 3015,
+   "date": "2026-11-24",
+   "collected_at": "2026-11-24 09:34:44",
+   "account": "건강봇 한국 틱톡"
   },
   {
    "character": "김춘자",
@@ -2654,10 +2666,22 @@
    "url": "https://www.instagram.com/chun_ja82/",
    "followers": 69,
    "posts": 12,
-   "views": 54049,
+   "views": 54057,
    "date": "2026-11-24",
-   "collected_at": "2026-11-24 09:16:09",
+   "collected_at": "2026-11-24 09:34:44",
    "account": "김춘자 인스타그램"
+  },
+  {
+   "character": "김춘자",
+   "platform": "틱톡",
+   "handle": "chun_ja82",
+   "url": "https://www.tiktok.com/@chun_ja82",
+   "followers": 2215,
+   "posts": 12,
+   "views": 859000,
+   "date": "2026-11-24",
+   "collected_at": "2026-11-24 09:34:44",
+   "account": "김춘자 틱톡"
   },
   {
    "character": "김태식",
@@ -2680,8 +2704,20 @@
    "posts": 5,
    "views": 6988,
    "date": "2026-11-24",
-   "collected_at": "2026-11-24 09:16:09",
+   "collected_at": "2026-11-24 09:34:44",
    "account": "김태식 인스타그램"
+  },
+  {
+   "character": "김태식",
+   "platform": "틱톡",
+   "handle": "taesik_nextdoor",
+   "url": "https://www.tiktok.com/@taesik_nextdoor",
+   "followers": 0,
+   "posts": 5,
+   "views": 277,
+   "date": "2026-11-24",
+   "collected_at": "2026-11-24 09:34:44",
+   "account": "김태식 틱톡"
   },
   {
    "character": "냉미남 대만",
@@ -2704,7 +2740,7 @@
    "posts": 2,
    "views": 0,
    "date": "2026-11-24",
-   "collected_at": "2026-11-24 09:16:09",
+   "collected_at": "2026-11-24 09:34:44",
    "account": "냉미남 대만 인스타그램"
   },
   {
@@ -2728,7 +2764,7 @@
    "posts": 2,
    "views": 413,
    "date": "2026-11-24",
-   "collected_at": "2026-11-24 09:16:09",
+   "collected_at": "2026-11-24 09:34:44",
    "account": "냉미남 일본 인스타그램"
   },
   {
@@ -2752,7 +2788,7 @@
    "posts": 2,
    "views": 295,
    "date": "2026-11-24",
-   "collected_at": "2026-11-24 09:16:09",
+   "collected_at": "2026-11-24 09:34:44",
    "account": "냉미남 한국 인스타그램"
   },
   {
@@ -2768,6 +2804,18 @@
    "account": "뇌해설 대만 유튜브"
   },
   {
+   "character": "뇌해설 대만",
+   "platform": "인스타그램",
+   "handle": "pretty_health_tw",
+   "url": "https://www.instagram.com/pretty_health_tw/",
+   "followers": 0,
+   "posts": 1,
+   "views": 0,
+   "date": "2026-11-24",
+   "collected_at": "2026-11-24 09:34:44",
+   "account": "뇌해설 대만 인스타그램"
+  },
+  {
    "character": "뇌해설 일본",
    "platform": "유튜브",
    "handle": "pretty_health_jp",
@@ -2780,6 +2828,18 @@
    "account": "뇌해설 일본 유튜브"
   },
   {
+   "character": "뇌해설 일본",
+   "platform": "인스타그램",
+   "handle": "pretty_health_jp",
+   "url": "https://www.instagram.com/pretty_health_jp/",
+   "followers": 1,
+   "posts": 1,
+   "views": 2166,
+   "date": "2026-11-24",
+   "collected_at": "2026-11-24 09:34:44",
+   "account": "뇌해설 일본 인스타그램"
+  },
+  {
    "character": "뇌해설 한국",
    "platform": "유튜브",
    "handle": "pretty_health_kr",
@@ -2790,6 +2850,18 @@
    "date": "2026-11-24",
    "collected_at": "2026-11-24 09:16:09",
    "account": "뇌해설 한국 유튜브"
+  },
+  {
+   "character": "뇌해설 한국",
+   "platform": "인스타그램",
+   "handle": "pretty_health_kr",
+   "url": "https://www.instagram.com/pretty_health_kr/",
+   "followers": 0,
+   "posts": 1,
+   "views": 133,
+   "date": "2026-11-24",
+   "collected_at": "2026-11-24 09:34:44",
+   "account": "뇌해설 한국 인스타그램"
   },
   {
    "character": "뼈톡 대만",
@@ -2812,7 +2884,7 @@
    "posts": 4,
    "views": 336,
    "date": "2026-11-24",
-   "collected_at": "2026-11-24 09:16:09",
+   "collected_at": "2026-11-24 09:34:44",
    "account": "뼈톡 대만 인스타그램"
   },
   {
@@ -2836,7 +2908,7 @@
    "posts": 4,
    "views": 2706,
    "date": "2026-11-24",
-   "collected_at": "2026-11-24 09:16:09",
+   "collected_at": "2026-11-24 09:34:44",
    "account": "뼈톡 일본 인스타그램"
   },
   {
@@ -2860,7 +2932,7 @@
    "posts": 5,
    "views": 629,
    "date": "2026-11-24",
-   "collected_at": "2026-11-24 09:16:09",
+   "collected_at": "2026-11-24 09:34:44",
    "account": "뼈톡 한국 인스타그램"
   }
  ]
