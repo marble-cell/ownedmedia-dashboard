@@ -281,6 +281,15 @@
   },
   {
    "date": "2026-11-17",
+   "character": "김춘자",
+   "platform": "틱톡",
+   "daily": 1526,
+   "total": 58022,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
+  },
+  {
+   "date": "2026-11-17",
    "character": "김태식",
    "platform": "틱톡",
    "daily": 1,
@@ -299,10 +308,28 @@
   },
   {
    "date": "2026-11-18",
+   "character": "김춘자",
+   "platform": "틱톡",
+   "daily": 3011,
+   "total": 61033,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
+  },
+  {
+   "date": "2026-11-18",
    "character": "김태식",
    "platform": "틱톡",
    "daily": 0,
    "total": 2,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
+  },
+  {
+   "date": "2026-11-19",
+   "character": "김춘자",
+   "platform": "틱톡",
+   "daily": 1329,
+   "total": 62362,
    "link_taps": null,
    "source": "TikTok Studio pv_history"
   },
@@ -317,6 +344,15 @@
   },
   {
    "date": "2026-11-20",
+   "character": "김춘자",
+   "platform": "틱톡",
+   "daily": 833,
+   "total": 63195,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
+  },
+  {
+   "date": "2026-11-20",
    "character": "김태식",
    "platform": "틱톡",
    "daily": 0,
@@ -326,10 +362,28 @@
   },
   {
    "date": "2026-11-21",
+   "character": "김춘자",
+   "platform": "틱톡",
+   "daily": 625,
+   "total": 63820,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
+  },
+  {
+   "date": "2026-11-21",
    "character": "김태식",
    "platform": "틱톡",
    "daily": 1,
    "total": 4,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
+  },
+  {
+   "date": "2026-11-22",
+   "character": "김춘자",
+   "platform": "틱톡",
+   "daily": 539,
+   "total": 64359,
    "link_taps": null,
    "source": "TikTok Studio pv_history"
   },
@@ -446,7 +500,7 @@
    "character": "건강봇 일본",
    "platform": "인스타그램",
    "daily": null,
-   "total": 4285,
+   "total": 4315,
    "link_taps": 4,
    "source": "Graph API insights 10/28~"
   },
@@ -464,7 +518,7 @@
    "character": "김춘자",
    "platform": "인스타그램",
    "daily": null,
-   "total": 831,
+   "total": 849,
    "link_taps": 9,
    "source": "Graph API insights 10/28~"
   },
