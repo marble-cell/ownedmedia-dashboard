@@ -434,20 +434,20 @@
   },
   {
    "date": "2026-11-24",
-   "character": "건강봇 대만",
+   "character": "김춘자",
    "platform": "인스타그램",
    "daily": null,
-   "total": 14,
-   "link_taps": 0,
+   "total": 830,
+   "link_taps": 9,
    "source": "Graph API insights 10/28~"
   },
   {
    "date": "2026-11-24",
-   "character": "건강봇 일본",
+   "character": "김태식",
    "platform": "인스타그램",
    "daily": null,
-   "total": 4110,
-   "link_taps": 4,
+   "total": 142,
+   "link_taps": 1,
    "source": "Graph API insights 10/28~"
   },
   {
@@ -461,25 +461,52 @@
   },
   {
    "date": "2026-11-24",
-   "character": "김춘자",
+   "character": "건강봇 일본",
    "platform": "인스타그램",
    "daily": null,
-   "total": 829,
-   "link_taps": 9,
+   "total": 4156,
+   "link_taps": 4,
    "source": "Graph API insights 10/28~"
   },
   {
    "date": "2026-11-24",
-   "character": "김태식",
+   "character": "건강봇 대만",
    "platform": "인스타그램",
    "daily": null,
-   "total": 141,
-   "link_taps": 1,
+   "total": 14,
+   "link_taps": 0,
    "source": "Graph API insights 10/28~"
   },
   {
    "date": "2026-11-24",
-   "character": "냉미남 대만",
+   "character": "뼈톡 한국",
+   "platform": "인스타그램",
+   "daily": null,
+   "total": 1,
+   "link_taps": 0,
+   "source": "Graph API insights 10/28~"
+  },
+  {
+   "date": "2026-11-24",
+   "character": "뼈톡 일본",
+   "platform": "인스타그램",
+   "daily": null,
+   "total": 5,
+   "link_taps": 0,
+   "source": "Graph API insights 10/28~"
+  },
+  {
+   "date": "2026-11-24",
+   "character": "뼈톡 대만",
+   "platform": "인스타그램",
+   "daily": null,
+   "total": 1,
+   "link_taps": 0,
+   "source": "Graph API insights 10/28~"
+  },
+  {
+   "date": "2026-11-24",
+   "character": "냉미남 한국",
    "platform": "인스타그램",
    "daily": null,
    "total": 0,
@@ -497,16 +524,7 @@
   },
   {
    "date": "2026-11-24",
-   "character": "냉미남 한국",
-   "platform": "인스타그램",
-   "daily": null,
-   "total": 0,
-   "link_taps": 0,
-   "source": "Graph API insights 10/28~"
-  },
-  {
-   "date": "2026-11-24",
-   "character": "뇌해설 대만",
+   "character": "냉미남 대만",
    "platform": "인스타그램",
    "daily": null,
    "total": 0,
@@ -533,28 +551,10 @@
   },
   {
    "date": "2026-11-24",
-   "character": "뼈톡 대만",
+   "character": "뇌해설 대만",
    "platform": "인스타그램",
    "daily": null,
-   "total": 1,
-   "link_taps": 0,
-   "source": "Graph API insights 10/28~"
-  },
-  {
-   "date": "2026-11-24",
-   "character": "뼈톡 일본",
-   "platform": "인스타그램",
-   "daily": null,
-   "total": 5,
-   "link_taps": 0,
-   "source": "Graph API insights 10/28~"
-  },
-  {
-   "date": "2026-11-24",
-   "character": "뼈톡 한국",
-   "platform": "인스타그램",
-   "daily": null,
-   "total": 1,
+   "total": 0,
    "link_taps": 0,
    "source": "Graph API insights 10/28~"
   }
