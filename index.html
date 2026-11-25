@@ -176,14 +176,16 @@
   <nav class="om-tabs" id="tabs" role="tablist">
     <button class="om-tab" role="tab" data-tab="all" aria-selected="true">전체</button>
     <button class="om-tab" role="tab" data-tab="chunja" data-ci="0" aria-selected="false"><i></i>김춘자</button>
-    <button class="om-tab" role="tab" data-tab="taesik" data-ci="2" aria-selected="false"><i></i>김태식</button>
     <button class="om-tab" role="tab" data-tab="bot" data-ci="3" aria-selected="false"><i></i>건강봇</button>
 <!--GROUPS:tabs-->
-    <button class="om-tab" role="tab" data-tab="bone" data-ci="6" aria-selected="false"><i></i>뼈톡</button>
-    <button class="om-tab" role="tab" data-tab="lover" data-ci="9" aria-selected="false"><i></i>냉미남</button>
-    <button class="om-tab" role="tab" data-tab="brain" data-ci="12" aria-selected="false"><i></i>뇌해설</button>
     <button class="om-tab" role="tab" data-tab="mija" data-ci="15" aria-selected="false"><i></i>미자 할매</button>
 <!--/GROUPS:tabs-->
+    <button class="om-tab" role="tab" data-tab="taesik" data-ci="2" aria-selected="false"><i></i>김태식 <span class="om-paused">잠정 중지</span></button>
+<!--GROUPS:tabs_paused-->
+    <button class="om-tab" role="tab" data-tab="bone" data-ci="6" aria-selected="false"><i></i>뼈톡 <span class="om-paused">잠정 중지</span></button>
+    <button class="om-tab" role="tab" data-tab="lover" data-ci="9" aria-selected="false"><i></i>냉미남 <span class="om-paused">잠정 중지</span></button>
+    <button class="om-tab" role="tab" data-tab="brain" data-ci="12" aria-selected="false"><i></i>뇌해설 <span class="om-paused">잠정 중지</span></button>
+<!--/GROUPS:tabs_paused-->
     <button class="om-tab" role="tab" data-tab="mong" data-ci="1" aria-selected="false"><i></i>몽인턴 <span class="om-paused">잠정 중지</span></button>
     <button class="om-tab" role="tab" data-tab="links" aria-selected="false">링크 유입</button>
   </nav>
@@ -249,12 +251,6 @@
       <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="김춘자"></div>
       <button class="om-goto" data-goto="chunja">김춘자 게시물별 추이 보기 →</button>
     </section>
-    <section class="om-col" data-ci="2" id="taesik">
-      <div class="om-col-head"><h2>김태식</h2><span>옆집남자</span></div>
-      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=김태식">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=김태식">—</b></span></p>
-      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="김태식"></div>
-      <button class="om-goto" data-goto="taesik">김태식 게시물별 추이 보기 →</button>
-    </section>
   </div>
 
   <p class="om-section-label">건강봇 (11/19 시작)</p>
@@ -280,69 +276,6 @@
   </div>
 
 <!--GROUPS:cols-->
-  <p class="om-section-label">뼈톡 (11/23 시작)</p>
-  <div class="om-cols">
-    <section class="om-col" data-ci="6">
-      <div class="om-col-head"><h2>뼈톡 한국</h2><span>bonetalk_kr · 한국어</span></div>
-      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=뼈톡 한국">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=뼈톡 한국">—</b></span></p>
-      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="뼈톡 한국"></div>
-      <button class="om-goto" data-goto="bone">뼈톡 게시물별 추이 보기 →</button>
-    </section>
-    <section class="om-col" data-ci="7">
-      <div class="om-col-head"><h2>뼈톡 일본</h2><span>bonetalk_jp · 일본어</span></div>
-      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=뼈톡 일본">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=뼈톡 일본">—</b></span></p>
-      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="뼈톡 일본"></div>
-      <button class="om-goto" data-goto="bone">뼈톡 게시물별 추이 보기 →</button>
-    </section>
-    <section class="om-col" data-ci="8">
-      <div class="om-col-head"><h2>뼈톡 대만</h2><span>bonetalk_tw · 번체 중국어</span></div>
-      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=뼈톡 대만">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=뼈톡 대만">—</b></span></p>
-      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="뼈톡 대만"></div>
-      <button class="om-goto" data-goto="bone">뼈톡 게시물별 추이 보기 →</button>
-    </section>
-  </div>
-  <p class="om-section-label">냉미남 (11/23 시작)</p>
-  <div class="om-cols">
-    <section class="om-col" data-ci="9">
-      <div class="om-col-head"><h2>냉미남 한국</h2><span>ahealth_lover_kr · 한국어</span></div>
-      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=냉미남 한국">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=냉미남 한국">—</b></span></p>
-      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="냉미남 한국"></div>
-      <button class="om-goto" data-goto="lover">냉미남 게시물별 추이 보기 →</button>
-    </section>
-    <section class="om-col" data-ci="10">
-      <div class="om-col-head"><h2>냉미남 일본</h2><span>ahealth_lover_jp · 일본어</span></div>
-      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=냉미남 일본">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=냉미남 일본">—</b></span></p>
-      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="냉미남 일본"></div>
-      <button class="om-goto" data-goto="lover">냉미남 게시물별 추이 보기 →</button>
-    </section>
-    <section class="om-col" data-ci="11">
-      <div class="om-col-head"><h2>냉미남 대만</h2><span>ahealth_lover_tw · 번체 중국어</span></div>
-      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=냉미남 대만">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=냉미남 대만">—</b></span></p>
-      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="냉미남 대만"></div>
-      <button class="om-goto" data-goto="lover">냉미남 게시물별 추이 보기 →</button>
-    </section>
-  </div>
-  <p class="om-section-label">뇌해설 (11/23 시작)</p>
-  <div class="om-cols">
-    <section class="om-col" data-ci="12">
-      <div class="om-col-head"><h2>뇌해설 한국</h2><span>pretty_health_kr · 한국어</span></div>
-      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=뇌해설 한국">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=뇌해설 한국">—</b></span></p>
-      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="뇌해설 한국"></div>
-      <button class="om-goto" data-goto="brain">뇌해설 게시물별 추이 보기 →</button>
-    </section>
-    <section class="om-col" data-ci="13">
-      <div class="om-col-head"><h2>뇌해설 일본</h2><span>pretty_health_jp · 일본어</span></div>
-      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=뇌해설 일본">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=뇌해설 일본">—</b></span></p>
-      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="뇌해설 일본"></div>
-      <button class="om-goto" data-goto="brain">뇌해설 게시물별 추이 보기 →</button>
-    </section>
-    <section class="om-col" data-ci="14">
-      <div class="om-col-head"><h2>뇌해설 대만</h2><span>pretty_health_tw · 번체 중국어</span></div>
-      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=뇌해설 대만">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=뇌해설 대만">—</b></span></p>
-      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="뇌해설 대만"></div>
-      <button class="om-goto" data-goto="brain">뇌해설 게시물별 추이 보기 →</button>
-    </section>
-  </div>
   <p class="om-section-label">미자 할매 (11/24 시작)</p>
   <div class="om-cols">
     <section class="om-col" data-ci="15">
@@ -365,6 +298,82 @@
     </section>
   </div>
 <!--/GROUPS:cols-->
+
+  <p class="om-section-label">김태식 (잠정 중지)</p>
+  <div class="om-cols" id="taesik-cols" style="grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr))">
+    <section class="om-col" data-ci="2" id="taesik">
+      <div class="om-col-head"><h2>김태식</h2><span class="om-paused">잠정 중지</span><span>옆집남자</span></div>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=김태식">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=김태식">—</b></span></p>
+      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="김태식"></div>
+      <button class="om-goto" data-goto="taesik">김태식 게시물별 추이 보기 →</button>
+    </section>
+  </div>
+
+<!--GROUPS:cols_paused-->
+  <p class="om-section-label">뼈톡 (잠정 중지)</p>
+  <div class="om-cols">
+    <section class="om-col" data-ci="6">
+      <div class="om-col-head"><h2>뼈톡 한국</h2><span class="om-paused">잠정 중지</span><span>bonetalk_kr · 한국어</span></div>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=뼈톡 한국">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=뼈톡 한국">—</b></span></p>
+      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="뼈톡 한국"></div>
+      <button class="om-goto" data-goto="bone">뼈톡 게시물별 추이 보기 →</button>
+    </section>
+    <section class="om-col" data-ci="7">
+      <div class="om-col-head"><h2>뼈톡 일본</h2><span class="om-paused">잠정 중지</span><span>bonetalk_jp · 일본어</span></div>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=뼈톡 일본">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=뼈톡 일본">—</b></span></p>
+      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="뼈톡 일본"></div>
+      <button class="om-goto" data-goto="bone">뼈톡 게시물별 추이 보기 →</button>
+    </section>
+    <section class="om-col" data-ci="8">
+      <div class="om-col-head"><h2>뼈톡 대만</h2><span class="om-paused">잠정 중지</span><span>bonetalk_tw · 번체 중국어</span></div>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=뼈톡 대만">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=뼈톡 대만">—</b></span></p>
+      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="뼈톡 대만"></div>
+      <button class="om-goto" data-goto="bone">뼈톡 게시물별 추이 보기 →</button>
+    </section>
+  </div>
+  <p class="om-section-label">냉미남 (잠정 중지)</p>
+  <div class="om-cols">
+    <section class="om-col" data-ci="9">
+      <div class="om-col-head"><h2>냉미남 한국</h2><span class="om-paused">잠정 중지</span><span>ahealth_lover_kr · 한국어</span></div>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=냉미남 한국">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=냉미남 한국">—</b></span></p>
+      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="냉미남 한국"></div>
+      <button class="om-goto" data-goto="lover">냉미남 게시물별 추이 보기 →</button>
+    </section>
+    <section class="om-col" data-ci="10">
+      <div class="om-col-head"><h2>냉미남 일본</h2><span class="om-paused">잠정 중지</span><span>ahealth_lover_jp · 일본어</span></div>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=냉미남 일본">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=냉미남 일본">—</b></span></p>
+      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="냉미남 일본"></div>
+      <button class="om-goto" data-goto="lover">냉미남 게시물별 추이 보기 →</button>
+    </section>
+    <section class="om-col" data-ci="11">
+      <div class="om-col-head"><h2>냉미남 대만</h2><span class="om-paused">잠정 중지</span><span>ahealth_lover_tw · 번체 중국어</span></div>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=냉미남 대만">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=냉미남 대만">—</b></span></p>
+      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="냉미남 대만"></div>
+      <button class="om-goto" data-goto="lover">냉미남 게시물별 추이 보기 →</button>
+    </section>
+  </div>
+  <p class="om-section-label">뇌해설 (잠정 중지)</p>
+  <div class="om-cols">
+    <section class="om-col" data-ci="12">
+      <div class="om-col-head"><h2>뇌해설 한국</h2><span class="om-paused">잠정 중지</span><span>pretty_health_kr · 한국어</span></div>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=뇌해설 한국">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=뇌해설 한국">—</b></span></p>
+      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="뇌해설 한국"></div>
+      <button class="om-goto" data-goto="brain">뇌해설 게시물별 추이 보기 →</button>
+    </section>
+    <section class="om-col" data-ci="13">
+      <div class="om-col-head"><h2>뇌해설 일본</h2><span class="om-paused">잠정 중지</span><span>pretty_health_jp · 일본어</span></div>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=뇌해설 일본">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=뇌해설 일본">—</b></span></p>
+      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="뇌해설 일본"></div>
+      <button class="om-goto" data-goto="brain">뇌해설 게시물별 추이 보기 →</button>
+    </section>
+    <section class="om-col" data-ci="14">
+      <div class="om-col-head"><h2>뇌해설 대만</h2><span class="om-paused">잠정 중지</span><span>pretty_health_tw · 번체 중국어</span></div>
+      <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=뇌해설 대만">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=뇌해설 대만">—</b></span></p>
+      <div class="om-accts" data-draw="accts" data-source="accounts_latest accounts" data-character="뇌해설 대만"></div>
+      <button class="om-goto" data-goto="brain">뇌해설 게시물별 추이 보기 →</button>
+    </section>
+  </div>
+<!--/GROUPS:cols_paused-->
 
   <p class="om-section-label">몽인턴 (잠정 중지)</p>
   <div class="om-cols" id="mong-cols" style="grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr))">
@@ -414,7 +423,7 @@
 
   <div class="om-page" data-page="taesik" data-ci="2" id="p-taesik" hidden>
     <div class="om-char-head">
-      <h2>김태식</h2><span class="om-note">옆집남자</span>
+      <h2>김태식</h2><span class="om-paused">잠정 중지</span><span class="om-note">옆집남자</span>
       <p class="om-col-sum"><span>팔로워<b data-draw="v" data-source="characters" data-field="followers" data-where="character=김태식">—</b></span><span>누적 조회수<b data-draw="v" data-source="characters" data-field="views" data-where="character=김태식">—</b></span></p>
     </div>
     <div class="om-accts row" data-draw="accts" data-source="accounts_latest accounts" data-character="김태식"></div>
@@ -879,7 +888,7 @@
   <p class="om-method" id="method">매일 9·12·15·18·21시에 로그인된 Chrome으로 각 계정 화면을 읽어 기록해요. 유튜브는 영상 페이지의 정확한 조회수, 인스타그램과 틱톡은 프로필에 보이는 재생 수예요. 그 시간에 맥이 꺼져 있으면 그날 기록은 빠져요.</p>
 </div>
 </div>
-<script src="app.js?v=11241813"></script>
+<script src="app.js?v=11252014"></script>
 <script>dash.start();</script>
 </body>
 </html>
