@@ -653,8 +653,8 @@
    "character": "건강봇 일본",
    "platform": "인스타그램",
    "daily": null,
-   "total": 5404,
-   "link_taps": 4,
+   "total": 5672,
+   "link_taps": 5,
    "source": "Graph API insights 10/28~"
   },
   {
@@ -662,7 +662,7 @@
    "character": "건강봇 한국",
    "platform": "인스타그램",
    "daily": null,
-   "total": 17,
+   "total": 19,
    "link_taps": 0,
    "source": "Graph API insights 10/28~"
   },
@@ -671,8 +671,8 @@
    "character": "김춘자",
    "platform": "인스타그램",
    "daily": null,
-   "total": 1725,
-   "link_taps": 12,
+   "total": 3540,
+   "link_taps": 20,
    "source": "Graph API insights 10/28~"
   },
   {

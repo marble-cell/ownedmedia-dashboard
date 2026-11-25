@@ -5232,7 +5232,8 @@
    "views": 1,
    "date": "2026-11-10",
    "collected_at": "2026-11-10 21:56:11",
-   "video_key": "틱톡:7706192881974840597"
+   "video_key": "틱톡:7706192881974840597",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -6029,7 +6030,8 @@
    "views_note": "반응은 오전 9시 기록 유지(영상 페이지 403 오류)",
    "date": "2026-11-11",
    "collected_at": "2026-11-11 15:29:29",
-   "video_key": "틱톡:7706192881974840597"
+   "video_key": "틱톡:7706192881974840597",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -6720,7 +6722,8 @@
    "reach": null,
    "date": "2026-11-12",
    "collected_at": "2026-11-12 21:18:01",
-   "video_key": "틱톡:7706192881974840597"
+   "video_key": "틱톡:7706192881974840597",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -6775,7 +6778,8 @@
    "reach": null,
    "date": "2026-11-12",
    "collected_at": "2026-11-12 21:18:01",
-   "video_key": "틱톡:7706830830185860372"
+   "video_key": "틱톡:7706830830185860372",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -6829,7 +6833,8 @@
    "reach": null,
    "date": "2026-11-12",
    "collected_at": "2026-11-12 21:18:01",
-   "video_key": "틱톡:7707210793007271174"
+   "video_key": "틱톡:7707210793007271174",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -7475,7 +7480,8 @@
    "collected_at": "2026-11-13 15:16:14",
    "video_key": "틱톡:7706192881974840597",
    "views_note": null,
-   "date": "2026-11-13"
+   "date": "2026-11-13",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -7513,7 +7519,8 @@
    "collected_at": "2026-11-13 15:16:14",
    "video_key": "틱톡:7706830830185860372",
    "views_note": null,
-   "date": "2026-11-13"
+   "date": "2026-11-13",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -7570,7 +7577,8 @@
    "collected_at": "2026-11-13 15:16:14",
    "video_key": "틱톡:7707210793007271174",
    "views_note": null,
-   "date": "2026-11-13"
+   "date": "2026-11-13",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -8254,7 +8262,8 @@
    "posted_at": "2026-11-10T00:24",
    "date": "2026-11-15",
    "collected_at": "2026-11-15 22:35:43",
-   "video_key": "틱톡:7706192881974840597"
+   "video_key": "틱톡:7706192881974840597",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -8292,7 +8301,8 @@
    "posted_at": "2026-11-11T17:39",
    "date": "2026-11-15",
    "collected_at": "2026-11-15 22:35:43",
-   "video_key": "틱톡:7706830830185860372"
+   "video_key": "틱톡:7706830830185860372",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -8349,7 +8359,8 @@
    "posted_at": "2026-11-12T18:14",
    "date": "2026-11-15",
    "collected_at": "2026-11-15 22:35:43",
-   "video_key": "틱톡:7707210793007271174"
+   "video_key": "틱톡:7707210793007271174",
+   "archived": true
   },
   {
    "character": "김태식",
@@ -8368,7 +8379,8 @@
    "posted": "2026-11-13",
    "date": "2026-11-15",
    "collected_at": "2026-11-15 22:35:43",
-   "video_key": "틱톡:7707582586381552902"
+   "video_key": "틱톡:7707582586381552902",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -9038,7 +9050,8 @@
    "views_note": null,
    "date": "2026-11-16",
    "collected_at": "2026-11-16 15:16:49",
-   "video_key": "틱톡:7706192881974840597"
+   "video_key": "틱톡:7706192881974840597",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -9076,7 +9089,8 @@
    "views_note": null,
    "date": "2026-11-16",
    "collected_at": "2026-11-16 15:16:49",
-   "video_key": "틱톡:7706830830185860372"
+   "video_key": "틱톡:7706830830185860372",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -9133,7 +9147,8 @@
    "views_note": null,
    "date": "2026-11-16",
    "collected_at": "2026-11-16 15:16:49",
-   "video_key": "틱톡:7707210793007271174"
+   "video_key": "틱톡:7707210793007271174",
+   "archived": true
   },
   {
    "character": "김태식",
@@ -9152,7 +9167,8 @@
    "views_note": null,
    "date": "2026-11-16",
    "collected_at": "2026-11-16 15:16:49",
-   "video_key": "틱톡:7707582586381552902"
+   "video_key": "틱톡:7707582586381552902",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -9874,7 +9890,8 @@
    "views_note": null,
    "date": "2026-11-17",
    "collected_at": "2026-11-17 12:16:40",
-   "video_key": "틱톡:7706192881974840597"
+   "video_key": "틱톡:7706192881974840597",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -9912,7 +9929,8 @@
    "views_note": null,
    "date": "2026-11-17",
    "collected_at": "2026-11-17 12:16:40",
-   "video_key": "틱톡:7706830830185860372"
+   "video_key": "틱톡:7706830830185860372",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -9969,7 +9987,8 @@
    "views_note": null,
    "date": "2026-11-17",
    "collected_at": "2026-11-17 12:16:40",
-   "video_key": "틱톡:7707210793007271174"
+   "video_key": "틱톡:7707210793007271174",
+   "archived": true
   },
   {
    "character": "김태식",
@@ -9988,7 +10007,8 @@
    "views_note": null,
    "date": "2026-11-17",
    "collected_at": "2026-11-17 12:16:40",
-   "video_key": "틱톡:7707582586381552902"
+   "video_key": "틱톡:7707582586381552902",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -10805,7 +10825,8 @@
    "reach": null,
    "date": "2026-11-18",
    "collected_at": "2026-11-18 18:15:59",
-   "video_key": "틱톡:7706192881974840597"
+   "video_key": "틱톡:7706192881974840597",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -10843,7 +10864,8 @@
    "reach": null,
    "date": "2026-11-18",
    "collected_at": "2026-11-18 18:15:59",
-   "video_key": "틱톡:7706830830185860372"
+   "video_key": "틱톡:7706830830185860372",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -10900,7 +10922,8 @@
    "reach": null,
    "date": "2026-11-18",
    "collected_at": "2026-11-18 18:15:59",
-   "video_key": "틱톡:7707210793007271174"
+   "video_key": "틱톡:7707210793007271174",
+   "archived": true
   },
   {
    "character": "김태식",
@@ -10919,7 +10942,8 @@
    "reach": null,
    "date": "2026-11-18",
    "collected_at": "2026-11-18 18:15:59",
-   "video_key": "틱톡:7707582586381552902"
+   "video_key": "틱톡:7707582586381552902",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -10957,7 +10981,8 @@
    "reach": null,
    "date": "2026-11-18",
    "collected_at": "2026-11-18 18:15:59",
-   "video_key": "틱톡:7709142283186146566"
+   "video_key": "틱톡:7709142283186146566",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -11679,7 +11704,8 @@
    "reach": null,
    "date": "2026-11-19",
    "collected_at": "2026-11-19 11:53:31",
-   "video_key": "틱톡:7706192881974840597"
+   "video_key": "틱톡:7706192881974840597",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -11717,7 +11743,8 @@
    "reach": null,
    "date": "2026-11-19",
    "collected_at": "2026-11-19 11:53:31",
-   "video_key": "틱톡:7706830830185860372"
+   "video_key": "틱톡:7706830830185860372",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -11774,7 +11801,8 @@
    "reach": null,
    "date": "2026-11-19",
    "collected_at": "2026-11-19 11:53:31",
-   "video_key": "틱톡:7707210793007271174"
+   "video_key": "틱톡:7707210793007271174",
+   "archived": true
   },
   {
    "character": "김태식",
@@ -11793,7 +11821,8 @@
    "reach": null,
    "date": "2026-11-19",
    "collected_at": "2026-11-19 11:53:31",
-   "video_key": "틱톡:7707582586381552902"
+   "video_key": "틱톡:7707582586381552902",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -11831,7 +11860,8 @@
    "reach": null,
    "date": "2026-11-19",
    "collected_at": "2026-11-19 11:53:31",
-   "video_key": "틱톡:7709142283186146566"
+   "video_key": "틱톡:7709142283186146566",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -13056,7 +13086,8 @@
    "views_note": null,
    "date": "2026-11-20",
    "collected_at": "2026-11-20 15:18:19",
-   "video_key": "틱톡:7706192881974840597"
+   "video_key": "틱톡:7706192881974840597",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -13094,7 +13125,8 @@
    "views_note": null,
    "date": "2026-11-20",
    "collected_at": "2026-11-20 15:18:19",
-   "video_key": "틱톡:7706830830185860372"
+   "video_key": "틱톡:7706830830185860372",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -13151,7 +13183,8 @@
    "views_note": null,
    "date": "2026-11-20",
    "collected_at": "2026-11-20 15:18:19",
-   "video_key": "틱톡:7707210793007271174"
+   "video_key": "틱톡:7707210793007271174",
+   "archived": true
   },
   {
    "character": "김태식",
@@ -13170,7 +13203,8 @@
    "views_note": null,
    "date": "2026-11-20",
    "collected_at": "2026-11-20 15:18:19",
-   "video_key": "틱톡:7707582586381552902"
+   "video_key": "틱톡:7707582586381552902",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -13208,7 +13242,8 @@
    "views_note": null,
    "date": "2026-11-20",
    "collected_at": "2026-11-20 15:18:19",
-   "video_key": "틱톡:7709142283186146566"
+   "video_key": "틱톡:7709142283186146566",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -14476,7 +14511,8 @@
    "views_note": null,
    "date": "2026-11-21",
    "collected_at": "2026-11-21 21:19:29",
-   "video_key": "틱톡:7706192881974840597"
+   "video_key": "틱톡:7706192881974840597",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -14514,7 +14550,8 @@
    "views_note": null,
    "date": "2026-11-21",
    "collected_at": "2026-11-21 21:19:29",
-   "video_key": "틱톡:7706830830185860372"
+   "video_key": "틱톡:7706830830185860372",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -14571,7 +14608,8 @@
    "views_note": null,
    "date": "2026-11-21",
    "collected_at": "2026-11-21 21:19:29",
-   "video_key": "틱톡:7707210793007271174"
+   "video_key": "틱톡:7707210793007271174",
+   "archived": true
   },
   {
    "character": "김태식",
@@ -14590,7 +14628,8 @@
    "views_note": null,
    "date": "2026-11-21",
    "collected_at": "2026-11-21 21:19:29",
-   "video_key": "틱톡:7707582586381552902"
+   "video_key": "틱톡:7707582586381552902",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -14628,7 +14667,8 @@
    "views_note": null,
    "date": "2026-11-21",
    "collected_at": "2026-11-21 21:19:29",
-   "video_key": "틱톡:7709142283186146566"
+   "video_key": "틱톡:7709142283186146566",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -16456,7 +16496,8 @@
    "reach": null,
    "date": "2026-11-22",
    "collected_at": "2026-11-22 21:22:51",
-   "video_key": "틱톡:7706192881974840597"
+   "video_key": "틱톡:7706192881974840597",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -16492,7 +16533,8 @@
    "reach": null,
    "date": "2026-11-22",
    "collected_at": "2026-11-22 21:22:51",
-   "video_key": "틱톡:7706830830185860372"
+   "video_key": "틱톡:7706830830185860372",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -16546,7 +16588,8 @@
    "reach": null,
    "date": "2026-11-22",
    "collected_at": "2026-11-22 21:22:51",
-   "video_key": "틱톡:7707210793007271174"
+   "video_key": "틱톡:7707210793007271174",
+   "archived": true
   },
   {
    "character": "김태식",
@@ -16564,7 +16607,8 @@
    "reach": null,
    "date": "2026-11-22",
    "collected_at": "2026-11-22 21:22:51",
-   "video_key": "틱톡:7707582586381552902"
+   "video_key": "틱톡:7707582586381552902",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -16600,7 +16644,8 @@
    "reach": null,
    "date": "2026-11-22",
    "collected_at": "2026-11-22 21:22:51",
-   "video_key": "틱톡:7709142283186146566"
+   "video_key": "틱톡:7709142283186146566",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -19340,7 +19385,8 @@
    "posted_at": "2026-11-10T00:24",
    "date": "2026-11-23",
    "collected_at": "2026-11-23 18:17:28",
-   "video_key": "틱톡:7706192881974840597"
+   "video_key": "틱톡:7706192881974840597",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -19378,7 +19424,8 @@
    "posted_at": "2026-11-11T17:39",
    "date": "2026-11-23",
    "collected_at": "2026-11-23 18:17:28",
-   "video_key": "틱톡:7706830830185860372"
+   "video_key": "틱톡:7706830830185860372",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -19435,7 +19482,8 @@
    "posted_at": "2026-11-12T18:14",
    "date": "2026-11-23",
    "collected_at": "2026-11-23 18:17:28",
-   "video_key": "틱톡:7707210793007271174"
+   "video_key": "틱톡:7707210793007271174",
+   "archived": true
   },
   {
    "character": "김태식",
@@ -19454,7 +19502,8 @@
    "posted_at": "2026-11-13T18:16",
    "date": "2026-11-23",
    "collected_at": "2026-11-23 18:17:28",
-   "video_key": "틱톡:7707582586381552902"
+   "video_key": "틱톡:7707582586381552902",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -19492,7 +19541,8 @@
    "posted_at": "2026-11-17T23:09",
    "date": "2026-11-23",
    "collected_at": "2026-11-23 18:17:28",
-   "video_key": "틱톡:7709142283186146566"
+   "video_key": "틱톡:7709142283186146566",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -23731,7 +23781,8 @@
    "posted_at": "2026-11-10T00:24",
    "date": "2026-11-24",
    "collected_at": "2026-11-24 21:20:31",
-   "video_key": "틱톡:7706192881974840597"
+   "video_key": "틱톡:7706192881974840597",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -23767,7 +23818,8 @@
    "posted_at": "2026-11-11T17:39",
    "date": "2026-11-24",
    "collected_at": "2026-11-24 21:20:31",
-   "video_key": "틱톡:7706830830185860372"
+   "video_key": "틱톡:7706830830185860372",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -23821,7 +23873,8 @@
    "posted_at": "2026-11-12T18:14",
    "date": "2026-11-24",
    "collected_at": "2026-11-24 21:20:31",
-   "video_key": "틱톡:7707210793007271174"
+   "video_key": "틱톡:7707210793007271174",
+   "archived": true
   },
   {
    "character": "김태식",
@@ -23839,7 +23892,8 @@
    "posted_at": "2026-11-13T18:16",
    "date": "2026-11-24",
    "collected_at": "2026-11-24 21:20:31",
-   "video_key": "틱톡:7707582586381552902"
+   "video_key": "틱톡:7707582586381552902",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -23875,7 +23929,8 @@
    "posted_at": "2026-11-17T23:09",
    "date": "2026-11-24",
    "collected_at": "2026-11-24 21:20:31",
-   "video_key": "틱톡:7709142283186146566"
+   "video_key": "틱톡:7709142283186146566",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -24101,14 +24156,13 @@
    "url": "https://www.youtube.com/shorts/-7ZAs-CiG2E",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T09:15",
-   "views": 2,
+   "views": 6,
    "likes": 0,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:-7ZAs-CiG2E"
   },
   {
@@ -24124,9 +24178,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:-Iu7_nvhmF4"
   },
   {
@@ -24142,9 +24195,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:-kJKF_MchI4"
   },
   {
@@ -24155,14 +24207,13 @@
    "url": "https://www.youtube.com/shorts/0F44HXqYvsc",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T17:00",
-   "views": 45,
-   "likes": 2,
+   "views": 250,
+   "likes": 7,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:0F44HXqYvsc"
   },
   {
@@ -24178,9 +24229,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:0SopL0RMqOk"
   },
   {
@@ -24196,10 +24246,26 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:1Z6ycXsRNtU"
+  },
+  {
+   "character": "건강봇 대만",
+   "platform": "유튜브",
+   "video_id": "1h-Z60pZ1lI",
+   "title": "머리카락 한꺼번에 빠지는 이유",
+   "url": "https://www.youtube.com/shorts/1h-Z60pZ1lI",
+   "posted": "2026-11-25",
+   "posted_at": "2026-11-25T19:00",
+   "views": 0,
+   "likes": 0,
+   "comments": null,
+   "saves": null,
+   "shares": null,
+   "date": "2026-11-25",
+   "collected_at": "2026-11-25 21:19:24",
+   "video_key": "유튜브:1h-Z60pZ1lI"
   },
   {
    "character": "김춘자",
@@ -24209,14 +24275,13 @@
    "url": "https://www.youtube.com/shorts/22LQ34e2_NQ",
    "posted": "2026-11-06",
    "posted_at": "2026-11-06T17:55",
-   "views": 2423,
+   "views": 2424,
    "likes": 8,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:22LQ34e2_NQ"
   },
   {
@@ -24232,9 +24297,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:25_Cl1_gr0A"
   },
   {
@@ -24250,9 +24314,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:2IS35TszrRA"
   },
   {
@@ -24268,9 +24331,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:3_ZUmBGqAlo"
   },
   {
@@ -24286,9 +24348,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:3i3FbSrwAI0"
   },
   {
@@ -24304,10 +24365,26 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:40Fs9YOrb0s"
+  },
+  {
+   "character": "뇌해설 일본",
+   "platform": "유튜브",
+   "video_id": "4msQVoq7hL0",
+   "title": "하품은 왜 옮을까",
+   "url": "https://www.youtube.com/shorts/4msQVoq7hL0",
+   "posted": "2026-11-25",
+   "posted_at": "2026-11-25T18:23",
+   "views": 3,
+   "likes": 0,
+   "comments": null,
+   "saves": null,
+   "shares": null,
+   "date": "2026-11-25",
+   "collected_at": "2026-11-25 21:19:24",
+   "video_key": "유튜브:4msQVoq7hL0"
   },
   {
    "character": "건강봇 대만",
@@ -24322,9 +24399,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:5FissNqWgNU"
   },
   {
@@ -24335,15 +24411,31 @@
    "url": "https://www.youtube.com/shorts/5Mol1VoHC28",
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T14:35",
-   "views": 854,
-   "likes": 12,
+   "views": 1086,
+   "likes": 15,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:5Mol1VoHC28"
+  },
+  {
+   "character": "뇌해설 일본",
+   "platform": "유튜브",
+   "video_id": "5VbYxSNNO-E",
+   "title": "아이스크림 먹으면 머리가 띵한 이유",
+   "url": "https://www.youtube.com/shorts/5VbYxSNNO-E",
+   "posted": "2026-11-25",
+   "posted_at": "2026-11-25T18:33",
+   "views": 2,
+   "likes": 0,
+   "comments": null,
+   "saves": null,
+   "shares": null,
+   "date": "2026-11-25",
+   "collected_at": "2026-11-25 21:19:24",
+   "video_key": "유튜브:5VbYxSNNO-E"
   },
   {
    "character": "뇌해설 일본",
@@ -24358,9 +24450,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:5xkRRxb2RvI"
   },
   {
@@ -24376,9 +24467,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:6ITiNmBlpFM"
   },
   {
@@ -24389,14 +24479,13 @@
    "url": "https://www.youtube.com/shorts/6JFMWFngY_Y",
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T19:00",
-   "views": 1293,
+   "views": 1294,
    "likes": 9,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:6JFMWFngY_Y"
   },
   {
@@ -24412,9 +24501,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:6dC7vOIRkPA"
   },
   {
@@ -24430,10 +24518,26 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:6yHqD3bxoB0"
+  },
+  {
+   "character": "건강봇 대만",
+   "platform": "유튜브",
+   "video_id": "70TzGxunzYc",
+   "title": "다크서클 진해지는 이유",
+   "url": "https://www.youtube.com/shorts/70TzGxunzYc",
+   "posted": "2026-11-25",
+   "posted_at": "2026-11-25T20:30",
+   "views": 0,
+   "likes": 0,
+   "comments": null,
+   "saves": null,
+   "shares": null,
+   "date": "2026-11-25",
+   "collected_at": "2026-11-25 21:19:24",
+   "video_key": "유튜브:70TzGxunzYc"
   },
   {
    "character": "뼈톡 한국",
@@ -24448,9 +24552,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:8K1VdwjnsoY"
   },
   {
@@ -24466,10 +24569,26 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:8dfBHBP7U54"
+  },
+  {
+   "character": "뼈톡 일본",
+   "platform": "유튜브",
+   "video_id": "8ivSpcTK5YQ",
+   "title": "딸꾹질, 바로 멈추는 법 🫁",
+   "url": "https://www.youtube.com/shorts/8ivSpcTK5YQ",
+   "posted": "2026-11-25",
+   "posted_at": "2026-11-25T19:15",
+   "views": 0,
+   "likes": 0,
+   "comments": null,
+   "saves": null,
+   "shares": null,
+   "date": "2026-11-25",
+   "collected_at": "2026-11-25 21:19:24",
+   "video_key": "유튜브:8ivSpcTK5YQ"
   },
   {
    "character": "뇌해설 일본",
@@ -24484,9 +24603,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:9MHlB6xtGTg"
   },
   {
@@ -24502,9 +24620,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:9MvW1UHddTw"
   },
   {
@@ -24515,14 +24632,13 @@
    "url": "https://www.youtube.com/shorts/9o4kYdTgzlo",
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T17:05",
-   "views": 899,
+   "views": 942,
    "likes": 11,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:9o4kYdTgzlo"
   },
   {
@@ -24538,10 +24654,26 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:9yyJF3RECDw"
+  },
+  {
+   "character": "건강봇 한국",
+   "platform": "유튜브",
+   "video_id": "AUANs_v0Z_U",
+   "title": "머리카락 한꺼번에 빠지는 이유",
+   "url": "https://www.youtube.com/shorts/AUANs_v0Z_U",
+   "posted": "2026-11-25",
+   "posted_at": "2026-11-25T19:00",
+   "views": 8,
+   "likes": 0,
+   "comments": null,
+   "saves": null,
+   "shares": null,
+   "date": "2026-11-25",
+   "collected_at": "2026-11-25 21:19:24",
+   "video_key": "유튜브:AUANs_v0Z_U"
   },
   {
    "character": "건강봇 한국",
@@ -24556,9 +24688,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:AkutgAIr0qo"
   },
   {
@@ -24574,10 +24705,26 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:Bc7bRG7LTNg"
+  },
+  {
+   "character": "뼈톡 한국",
+   "platform": "유튜브",
+   "video_id": "CWx5P-BEhgU",
+   "title": "딸꾹질, 바로 멈추는 법 🫁",
+   "url": "https://www.youtube.com/shorts/CWx5P-BEhgU",
+   "posted": "2026-11-25",
+   "posted_at": "2026-11-25T19:15",
+   "views": 0,
+   "likes": 0,
+   "comments": null,
+   "saves": null,
+   "shares": null,
+   "date": "2026-11-25",
+   "collected_at": "2026-11-25 21:19:24",
+   "video_key": "유튜브:CWx5P-BEhgU"
   },
   {
    "character": "뼈톡 일본",
@@ -24587,14 +24734,13 @@
    "url": "https://www.youtube.com/shorts/CZ-HMM4w8J0",
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T20:30",
-   "views": 4,
+   "views": 5,
    "likes": 0,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:CZ-HMM4w8J0"
   },
   {
@@ -24610,9 +24756,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:CbtEt1AW8Sg"
   },
   {
@@ -24628,9 +24773,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:DgpIxEavWds"
   },
   {
@@ -24641,14 +24785,13 @@
    "url": "https://www.youtube.com/shorts/E0gUqSBuA4I",
    "posted": "2026-10-28",
    "posted_at": "2026-10-28T19:54",
-   "views": 1737,
+   "views": 1741,
    "likes": 8,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:E0gUqSBuA4I"
   },
   {
@@ -24664,9 +24807,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:EASLktgPJHw"
   },
   {
@@ -24682,9 +24824,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:EJrC_i2J3JI"
   },
   {
@@ -24700,9 +24841,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:EJxt8-Nh72o"
   },
   {
@@ -24713,14 +24853,13 @@
    "url": "https://www.youtube.com/shorts/E_f1NQhD_5A",
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T14:35",
-   "views": 380,
+   "views": 401,
    "likes": 5,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:E_f1NQhD_5A"
   },
   {
@@ -24736,9 +24875,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:Eb430jvir9I"
   },
   {
@@ -24754,9 +24892,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:Ev1DMqlD1r8"
   },
   {
@@ -24772,9 +24909,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:FZkwIgN6wBA"
   },
   {
@@ -24785,14 +24921,13 @@
    "url": "https://www.youtube.com/shorts/GKc7MzYjpow",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T18:15",
-   "views": 0,
-   "likes": 0,
+   "views": 272,
+   "likes": 4,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:GKc7MzYjpow"
   },
   {
@@ -24803,14 +24938,13 @@
    "url": "https://www.youtube.com/shorts/GNwG8WkcjTY",
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T20:39",
-   "views": 1300,
+   "views": 1304,
    "likes": 10,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:GNwG8WkcjTY"
   },
   {
@@ -24821,14 +24955,13 @@
    "url": "https://www.youtube.com/shorts/GTvhgX06syA",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T17:30",
-   "views": 84,
-   "likes": 0,
+   "views": 104,
+   "likes": 1,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:GTvhgX06syA"
   },
   {
@@ -24844,9 +24977,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:GbfI8NRS6oM"
   },
   {
@@ -24857,15 +24989,48 @@
    "url": "https://www.youtube.com/shorts/Ho1Rpm3CfrU",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T16:40",
-   "views": 16,
+   "views": 15,
    "likes": 0,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:Ho1Rpm3CfrU"
+  },
+  {
+   "character": "건강봇 일본",
+   "platform": "유튜브",
+   "video_id": "IJzPYjFkBkA",
+   "title": "다크서클 진해지는 이유",
+   "url": "https://www.youtube.com/shorts/IJzPYjFkBkA",
+   "posted": "2026-11-25",
+   "posted_at": "2026-11-25T20:30",
+   "views": 0,
+   "likes": 0,
+   "comments": null,
+   "saves": null,
+   "shares": null,
+   "date": "2026-11-25",
+   "collected_at": "2026-11-25 21:19:24",
+   "video_key": "유튜브:IJzPYjFkBkA"
+  },
+  {
+   "character": "건강봇 한국",
+   "platform": "유튜브",
+   "video_id": "ITZEKgp6VWA",
+   "title": "다크서클 진해지는 이유",
+   "url": "https://www.youtube.com/shorts/ITZEKgp6VWA",
+   "posted": "2026-11-25",
+   "posted_at": "2026-11-25T20:30",
+   "views": 76,
+   "likes": 4,
+   "comments": null,
+   "saves": null,
+   "shares": null,
+   "date": "2026-11-25",
+   "collected_at": "2026-11-25 21:19:24",
+   "video_key": "유튜브:ITZEKgp6VWA"
   },
   {
    "character": "뼈톡 대만",
@@ -24880,9 +25045,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:I_J3xH6xWyQ"
   },
   {
@@ -24898,9 +25062,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:IgEWjdV2QxY"
   },
   {
@@ -24916,9 +25079,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:IptQFsyI0_k"
   },
   {
@@ -24934,9 +25096,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:JZfXqqfZLLw"
   },
   {
@@ -24947,14 +25108,13 @@
    "url": "https://www.youtube.com/shorts/KhxkeFmVBjI",
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T22:52",
-   "views": 135,
+   "views": 143,
    "likes": 0,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:KhxkeFmVBjI"
   },
   {
@@ -24965,14 +25125,13 @@
    "url": "https://www.youtube.com/shorts/M0xRBY8xNio",
    "posted": "2026-11-12",
    "posted_at": "2026-11-12T18:00",
-   "views": 2008,
+   "views": 2009,
    "likes": 16,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:M0xRBY8xNio"
   },
   {
@@ -24988,9 +25147,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:M5haJw5ef_A"
   },
   {
@@ -25001,14 +25159,13 @@
    "url": "https://www.youtube.com/shorts/M8gKzIXdlgU",
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T20:51",
-   "views": 5,
+   "views": 6,
    "likes": 0,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:M8gKzIXdlgU"
   },
   {
@@ -25024,9 +25181,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:NNHTjwtdDNA"
   },
   {
@@ -25042,9 +25198,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:NSe8avLXzv8"
   },
   {
@@ -25060,9 +25215,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:O7XGT8IVbp4"
   },
   {
@@ -25073,14 +25227,13 @@
    "url": "https://www.youtube.com/shorts/ObMbxrXzCQs",
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T14:35",
-   "views": 78,
-   "likes": 3,
+   "views": 100,
+   "likes": 4,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:ObMbxrXzCQs"
   },
   {
@@ -25096,9 +25249,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:OjyleoR6I7k"
   },
   {
@@ -25109,14 +25261,13 @@
    "url": "https://www.youtube.com/shorts/P-7vYpFmETM",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T10:58",
-   "views": 0,
+   "views": 2,
    "likes": 0,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:P-7vYpFmETM"
   },
   {
@@ -25132,9 +25283,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:PD_bf8aS7L4"
   },
   {
@@ -25150,9 +25300,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:PPwevZm5Rqs"
   },
   {
@@ -25168,9 +25317,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:PwxrOkb4VxE"
   },
   {
@@ -25186,9 +25334,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:QGkCpV1yr90"
   },
   {
@@ -25204,9 +25351,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:Repp23S42II"
   },
   {
@@ -25222,9 +25368,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:RirEzXObXx0"
   },
   {
@@ -25235,14 +25380,13 @@
    "url": "https://www.youtube.com/shorts/S32ysOeXFBE",
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T20:39",
-   "views": 1129,
+   "views": 1153,
    "likes": 27,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:S32ysOeXFBE"
   },
   {
@@ -25258,10 +25402,26 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:SRoHAsVolQQ"
+  },
+  {
+   "character": "뇌해설 대만",
+   "platform": "유튜브",
+   "video_id": "Sx46XFAh4SA",
+   "title": "하품은 왜 옮을까",
+   "url": "https://www.youtube.com/shorts/Sx46XFAh4SA",
+   "posted": "2026-11-25",
+   "posted_at": "2026-11-25T18:23",
+   "views": 0,
+   "likes": 0,
+   "comments": null,
+   "saves": null,
+   "shares": null,
+   "date": "2026-11-25",
+   "collected_at": "2026-11-25 21:19:24",
+   "video_key": "유튜브:Sx46XFAh4SA"
   },
   {
    "character": "건강봇 일본",
@@ -25271,14 +25431,13 @@
    "url": "https://www.youtube.com/shorts/T2EDJoI3FaQ",
    "posted": "2026-11-22",
    "posted_at": "2026-11-22T15:05",
-   "views": 1095,
+   "views": 1100,
    "likes": 9,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:T2EDJoI3FaQ"
   },
   {
@@ -25289,14 +25448,13 @@
    "url": "https://www.youtube.com/shorts/T5AK1idfBOg",
    "posted": "2026-11-19",
    "posted_at": "2026-11-19T21:56",
-   "views": 56,
+   "views": 57,
    "likes": 0,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:T5AK1idfBOg"
   },
   {
@@ -25312,9 +25470,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:TCaSgj3G0wg"
   },
   {
@@ -25325,14 +25482,13 @@
    "url": "https://www.youtube.com/shorts/TUZ4b1y7kUo",
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T20:36",
-   "views": 82,
+   "views": 86,
    "likes": 0,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:TUZ4b1y7kUo"
   },
   {
@@ -25348,9 +25504,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:U2nL7urRyg0"
   },
   {
@@ -25366,9 +25521,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:UY6Im8h509c"
   },
   {
@@ -25379,14 +25533,13 @@
    "url": "https://www.youtube.com/shorts/VQK7JVl97BU",
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T22:40",
-   "views": 1176,
+   "views": 1177,
    "likes": 29,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:VQK7JVl97BU"
   },
   {
@@ -25402,10 +25555,26 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:VjfU1e16V80"
+  },
+  {
+   "character": "건강봇 일본",
+   "platform": "유튜브",
+   "video_id": "X8EiUm2Vrd8",
+   "title": "머리카락 한꺼번에 빠지는 이유",
+   "url": "https://www.youtube.com/shorts/X8EiUm2Vrd8",
+   "posted": "2026-11-25",
+   "posted_at": "2026-11-25T19:00",
+   "views": 77,
+   "likes": 1,
+   "comments": null,
+   "saves": null,
+   "shares": null,
+   "date": "2026-11-25",
+   "collected_at": "2026-11-25 21:19:24",
+   "video_key": "유튜브:X8EiUm2Vrd8"
   },
   {
    "character": "뼈톡 대만",
@@ -25420,9 +25589,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:XZfnr3aGPFU"
   },
   {
@@ -25438,9 +25606,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:ZOIXizpSgmw"
   },
   {
@@ -25456,9 +25623,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:ZtROO43IY6o"
   },
   {
@@ -25474,9 +25640,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:_qCcFRu69zo"
   },
   {
@@ -25492,9 +25657,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:_sY-opcKbg4"
   },
   {
@@ -25505,14 +25669,13 @@
    "url": "https://www.youtube.com/shorts/a9z6lN7yTyE",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T18:15",
-   "views": 0,
-   "likes": 0,
+   "views": 224,
+   "likes": 3,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:a9z6lN7yTyE"
   },
   {
@@ -25523,14 +25686,13 @@
    "url": "https://www.youtube.com/shorts/cMgUiNaTMlg",
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T12:00",
-   "views": 168,
+   "views": 169,
    "likes": 2,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:cMgUiNaTMlg"
   },
   {
@@ -25541,14 +25703,13 @@
    "url": "https://www.youtube.com/shorts/d6aNjzOod-Q",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T17:30",
-   "views": 0,
+   "views": 2,
    "likes": 0,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:d6aNjzOod-Q"
   },
   {
@@ -25559,14 +25720,13 @@
    "url": "https://www.youtube.com/shorts/dCYErxhX0Qc",
    "posted": "2026-10-28",
    "posted_at": "2026-10-28T21:35",
-   "views": 1828,
+   "views": 1830,
    "likes": 14,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:dCYErxhX0Qc"
   },
   {
@@ -25582,9 +25742,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:defq2ht7moo"
   },
   {
@@ -25600,10 +25759,26 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:eJlpbGVzSvo"
+  },
+  {
+   "character": "뇌해설 한국",
+   "platform": "유튜브",
+   "video_id": "eq_Bh85HcjY",
+   "title": "하품은 왜 옮을까",
+   "url": "https://www.youtube.com/shorts/eq_Bh85HcjY",
+   "posted": "2026-11-25",
+   "posted_at": "2026-11-25T18:23",
+   "views": 10,
+   "likes": 0,
+   "comments": null,
+   "saves": null,
+   "shares": null,
+   "date": "2026-11-25",
+   "collected_at": "2026-11-25 21:19:24",
+   "video_key": "유튜브:eq_Bh85HcjY"
   },
   {
    "character": "뼈톡 일본",
@@ -25613,14 +25788,13 @@
    "url": "https://www.youtube.com/shorts/f1fK9oKa7HU",
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T18:30",
-   "views": 16,
+   "views": 17,
    "likes": 0,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:f1fK9oKa7HU"
   },
   {
@@ -25636,9 +25810,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:f9kDySQet88"
   },
   {
@@ -25654,9 +25827,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:flobUQzCD3Y"
   },
   {
@@ -25667,14 +25839,13 @@
    "url": "https://www.youtube.com/shorts/fmsonfgq0pA",
    "posted": "2026-11-22",
    "posted_at": "2026-11-22T11:38",
-   "views": 18,
+   "views": 19,
    "likes": 0,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:fmsonfgq0pA"
   },
   {
@@ -25685,14 +25856,13 @@
    "url": "https://www.youtube.com/shorts/fv_yyGeIFPw",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T17:30",
-   "views": 0,
-   "likes": 0,
+   "views": 24,
+   "likes": 3,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:fv_yyGeIFPw"
   },
   {
@@ -25703,14 +25873,13 @@
    "url": "https://www.youtube.com/shorts/gZdn85AiOwo",
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T22:30",
-   "views": 1,
+   "views": 6,
    "likes": 0,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:gZdn85AiOwo"
   },
   {
@@ -25721,15 +25890,31 @@
    "url": "https://www.youtube.com/shorts/gjB8MQJta5I",
    "posted": "2026-11-10",
    "posted_at": "2026-11-10T18:00",
-   "views": 2350,
+   "views": 2352,
    "likes": 46,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:gjB8MQJta5I"
+  },
+  {
+   "character": "김춘자",
+   "platform": "유튜브",
+   "video_id": "guyD4XoAcVU",
+   "title": "미자랑 크리스마스 잠옷 챌린지 🎄💗",
+   "url": "https://www.youtube.com/shorts/guyD4XoAcVU",
+   "posted": "2026-11-25",
+   "posted_at": "2026-11-25T18:20",
+   "views": 860,
+   "likes": 12,
+   "comments": null,
+   "saves": null,
+   "shares": null,
+   "date": "2026-11-25",
+   "collected_at": "2026-11-25 21:19:24",
+   "video_key": "유튜브:guyD4XoAcVU"
   },
   {
    "character": "뇌해설 한국",
@@ -25739,14 +25924,13 @@
    "url": "https://www.youtube.com/shorts/hg3ZHdK_H2Y",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T16:40",
-   "views": 173,
-   "likes": 5,
+   "views": 215,
+   "likes": 6,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:hg3ZHdK_H2Y"
   },
   {
@@ -25762,9 +25946,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:iqoTTYtj6Wk"
   },
   {
@@ -25780,9 +25963,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:jJqHupglkuk"
   },
   {
@@ -25798,9 +25980,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:kY0x2ZXqhiY"
   },
   {
@@ -25816,9 +25997,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:kb-7xqaL2Mk"
   },
   {
@@ -25829,14 +26009,13 @@
    "url": "https://www.youtube.com/shorts/lONv9uMMPCw",
    "posted": "2026-11-01",
    "posted_at": "2026-11-01T22:13",
-   "views": 4063,
+   "views": 4072,
    "likes": 50,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:lONv9uMMPCw"
   },
   {
@@ -25847,14 +26026,13 @@
    "url": "https://www.youtube.com/shorts/lU4ZPBfnVeA",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T10:58",
-   "views": 0,
+   "views": 1,
    "likes": 0,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:lU4ZPBfnVeA"
   },
   {
@@ -25870,9 +26048,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:lm_SA9fUvrw"
   },
   {
@@ -25888,10 +26065,26 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:mmBlNqGEjyA"
+  },
+  {
+   "character": "뼈톡 대만",
+   "platform": "유튜브",
+   "video_id": "n7RpEpN-uUI",
+   "title": "딸꾹질, 바로 멈추는 법 🫁",
+   "url": "https://www.youtube.com/shorts/n7RpEpN-uUI",
+   "posted": "2026-11-25",
+   "posted_at": "2026-11-25T19:15",
+   "views": 0,
+   "likes": 0,
+   "comments": null,
+   "saves": null,
+   "shares": null,
+   "date": "2026-11-25",
+   "collected_at": "2026-11-25 21:19:24",
+   "video_key": "유튜브:n7RpEpN-uUI"
   },
   {
    "character": "김태식",
@@ -25906,9 +26099,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:nJt2vCT32JE"
   },
   {
@@ -25924,9 +26116,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:nPW1msRAmcI"
   },
   {
@@ -25942,9 +26133,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:oYFde5_3qcE"
   },
   {
@@ -25960,10 +26150,26 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:olzGszhnEog"
+  },
+  {
+   "character": "뇌해설 대만",
+   "platform": "유튜브",
+   "video_id": "oplxYD8DEkU",
+   "title": "아이스크림 먹으면 머리가 띵한 이유",
+   "url": "https://www.youtube.com/shorts/oplxYD8DEkU",
+   "posted": "2026-11-25",
+   "posted_at": "2026-11-25T18:33",
+   "views": 0,
+   "likes": 0,
+   "comments": null,
+   "saves": null,
+   "shares": null,
+   "date": "2026-11-25",
+   "collected_at": "2026-11-25 21:19:24",
+   "video_key": "유튜브:oplxYD8DEkU"
   },
   {
    "character": "김춘자",
@@ -25973,14 +26179,13 @@
    "url": "https://www.youtube.com/shorts/pFdfaNUaJoI",
    "posted": "2026-11-11",
    "posted_at": "2026-11-11T18:00",
-   "views": 1479,
+   "views": 1480,
    "likes": 9,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:pFdfaNUaJoI"
   },
   {
@@ -25996,9 +26201,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:pP85ZJqbn8c"
   },
   {
@@ -26014,9 +26218,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:pbx-kA9Q6gg"
   },
   {
@@ -26032,9 +26235,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:pn0OZQYJ4Ls"
   },
   {
@@ -26050,9 +26252,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:pvIZgfpltrk"
   },
   {
@@ -26068,9 +26269,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:q3ReUP9VXCk"
   },
   {
@@ -26086,9 +26286,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:q8SudDYsOqA"
   },
   {
@@ -26104,9 +26303,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:qBX7NsNbT_w"
   },
   {
@@ -26122,9 +26320,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:qON3bNUBdIE"
   },
   {
@@ -26135,14 +26332,13 @@
    "url": "https://www.youtube.com/shorts/r-KClEaADr0",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T18:15",
-   "views": 0,
-   "likes": 0,
+   "views": 56,
+   "likes": 1,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:r-KClEaADr0"
   },
   {
@@ -26158,9 +26354,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:rbuFqGTsrFE"
   },
   {
@@ -26176,9 +26371,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:s1jIDtc6QU0"
   },
   {
@@ -26194,9 +26388,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:shrc5uKEscE"
   },
   {
@@ -26207,14 +26400,13 @@
    "url": "https://www.youtube.com/shorts/tKdfR8mitw4",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T16:00",
-   "views": 0,
+   "views": 4,
    "likes": 0,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:tKdfR8mitw4"
   },
   {
@@ -26230,9 +26422,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:tbVCEzML_mk"
   },
   {
@@ -26248,9 +26439,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:u3hAUH-SQxU"
   },
   {
@@ -26266,10 +26456,26 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:uiEwm6ZfGNA"
+  },
+  {
+   "character": "뇌해설 한국",
+   "platform": "유튜브",
+   "video_id": "vR5BtDjXa6E",
+   "title": "아이스크림 먹으면 머리가 띵한 이유",
+   "url": "https://www.youtube.com/shorts/vR5BtDjXa6E",
+   "posted": "2026-11-25",
+   "posted_at": "2026-11-25T18:33",
+   "views": 0,
+   "likes": 0,
+   "comments": null,
+   "saves": null,
+   "shares": null,
+   "date": "2026-11-25",
+   "collected_at": "2026-11-25 21:19:24",
+   "video_key": "유튜브:vR5BtDjXa6E"
   },
   {
    "character": "뼈톡 일본",
@@ -26284,9 +26490,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:vgiPrYcwkgM"
   },
   {
@@ -26302,9 +26507,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:vsZAye2Zg1E"
   },
   {
@@ -26315,14 +26519,13 @@
    "url": "https://www.youtube.com/shorts/wqkQS64Muws",
    "posted": "2026-11-19",
    "posted_at": "2026-11-19T21:56",
-   "views": 4,
+   "views": 5,
    "likes": 0,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:wqkQS64Muws"
   },
   {
@@ -26338,9 +26541,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:xKjiZdcirHw"
   },
   {
@@ -26351,14 +26553,13 @@
    "url": "https://www.youtube.com/shorts/xYpq0Hm9704",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T16:40",
-   "views": 52,
+   "views": 82,
    "likes": 1,
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:xYpq0Hm9704"
   },
   {
@@ -26374,9 +26575,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:zEkGD9QGvBw"
   },
   {
@@ -26392,9 +26592,8 @@
    "comments": null,
    "saves": null,
    "shares": null,
-   "reach": null,
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 18:25:29",
+   "collected_at": "2026-11-25 21:19:24",
    "video_key": "유튜브:zjaey0cLZ1g"
   },
   {
@@ -26402,18 +26601,18 @@
    "platform": "인스타그램",
    "video_id": "Df0lv07BOvb",
    "url": "https://www.instagram.com/reel/Df0lv07BOvb/",
-   "views": 2821,
+   "views": 3065,
    "views_note": null,
    "likes": 9,
    "comments": 2,
    "saves": 0,
    "shares": 29,
-   "reach": 2175,
+   "reach": 2344,
    "title": "오랜만에 챌린지",
    "posted": "2026-11-17",
    "posted_at": "2026-11-17T08:58",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:Df0lv07BOvb"
   },
   {
@@ -26432,7 +26631,7 @@
    "posted": "2026-11-18",
    "posted_at": "2026-11-18T08:17",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:Df3FyvST-nz"
   },
   {
@@ -26440,18 +26639,18 @@
    "platform": "인스타그램",
    "video_id": "Df4InJbBDs0",
    "url": "https://www.instagram.com/reel/Df4InJbBDs0/",
-   "views": 2741,
+   "views": 3090,
    "views_note": null,
    "likes": 4,
    "comments": 0,
    "saves": 1,
-   "shares": 15,
-   "reach": 2079,
+   "shares": 16,
+   "reach": 2271,
    "title": "혼술바 도전",
    "posted": "2026-11-18",
    "posted_at": "2026-11-18T18:01",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:Df4InJbBDs0"
   },
   {
@@ -26470,7 +26669,7 @@
    "posted": "2026-11-19",
    "posted_at": "2026-11-19T17:49",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:Df6sB_iAtb3"
   },
   {
@@ -26478,18 +26677,18 @@
    "platform": "인스타그램",
    "video_id": "Df7H46sA6Si",
    "url": "https://www.instagram.com/reel/Df7H46sA6Si/",
-   "views": 50109,
+   "views": 52544,
    "views_note": null,
-   "likes": 528,
+   "likes": 547,
    "comments": 0,
-   "saves": 321,
+   "saves": 335,
    "shares": 305,
-   "reach": 41206,
+   "reach": 42957,
    "title": "살찌고 있다는 신호",
    "posted": "2026-11-19",
    "posted_at": "2026-11-19T21:52",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:Df7H46sA6Si"
   },
   {
@@ -26508,7 +26707,7 @@
    "posted": "2026-11-19",
    "posted_at": "2026-11-19T21:53",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:Df7H9ccgENx"
   },
   {
@@ -26527,7 +26726,7 @@
    "posted": "2026-11-19",
    "posted_at": "2026-11-19T21:50",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:Df7HsQrAsvN"
   },
   {
@@ -26535,18 +26734,18 @@
    "platform": "인스타그램",
    "video_id": "Df7HwM0g9ib",
    "url": "https://www.instagram.com/reel/Df7HwM0g9ib/",
-   "views": 14593,
+   "views": 14638,
    "views_note": null,
    "likes": 95,
    "comments": 0,
    "saves": 23,
    "shares": 104,
-   "reach": 10479,
+   "reach": 10502,
    "title": "방귀 참으면 생기는 일",
    "posted": "2026-11-19",
    "posted_at": "2026-11-19T21:51",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:Df7HwM0g9ib"
   },
   {
@@ -26565,7 +26764,7 @@
    "posted": "2026-11-19",
    "posted_at": "2026-11-19T21:53",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:Df7IB1lAC6R"
   },
   {
@@ -26584,7 +26783,7 @@
    "posted": "2026-11-19",
    "posted_at": "2026-11-19T21:55",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:Df7IOLsAn-r"
   },
   {
@@ -26592,18 +26791,18 @@
    "platform": "인스타그램",
    "video_id": "Df7ISskAJex",
    "url": "https://www.instagram.com/reel/Df7ISskAJex/",
-   "views": 977789,
+   "views": 980211,
    "views_note": null,
-   "likes": 5309,
+   "likes": 5321,
    "comments": 12,
-   "saves": 2489,
+   "saves": 2492,
    "shares": 2932,
-   "reach": 710065,
+   "reach": 711779,
    "title": "흰머리 뽑으면 생기는 일",
    "posted": "2026-11-19",
    "posted_at": "2026-11-19T21:55",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:Df7ISskAJex"
   },
   {
@@ -26622,7 +26821,7 @@
    "posted": "2026-11-19",
    "posted_at": "2026-11-19T21:58",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:Df7Ikn2APIC"
   },
   {
@@ -26641,7 +26840,7 @@
    "posted": "2026-11-20",
    "posted_at": "2026-11-20T14:54",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:Df883niAJit"
   },
   {
@@ -26649,18 +26848,18 @@
    "platform": "인스타그램",
    "video_id": "Df88zBXg_R3",
    "url": "https://www.instagram.com/reel/Df88zBXg_R3/",
-   "views": 29818,
+   "views": 30020,
    "views_note": null,
    "likes": 54,
    "comments": 0,
-   "saves": 12,
+   "saves": 13,
    "shares": 21,
-   "reach": 24221,
+   "reach": 24333,
    "title": "코털 뽑으면 생기는 일",
    "posted": "2026-11-20",
    "posted_at": "2026-11-20T14:54",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:Df88zBXg_R3"
   },
   {
@@ -26679,7 +26878,7 @@
    "posted": "2026-11-20",
    "posted_at": "2026-11-20T15:03",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:Df898KvgZ3m"
   },
   {
@@ -26687,18 +26886,18 @@
    "platform": "인스타그램",
    "video_id": "DfCNK6wyRw8",
    "url": "https://www.instagram.com/reel/DfCNK6wyRw8/",
-   "views": 1141,
+   "views": 1252,
    "views_note": null,
-   "likes": 9,
+   "likes": 10,
    "comments": 6,
    "saves": 1,
    "shares": 9,
-   "reach": 676,
+   "reach": 754,
    "title": "번따 브이로그",
    "posted": "2026-10-28",
    "posted_at": "2026-10-28T19:23",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DfCNK6wyRw8"
   },
   {
@@ -26706,18 +26905,18 @@
    "platform": "인스타그램",
    "video_id": "DfCdIE7hACZ",
    "url": "https://www.instagram.com/reel/DfCdIE7hACZ/",
-   "views": 2076,
+   "views": 2163,
    "views_note": null,
    "likes": 18,
    "comments": 0,
    "saves": 3,
    "shares": 10,
-   "reach": 1643,
+   "reach": 1704,
    "title": "나이트 루틴",
    "posted": "2026-10-28",
    "posted_at": "2026-10-28T21:41",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DfCdIE7hACZ"
   },
   {
@@ -26725,18 +26924,18 @@
    "platform": "인스타그램",
    "video_id": "DfEpEGghe9z",
    "url": "https://www.instagram.com/reel/DfEpEGghe9z/",
-   "views": 1062,
+   "views": 1156,
    "views_note": null,
    "likes": 4,
    "comments": 0,
    "saves": 0,
    "shares": 20,
-   "reach": 767,
+   "reach": 847,
    "title": "연하남 데이트 썰",
    "posted": "2026-10-29",
    "posted_at": "2026-10-29T18:04",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DfEpEGghe9z"
   },
   {
@@ -26744,18 +26943,18 @@
    "platform": "인스타그램",
    "video_id": "DfHNfzLBwje",
    "url": "https://www.instagram.com/reel/DfHNfzLBwje/",
-   "views": 1952,
+   "views": 2062,
    "views_note": null,
    "likes": 9,
    "comments": 0,
    "saves": 1,
    "shares": 2,
-   "reach": 1394,
+   "reach": 1462,
    "title": "테토할배 헬스장",
    "posted": "2026-10-30",
    "posted_at": "2026-10-30T18:00",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DfHNfzLBwje"
   },
   {
@@ -26763,18 +26962,18 @@
    "platform": "인스타그램",
    "video_id": "DfOMWAhh_TP",
    "url": "https://www.instagram.com/reel/DfOMWAhh_TP/",
-   "views": 1140,
+   "views": 1243,
    "views_note": null,
    "likes": 8,
    "comments": 1,
    "saves": 0,
    "shares": 11,
-   "reach": 879,
+   "reach": 959,
    "title": "L을 가져가 챌린지",
    "posted": "2026-11-02",
    "posted_at": "2026-11-02T11:05",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DfOMWAhh_TP"
   },
   {
@@ -26782,18 +26981,18 @@
    "platform": "인스타그램",
    "video_id": "DfUKq3mhK1r",
    "url": "https://www.instagram.com/reel/DfUKq3mhK1r/",
-   "views": 4143,
+   "views": 4295,
    "views_note": null,
    "likes": 14,
    "comments": 4,
    "saves": 1,
    "shares": 40,
-   "reach": 2753,
+   "reach": 2867,
    "title": "테토할배와 국밥 데이트",
    "posted": "2026-11-04",
    "posted_at": "2026-11-04T18:46",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DfUKq3mhK1r"
   },
   {
@@ -26801,18 +27000,18 @@
    "platform": "인스타그램",
    "video_id": "DfZOG09BuLM",
    "url": "https://www.instagram.com/reel/DfZOG09BuLM/",
-   "views": 12964,
+   "views": 13118,
    "views_note": null,
    "likes": 46,
    "comments": 0,
    "saves": 6,
    "shares": 239,
-   "reach": 8987,
+   "reach": 9139,
    "title": "테토할배 데이트 후기",
    "posted": "2026-11-06",
    "posted_at": "2026-11-06T17:52",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DfZOG09BuLM"
   },
   {
@@ -26820,18 +27019,18 @@
    "platform": "인스타그램",
    "video_id": "DfifCG7y_5l",
    "url": "https://www.instagram.com/reel/DfifCG7y_5l/",
-   "views": 30246,
+   "views": 30632,
    "views_note": null,
    "likes": 141,
    "comments": 2,
    "saves": 26,
-   "shares": 266,
-   "reach": 22207,
+   "shares": 270,
+   "reach": 22451,
    "title": "미자랑 엽떡 파티",
    "posted": "2026-11-10",
    "posted_at": "2026-11-10T08:14",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DfifCG7y_5l"
   },
   {
@@ -26850,7 +27049,7 @@
    "posted": "2026-11-10",
    "posted_at": "2026-11-10T08:32",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DfihCIczRCw"
   },
   {
@@ -26858,18 +27057,18 @@
    "platform": "인스타그램",
    "video_id": "DfmVc1hSRrE",
    "url": "https://www.instagram.com/reel/DfmVc1hSRrE/",
-   "views": 2812,
+   "views": 3030,
    "views_note": null,
    "likes": 7,
    "comments": 6,
    "saves": 0,
    "shares": 30,
-   "reach": 2135,
+   "reach": 2255,
    "title": "산스장에서 테토할배 찾기",
    "posted": "2026-11-11",
    "posted_at": "2026-11-11T20:06",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DfmVc1hSRrE"
   },
   {
@@ -26877,7 +27076,7 @@
    "platform": "인스타그램",
    "video_id": "Dfo8bZsNJk9",
    "url": "https://www.instagram.com/reel/Dfo8bZsNJk9/",
-   "views": 3632,
+   "views": 3633,
    "views_note": null,
    "likes": 12,
    "comments": 0,
@@ -26888,7 +27087,7 @@
    "posted": "2026-11-12",
    "posted_at": "2026-11-12T20:25",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:Dfo8bZsNJk9"
   },
   {
@@ -26896,18 +27095,18 @@
    "platform": "인스타그램",
    "video_id": "DfosDmohYvC",
    "url": "https://www.instagram.com/reel/DfosDmohYvC/",
-   "views": 4989,
+   "views": 5240,
    "views_note": null,
    "likes": 17,
    "comments": 1,
    "saves": 1,
    "shares": 122,
-   "reach": 3543,
+   "reach": 3690,
    "title": "썸남 여친 본 썰",
    "posted": "2026-11-12",
    "posted_at": "2026-11-12T18:02",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DfosDmohYvC"
   },
   {
@@ -26926,7 +27125,7 @@
    "posted": "2026-11-12",
    "posted_at": "2026-11-12T18:08",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DfoswKxtWiG"
   },
   {
@@ -26945,7 +27144,7 @@
    "posted": "2026-11-13",
    "posted_at": "2026-11-13T18:37",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DfrUsl3zdUa"
   },
   {
@@ -26964,7 +27163,7 @@
    "posted": "2026-11-22",
    "posted_at": "2026-11-22T11:38",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgBv_rjB9Ak"
   },
   {
@@ -26972,18 +27171,18 @@
    "platform": "인스타그램",
    "video_id": "DgBwD4cphNg",
    "url": "https://www.instagram.com/reel/DgBwD4cphNg/",
-   "views": 2095,
+   "views": 2114,
    "views_note": null,
    "likes": 3,
    "comments": 0,
    "saves": 4,
    "shares": 4,
-   "reach": 1679,
+   "reach": 1693,
    "title": "머리 안 말리고 자면 탈모 온다?",
    "posted": "2026-11-22",
    "posted_at": "2026-11-22T11:38",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgBwD4cphNg"
   },
   {
@@ -27002,7 +27201,7 @@
    "posted": "2026-11-22",
    "posted_at": "2026-11-22T11:39",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgBwIMLnbJF"
   },
   {
@@ -27010,18 +27209,18 @@
    "platform": "인스타그램",
    "video_id": "DgCH1qcB80t",
    "url": "https://www.instagram.com/reel/DgCH1qcB80t/",
-   "views": 1417,
+   "views": 1432,
    "views_note": null,
    "likes": 3,
    "comments": 0,
    "saves": 1,
    "shares": 2,
-   "reach": 1148,
+   "reach": 1159,
    "title": "소변 참으면 방광이 늘어난다?",
    "posted": "2026-11-22",
    "posted_at": "2026-11-22T15:06",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgCH1qcB80t"
   },
   {
@@ -27040,7 +27239,7 @@
    "posted": "2026-11-22",
    "posted_at": "2026-11-22T15:07",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgCH6OzFUjD"
   },
   {
@@ -27059,7 +27258,7 @@
    "posted": "2026-11-22",
    "posted_at": "2026-11-22T15:06",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgCHxhmMBIs"
   },
   {
@@ -27078,7 +27277,7 @@
    "posted": "2026-11-22",
    "posted_at": "2026-11-22T15:48",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgCMk4_Bacb"
   },
   {
@@ -27086,18 +27285,18 @@
    "platform": "인스타그램",
    "video_id": "DgCMptptqhg",
    "url": "https://www.instagram.com/reel/DgCMptptqhg/",
-   "views": 1328,
+   "views": 1344,
    "views_note": null,
    "likes": 2,
    "comments": 0,
    "saves": 3,
    "shares": 0,
-   "reach": 1085,
+   "reach": 1098,
    "title": "손가락 꺾으면 관절염 걸린다?",
    "posted": "2026-11-22",
    "posted_at": "2026-11-22T15:48",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgCMptptqhg"
   },
   {
@@ -27116,7 +27315,7 @@
    "posted": "2026-11-22",
    "posted_at": "2026-11-22T15:49",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgCMuOzDgEz"
   },
   {
@@ -27135,7 +27334,7 @@
    "posted": "2026-11-22",
    "posted_at": "2026-11-22T16:30",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgCRZVMhjOg"
   },
   {
@@ -27154,7 +27353,7 @@
    "posted": "2026-11-22",
    "posted_at": "2026-11-22T16:31",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgCRiWwIT3U"
   },
   {
@@ -27162,18 +27361,18 @@
    "platform": "인스타그램",
    "video_id": "DgCRo97vvab",
    "url": "https://www.instagram.com/reel/DgCRo97vvab/",
-   "views": 1365,
+   "views": 1385,
    "views_note": null,
    "likes": 5,
    "comments": 0,
    "saves": 4,
    "shares": 1,
-   "reach": 1141,
+   "reach": 1155,
    "title": "몇 시간째 앉아 있어? 종아리가 멈춰",
    "posted": "2026-11-22",
    "posted_at": "2026-11-22T16:32",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgCRo97vvab"
   },
   {
@@ -27181,18 +27380,18 @@
    "platform": "인스타그램",
    "video_id": "DgCWTATBVTL",
    "url": "https://www.instagram.com/reel/DgCWTATBVTL/",
-   "views": 4667,
+   "views": 4685,
    "views_note": null,
    "likes": 14,
    "comments": 0,
    "saves": 7,
    "shares": 1,
-   "reach": 4260,
+   "reach": 4270,
    "title": "밥 먹고 바로 누우면 생기는 일",
    "posted": "2026-11-22",
    "posted_at": "2026-11-22T17:13",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgCWTATBVTL"
   },
   {
@@ -27211,7 +27410,7 @@
    "posted": "2026-11-22",
    "posted_at": "2026-11-22T17:13",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgCWXekm0_F"
   },
   {
@@ -27230,7 +27429,7 @@
    "posted": "2026-11-22",
    "posted_at": "2026-11-22T17:14",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgCWeP7h-tn"
   },
   {
@@ -27249,7 +27448,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T16:39",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgE3S9XgKOR"
   },
   {
@@ -27268,7 +27467,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T16:40",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgE3ayCAItx"
   },
   {
@@ -27287,7 +27486,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T16:42",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgE3jDVgFkD"
   },
   {
@@ -27306,7 +27505,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T17:47",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgE_BcEPNxJ"
   },
   {
@@ -27325,7 +27524,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T17:50",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgE_UtfJ5dZ"
   },
   {
@@ -27344,7 +27543,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T12:35",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgEbV7SgGAX"
   },
   {
@@ -27363,7 +27562,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T12:36",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgEbb9bgK9H"
   },
   {
@@ -27382,7 +27581,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T12:36",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgEbgBUAOXO"
   },
   {
@@ -27401,7 +27600,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T14:37",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgEpV7HgMiM"
   },
   {
@@ -27420,7 +27619,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T14:40",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgEplxfACCh"
   },
   {
@@ -27439,7 +27638,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T14:41",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgEpuDmANhd"
   },
   {
@@ -27458,7 +27657,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T18:16",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgFCVxEBJZ8"
   },
   {
@@ -27477,7 +27676,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T18:41",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgFFQWrgHYx"
   },
   {
@@ -27496,7 +27695,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T18:42",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgFFYVHgIV3"
   },
   {
@@ -27515,7 +27714,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T18:44",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgFFgaTAKR7"
   },
   {
@@ -27534,7 +27733,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T20:40",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgFS1i7gLOO"
   },
   {
@@ -27553,7 +27752,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T20:39",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgFSswwA_WI"
   },
   {
@@ -27561,18 +27760,18 @@
    "platform": "인스타그램",
    "video_id": "DgFSxBdgTSq",
    "url": "https://www.instagram.com/reel/DgFSxBdgTSq/",
-   "views": 2734,
+   "views": 2749,
    "views_note": null,
    "likes": 14,
    "comments": 0,
    "saves": 4,
    "shares": 2,
-   "reach": 2177,
+   "reach": 2188,
    "title": "차에서 폰 보면 왜 울렁거릴까?",
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T20:39",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgFSxBdgTSq"
   },
   {
@@ -27591,7 +27790,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T20:45",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgFTbYBALoH"
   },
   {
@@ -27610,7 +27809,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T20:59",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgFU_P-g9Mz"
   },
   {
@@ -27629,7 +27828,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T21:08",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgFV-HfJmMf"
   },
   {
@@ -27648,7 +27847,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T21:02",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgFVXOkSBt2"
   },
   {
@@ -27667,7 +27866,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T21:04",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgFVncqvEbY"
   },
   {
@@ -27686,7 +27885,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T21:11",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgFWXGBtmlz"
   },
   {
@@ -27705,7 +27904,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T21:23",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgFXr7epPtp"
   },
   {
@@ -27724,7 +27923,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T21:26",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgFYGVLgq24"
   },
   {
@@ -27732,18 +27931,18 @@
    "platform": "인스타그램",
    "video_id": "DgFYKu-AGzQ",
    "url": "https://www.instagram.com/reel/DgFYKu-AGzQ/",
-   "views": 883,
+   "views": 897,
    "views_note": null,
    "likes": 2,
    "comments": 0,
    "saves": 5,
    "shares": 0,
-   "reach": 730,
+   "reach": 740,
    "title": "물 없이 약 삼키면 일어나는 일",
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T21:27",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgFYKu-AGzQ"
   },
   {
@@ -27762,7 +27961,7 @@
    "posted": "2026-11-23",
    "posted_at": "2026-11-23T21:27",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgFYO7ggDQB"
   },
   {
@@ -27781,7 +27980,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T11:15",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgG2_kpAPEh"
   },
   {
@@ -27800,7 +27999,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T11:16",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgG3ELkgHXF"
   },
   {
@@ -27819,7 +28018,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T11:17",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgG3MabgB07"
   },
   {
@@ -27838,7 +28037,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T12:00",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgG8Kb2gGmP"
   },
   {
@@ -27857,7 +28056,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T12:00",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgG8KkngPsz"
   },
   {
@@ -27876,7 +28075,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T12:03",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgG8dlYAIMg"
   },
   {
@@ -27895,7 +28094,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T09:41",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgGsObwtxE0"
   },
   {
@@ -27914,7 +28113,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T09:43",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgGserPghFs"
   },
   {
@@ -27933,7 +28132,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T09:46",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgGsw_cyynQ"
   },
   {
@@ -27952,7 +28151,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T20:30",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgH2gtYgMII"
   },
   {
@@ -27971,7 +28170,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T20:31",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgH2pDcgMFn"
   },
   {
@@ -27990,7 +28189,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T20:32",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgH2xP2gOTq"
   },
   {
@@ -28009,7 +28208,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T13:17",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgHE6DhAFOe"
   },
   {
@@ -28028,7 +28227,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T13:15",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgHEt8eAChv"
   },
   {
@@ -28047,7 +28246,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T13:16",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgHEx79AAwc"
   },
   {
@@ -28066,7 +28265,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T14:44",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgHO35VvcqD"
   },
   {
@@ -28085,7 +28284,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T14:38",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgHOJZFpg9n"
   },
   {
@@ -28093,7 +28292,7 @@
    "platform": "인스타그램",
    "video_id": "DgHOXuwpUl9",
    "url": "https://www.instagram.com/reel/DgHOXuwpUl9/",
-   "views": 1125,
+   "views": 1126,
    "views_note": null,
    "likes": 6,
    "comments": 0,
@@ -28104,7 +28303,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T14:40",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgHOXuwpUl9"
   },
   {
@@ -28112,18 +28311,18 @@
    "platform": "인스타그램",
    "video_id": "DgHOmUuJyuj",
    "url": "https://www.instagram.com/reel/DgHOmUuJyuj/",
-   "views": 2933,
+   "views": 2934,
    "views_note": null,
    "likes": 13,
    "comments": 0,
    "saves": 2,
    "shares": 0,
-   "reach": 2348,
+   "reach": 2349,
    "title": "사랑니 뽑고 빨대 사용 괜찮을까?",
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T14:41",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgHOmUuJyuj"
   },
   {
@@ -28142,7 +28341,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T14:46",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgHPF8rvh8b"
   },
   {
@@ -28161,7 +28360,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T15:19",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgHS3xmhoe7"
   },
   {
@@ -28180,7 +28379,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T15:15",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgHSfGzABfG"
   },
   {
@@ -28199,7 +28398,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T15:16",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgHSjtlgFBj"
   },
   {
@@ -28218,7 +28417,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T15:17",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgHSr8TAB8_"
   },
   {
@@ -28237,7 +28436,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T16:51",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgHdY82vNaU"
   },
   {
@@ -28245,18 +28444,18 @@
    "platform": "인스타그램",
    "video_id": "DgHefnIgneq",
    "url": "https://www.instagram.com/reel/DgHefnIgneq/",
-   "views": 82088,
+   "views": 90043,
    "views_note": null,
-   "likes": 669,
-   "comments": 2,
+   "likes": 742,
+   "comments": 3,
    "saves": 65,
    "shares": 2264,
-   "reach": 58682,
+   "reach": 65316,
    "title": "미자랑 소시 챌린지",
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T17:00",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgHefnIgneq"
   },
   {
@@ -28275,7 +28474,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T17:16",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgHgOqZAOvB"
   },
   {
@@ -28294,7 +28493,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T17:17",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgHgXHSgDs1"
   },
   {
@@ -28313,7 +28512,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T18:31",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgHo5x1AOb3"
   },
   {
@@ -28332,7 +28531,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T18:30",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgHox0bALg-"
   },
   {
@@ -28351,7 +28550,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T18:32",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgHpB3kgH_j"
   },
   {
@@ -28359,18 +28558,18 @@
    "platform": "인스타그램",
    "video_id": "DgHsMK1gSyk",
    "url": "https://www.instagram.com/reel/DgHsMK1gSyk/",
-   "views": 3664,
+   "views": 4045,
    "views_note": null,
-   "likes": 23,
+   "likes": 26,
    "comments": 0,
    "saves": 1,
    "shares": 1,
-   "reach": 2817,
+   "reach": 3011,
    "title": "거의 60년전 리즈시절 공개합니다....☺️💗",
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T19:00",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgHsMK1gSyk"
   },
   {
@@ -28389,7 +28588,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T22:30",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgIEO3JANSE"
   },
   {
@@ -28408,7 +28607,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T22:31",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgIEXHegHrU"
   },
   {
@@ -28427,7 +28626,7 @@
    "posted": "2026-11-24",
    "posted_at": "2026-11-24T22:32",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgIEfpdAJrm"
   },
   {
@@ -28446,7 +28645,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T16:00",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgJ8a_0Al_H"
   },
   {
@@ -28454,18 +28653,18 @@
    "platform": "인스타그램",
    "video_id": "DgJ8fXZg5Fm",
    "url": "https://www.instagram.com/reel/DgJ8fXZg5Fm/",
-   "views": 419,
+   "views": 440,
    "views_note": null,
    "likes": 2,
    "comments": 0,
    "saves": 2,
    "shares": 0,
-   "reach": 318,
+   "reach": 335,
    "title": "이가 누래지는 이유",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T16:01",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgJ8fXZg5Fm"
   },
   {
@@ -28484,7 +28683,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T16:02",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgJ8jnsg1-b"
   },
   {
@@ -28503,7 +28702,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T16:30",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgJ_3MKg2dH"
   },
   {
@@ -28522,7 +28721,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T16:31",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgJ_7JMgAFp"
   },
   {
@@ -28541,7 +28740,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T11:16",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgJb5mngfvj"
   },
   {
@@ -28560,7 +28759,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T11:10",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgJbPVqh7pm"
   },
   {
@@ -28579,7 +28778,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T11:12",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgJbcXnOdQ0"
   },
   {
@@ -28598,7 +28797,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T11:15",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgJbxrCgkM6"
   },
   {
@@ -28617,7 +28816,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T11:17",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgJcCXnAN7s"
   },
   {
@@ -28636,7 +28835,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T13:15",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgJpgr0A7sX"
   },
   {
@@ -28655,7 +28854,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T13:16",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgJpoKWg0hE"
   },
   {
@@ -28674,7 +28873,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T13:17",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgJpwCSgYNG"
   },
   {
@@ -28682,18 +28881,18 @@
    "platform": "인스타그램",
    "video_id": "DgKAATzgsAt",
    "url": "https://www.instagram.com/reel/DgKAATzgsAt/",
-   "views": 73,
+   "views": 75,
    "views_note": null,
    "likes": 0,
    "comments": 0,
    "saves": 0,
    "shares": 0,
-   "reach": 57,
+   "reach": 58,
    "title": "녹음한 내 목소리가 이상한 이유",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T16:32",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKAATzgsAt"
   },
   {
@@ -28712,7 +28911,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T16:32",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKAFBFAqUW"
   },
   {
@@ -28731,7 +28930,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T16:33",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKAJ0gg95-"
   },
   {
@@ -28750,7 +28949,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T16:34",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKAOwgg0zN"
   },
   {
@@ -28758,18 +28957,18 @@
    "platform": "인스타그램",
    "video_id": "DgKDRAzgUqC",
    "url": "https://www.instagram.com/reel/DgKDRAzgUqC/",
-   "views": 17516,
+   "views": 22684,
    "views_note": null,
-   "likes": 140,
+   "likes": 186,
    "comments": 0,
-   "saves": 23,
+   "saves": 30,
    "shares": 986,
-   "reach": 12526,
+   "reach": 15019,
    "title": "82살 김춘자, 나이트 브이로그🩷",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T17:00",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKDRAzgUqC"
   },
   {
@@ -28777,7 +28976,7 @@
    "platform": "인스타그램",
    "video_id": "DgKG2E-g1e-",
    "url": "https://www.instagram.com/reel/DgKG2E-g1e-/",
-   "views": 2,
+   "views": 3,
    "views_note": null,
    "likes": 0,
    "comments": 0,
@@ -28788,7 +28987,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T17:31",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKG2E-g1e-"
   },
   {
@@ -28807,7 +29006,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T17:30",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKGtn9gfwp"
   },
   {
@@ -28815,18 +29014,18 @@
    "platform": "인스타그램",
    "video_id": "DgKGxjfA28B",
    "url": "https://www.instagram.com/reel/DgKGxjfA28B/",
-   "views": 272,
+   "views": 301,
    "views_note": null,
    "likes": 2,
    "comments": 0,
    "saves": 0,
    "shares": 0,
-   "reach": 228,
+   "reach": 247,
    "title": "새벽까지 폰 보면 살이 안 빠지는 이유",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T17:31",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKGxjfA28B"
   },
   {
@@ -28845,7 +29044,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T18:15",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKL1EtAIap"
   },
   {
@@ -28864,7 +29063,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T18:15",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKL2YjAMrR"
   },
   {
@@ -28872,18 +29071,18 @@
    "platform": "인스타그램",
    "video_id": "DgKL5v5A8Ic",
    "url": "https://www.instagram.com/reel/DgKL5v5A8Ic/",
-   "views": 271,
+   "views": 293,
    "views_note": null,
    "likes": 2,
    "comments": 0,
    "saves": 1,
    "shares": 0,
-   "reach": 201,
+   "reach": 226,
    "title": "팔자주름 깊어지는 이유",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T18:16",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKL5v5A8Ic"
   },
   {
@@ -28902,7 +29101,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T18:16",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKL93mAZd3"
   },
   {
@@ -28910,18 +29109,18 @@
    "platform": "인스타그램",
    "video_id": "DgKLs6NAAcX",
    "url": "https://www.instagram.com/reel/DgKLs6NAAcX/",
-   "views": 29,
+   "views": 31,
    "views_note": null,
    "likes": 0,
    "comments": 0,
    "saves": 0,
    "shares": 0,
-   "reach": 29,
+   "reach": 31,
    "title": "하품은 왜 옮을까",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T18:14",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKLs6NAAcX"
   },
   {
@@ -28929,18 +29128,18 @@
    "platform": "인스타그램",
    "video_id": "DgKLxs0Aedo",
    "url": "https://www.instagram.com/reel/DgKLxs0Aedo/",
-   "views": 82,
+   "views": 98,
    "views_note": null,
    "likes": 1,
    "comments": 0,
    "saves": 0,
    "shares": 0,
-   "reach": 75,
+   "reach": 87,
    "title": "하품은 왜 옮을까",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T18:15",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKLxs0Aedo"
   },
   {
@@ -28959,7 +29158,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T18:25",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKM-VTgc3N"
   },
   {
@@ -28967,7 +29166,7 @@
    "platform": "인스타그램",
    "video_id": "DgKM0wig5CE",
    "url": "https://www.instagram.com/reel/DgKM0wig5CE/",
-   "views": 128,
+   "views": 129,
    "views_note": null,
    "likes": 1,
    "comments": 0,
@@ -28978,7 +29177,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T18:24",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKM0wig5CE"
   },
   {
@@ -28986,7 +29185,7 @@
    "platform": "인스타그램",
    "video_id": "DgKM5U8g00y",
    "url": "https://www.instagram.com/reel/DgKM5U8g00y/",
-   "views": 165,
+   "views": 167,
    "views_note": null,
    "likes": 1,
    "comments": 0,
@@ -28997,7 +29196,7 @@
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T18:24",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKM5U8g00y"
   },
   {
@@ -29005,18 +29204,18 @@
    "platform": "인스타그램",
    "video_id": "DgKMXP_A4LN",
    "url": "https://www.instagram.com/reel/DgKMXP_A4LN/",
-   "views": 2227,
+   "views": 2582,
    "views_note": null,
    "likes": 11,
    "comments": 0,
    "saves": 0,
    "shares": 24,
-   "reach": 1695,
+   "reach": 2110,
    "title": "미자랑 크리스마스 잠옷 챌린지 🎄💗",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T18:20",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKMXP_A4LN"
   },
   {
@@ -29024,18 +29223,18 @@
    "platform": "인스타그램",
    "video_id": "DgKRBGNAq0t",
    "url": "https://www.instagram.com/reel/DgKRBGNAq0t/",
-   "views": 878,
+   "views": 1259,
    "views_note": null,
-   "likes": 4,
+   "likes": 5,
    "comments": 0,
    "saves": 1,
    "shares": 2,
-   "reach": 526,
+   "reach": 945,
    "title": "머리카락 한꺼번에 빠지는 이유",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T19:00",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKRBGNAq0t"
   },
   {
@@ -29043,18 +29242,18 @@
    "platform": "인스타그램",
    "video_id": "DgKRFLbg0LD",
    "url": "https://www.instagram.com/reel/DgKRFLbg0LD/",
-   "views": 219,
+   "views": 242,
    "views_note": null,
    "likes": 0,
    "comments": 0,
    "saves": 0,
    "shares": 0,
-   "reach": 179,
+   "reach": 197,
    "title": "머리카락 한꺼번에 빠지는 이유",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T19:01",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKRFLbg0LD"
   },
   {
@@ -29062,18 +29261,18 @@
    "platform": "인스타그램",
    "video_id": "DgKRJatgAIH",
    "url": "https://www.instagram.com/reel/DgKRJatgAIH/",
-   "views": 118,
+   "views": 131,
    "views_note": null,
    "likes": 1,
    "comments": 0,
    "saves": 1,
    "shares": 1,
-   "reach": 82,
+   "reach": 114,
    "title": "머리카락 한꺼번에 빠지는 이유",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T19:01",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKRJatgAIH"
   },
   {
@@ -29081,18 +29280,18 @@
    "platform": "인스타그램",
    "video_id": "DgKbTAFAXXk",
    "url": "https://www.instagram.com/reel/DgKbTAFAXXk/",
-   "views": 0,
+   "views": 737,
    "views_note": null,
-   "likes": 0,
+   "likes": 2,
    "comments": 0,
    "saves": 0,
    "shares": 0,
-   "reach": 0,
+   "reach": 114,
    "title": "다크서클 진해지는 이유",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T20:30",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKbTAFAXXk"
   },
   {
@@ -29100,18 +29299,18 @@
    "platform": "인스타그램",
    "video_id": "DgKbXUtgDkh",
    "url": "https://www.instagram.com/reel/DgKbXUtgDkh/",
-   "views": 42,
+   "views": 284,
    "views_note": null,
-   "likes": 1,
+   "likes": 5,
    "comments": 0,
-   "saves": 0,
+   "saves": 1,
    "shares": 0,
-   "reach": 0,
+   "reach": 60,
    "title": "다크서클 진해지는 이유",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T20:31",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKbXUtgDkh"
   },
   {
@@ -29119,18 +29318,18 @@
    "platform": "인스타그램",
    "video_id": "DgKbbvJgdiA",
    "url": "https://www.instagram.com/reel/DgKbbvJgdiA/",
-   "views": 0,
+   "views": 84,
    "views_note": null,
    "likes": 0,
    "comments": 0,
    "saves": 0,
    "shares": 0,
-   "reach": 0,
+   "reach": 19,
    "title": "다크서클 진해지는 이유",
    "posted": "2026-11-25",
    "posted_at": "2026-11-25T20:31",
    "date": "2026-11-25",
-   "collected_at": "2026-11-25 20:47:05",
+   "collected_at": "2026-11-25 21:16:50",
    "video_key": "인스타그램:DgKbbvJgdiA"
   },
   {
@@ -29282,7 +29481,8 @@
    "reach": null,
    "date": "2026-11-25",
    "collected_at": "2026-11-25 18:25:29",
-   "video_key": "틱톡:7706192881974840597"
+   "video_key": "틱톡:7706192881974840597",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -29319,7 +29519,8 @@
    "reach": null,
    "date": "2026-11-25",
    "collected_at": "2026-11-25 18:25:29",
-   "video_key": "틱톡:7706830830185860372"
+   "video_key": "틱톡:7706830830185860372",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -29375,7 +29576,8 @@
    "reach": null,
    "date": "2026-11-25",
    "collected_at": "2026-11-25 18:25:29",
-   "video_key": "틱톡:7707210793007271174"
+   "video_key": "틱톡:7707210793007271174",
+   "archived": true
   },
   {
    "character": "김태식",
@@ -29393,7 +29595,8 @@
    "reach": null,
    "date": "2026-11-25",
    "collected_at": "2026-11-25 18:25:29",
-   "video_key": "틱톡:7707582586381552902"
+   "video_key": "틱톡:7707582586381552902",
+   "archived": true
   },
   {
    "character": "김춘자",
@@ -29430,7 +29633,8 @@
    "reach": null,
    "date": "2026-11-25",
    "collected_at": "2026-11-25 18:25:29",
-   "video_key": "틱톡:7709142283186146566"
+   "video_key": "틱톡:7709142283186146566",
+   "archived": true
   },
   {
    "character": "김춘자",
