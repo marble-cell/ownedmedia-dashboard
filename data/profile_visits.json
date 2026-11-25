@@ -388,6 +388,15 @@
    "source": "TikTok Studio pv_history"
   },
   {
+   "date": "2026-11-22",
+   "character": "김태식",
+   "platform": "틱톡",
+   "daily": 0,
+   "total": 4,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
+  },
+  {
    "date": "2026-11-23",
    "character": "건강봇 대만",
    "platform": "인스타그램",
@@ -440,6 +449,15 @@
    "total": 141,
    "link_taps": 1,
    "source": "Graph API insights 10/28~"
+  },
+  {
+   "date": "2026-11-23",
+   "character": "김태식",
+   "platform": "틱톡",
+   "daily": 0,
+   "total": 4,
+   "link_taps": null,
+   "source": "TikTok Studio pv_history"
   },
   {
    "date": "2026-11-23",
@@ -635,7 +653,7 @@
    "character": "건강봇 일본",
    "platform": "인스타그램",
    "daily": null,
-   "total": 5041,
+   "total": 5168,
    "link_taps": 4,
    "source": "Graph API insights 10/28~"
   },
@@ -644,7 +662,7 @@
    "character": "건강봇 한국",
    "platform": "인스타그램",
    "daily": null,
-   "total": 16,
+   "total": 17,
    "link_taps": 0,
    "source": "Graph API insights 10/28~"
   },
@@ -653,7 +671,7 @@
    "character": "김춘자",
    "platform": "인스타그램",
    "daily": null,
-   "total": 994,
+   "total": 1144,
    "link_taps": 10,
    "source": "Graph API insights 10/28~"
   },
@@ -680,7 +698,7 @@
    "character": "냉미남 일본",
    "platform": "인스타그램",
    "daily": null,
-   "total": 5,
+   "total": 6,
    "link_taps": 0,
    "source": "Graph API insights 10/28~"
   },
