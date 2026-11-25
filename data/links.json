@@ -228,8 +228,16 @@
    "date": "2026-11-25",
    "character": "김춘자",
    "media_source": "Social_chunja",
+   "channel": "인스타그램",
+   "clicks": 2,
+   "installs": 0
+  },
+  {
+   "date": "2026-11-25",
+   "character": "김춘자",
+   "media_source": "Social_chunja",
    "channel": "틱톡",
-   "clicks": 4,
+   "clicks": 12,
    "installs": 0
   }
  ]
