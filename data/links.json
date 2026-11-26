@@ -370,6 +370,14 @@
   },
   {
    "date": "2026-11-26",
+   "character": "건강봇",
+   "media_source": "Social_ahealth_bot",
+   "channel": "인스타그램",
+   "clicks": 2,
+   "installs": 0
+  },
+  {
+   "date": "2026-11-26",
    "character": "김춘자",
    "media_source": "Social_chunja",
    "channel": "인스타그램",
@@ -381,7 +389,7 @@
    "character": "김춘자",
    "media_source": "Social_chunja",
    "channel": "틱톡",
-   "clicks": 4,
+   "clicks": 11,
    "installs": 0
   }
  ]
