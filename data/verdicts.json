@@ -1,0 +1,201 @@
+{
+ "days": {
+  "2026-11-25": [
+   {
+    "concept": "건강봇",
+    "verdict": "키움",
+    "median": 6725,
+    "best": 986753,
+    "n": 11,
+    "hits": 4,
+    "best_video": 980211,
+    "share": "건강봇 일본 인스타 98%",
+    "yesterday": null,
+    "paused": false
+   },
+   {
+    "concept": "김춘자",
+    "verdict": "키움",
+    "median": 76832,
+    "best": 160893,
+    "n": 12,
+    "hits": 12,
+    "best_video": 157900,
+    "share": "김춘자 틱톡 91% · 김춘자 인스타 7%",
+    "yesterday": null,
+    "paused": false
+   },
+   {
+    "concept": "미자 할매",
+    "verdict": "시험 0/5",
+    "median": 0,
+    "best": 0,
+    "n": 0,
+    "hits": 0,
+    "best_video": 0,
+    "share": "",
+    "yesterday": null,
+    "paused": false
+   },
+   {
+    "concept": "몽인턴",
+    "verdict": "시험 4/5",
+    "median": 699,
+    "best": 4274,
+    "n": 4,
+    "hits": 0,
+    "best_video": 2538,
+    "share": "몽인턴 인스타 48% · 몽인턴 유튜브 46% · 몽인턴 틱톡 6%",
+    "yesterday": null,
+    "paused": true
+   },
+   {
+    "concept": "뇌해설",
+    "verdict": "시험 1/5",
+    "median": 2353,
+    "best": 2353,
+    "n": 1,
+    "hits": 0,
+    "best_video": 2209,
+    "share": "뇌해설 일본 인스타 94% · 뇌해설 한국 인스타 6%",
+    "yesterday": null,
+    "paused": true
+   },
+   {
+    "concept": "냉미남",
+    "verdict": "시험 2/5",
+    "median": 895,
+    "best": 1141,
+    "n": 2,
+    "hits": 0,
+    "best_video": 942,
+    "share": "냉미남 한국 유튜브 57% · 냉미남 일본 인스타 24% · 냉미남 한국 인스타 18%",
+    "yesterday": null,
+    "paused": true
+   },
+   {
+    "concept": "김태식",
+    "verdict": "중단",
+    "median": 3020,
+    "best": 4940,
+    "n": 5,
+    "hits": 0,
+    "best_video": 3633,
+    "share": "김태식 유튜브 57% · 김태식 인스타 43%",
+    "yesterday": null,
+    "paused": true
+   },
+   {
+    "concept": "뼈톡",
+    "verdict": "중단",
+    "median": 370,
+    "best": 2476,
+    "n": 5,
+    "hits": 0,
+    "best_video": 2335,
+    "share": "뼈톡 일본 인스타 72% · 뼈톡 한국 인스타 16% · 뼈톡 대만 인스타 12%",
+    "yesterday": null,
+    "paused": true
+   }
+  ],
+  "2026-11-26": [
+   {
+    "concept": "건강봇",
+    "verdict": "키움",
+    "median": 6919,
+    "best": 1010570,
+    "n": 11,
+    "hits": 4,
+    "best_video": 1003916,
+    "share": "건강봇 일본 인스타 98%",
+    "yesterday": "키움",
+    "paused": false
+   },
+   {
+    "concept": "김춘자",
+    "verdict": "키움",
+    "median": 80046,
+    "best": 162823,
+    "n": 12,
+    "hits": 12,
+    "best_video": 158100,
+    "share": "김춘자 틱톡 88% · 김춘자 인스타 10%",
+    "yesterday": "키움",
+    "paused": false
+   },
+   {
+    "concept": "미자 할매",
+    "verdict": "시험 0/5",
+    "median": 0,
+    "best": 0,
+    "n": 0,
+    "hits": 0,
+    "best_video": 0,
+    "share": "",
+    "yesterday": "시험 0/5",
+    "paused": false
+   },
+   {
+    "concept": "몽인턴",
+    "verdict": "시험 4/5",
+    "median": 699,
+    "best": 4274,
+    "n": 4,
+    "hits": 0,
+    "best_video": 2538,
+    "share": "몽인턴 인스타 48% · 몽인턴 유튜브 46% · 몽인턴 틱톡 6%",
+    "yesterday": "시험 4/5",
+    "paused": true
+   },
+   {
+    "concept": "뇌해설",
+    "verdict": "시험 2/5",
+    "median": 2527,
+    "best": 2700,
+    "n": 2,
+    "hits": 0,
+    "best_video": 2373,
+    "share": "뇌해설 일본 인스타 91%",
+    "yesterday": "시험 1/5",
+    "paused": true
+   },
+   {
+    "concept": "냉미남",
+    "verdict": "시험 2/5",
+    "median": 897,
+    "best": 1147,
+    "n": 2,
+    "hits": 0,
+    "best_video": 942,
+    "share": "냉미남 한국 유튜브 57% · 냉미남 일본 인스타 24% · 냉미남 한국 인스타 18%",
+    "yesterday": "시험 2/5",
+    "paused": true
+   },
+   {
+    "concept": "김태식",
+    "verdict": "중단",
+    "median": 3022,
+    "best": 4944,
+    "n": 5,
+    "hits": 0,
+    "best_video": 3637,
+    "share": "김태식 유튜브 57% · 김태식 인스타 43%",
+    "yesterday": "중단",
+    "paused": true
+   },
+   {
+    "concept": "뼈톡",
+    "verdict": "중단",
+    "median": 374,
+    "best": 2477,
+    "n": 5,
+    "hits": 0,
+    "best_video": 2335,
+    "share": "뼈톡 일본 인스타 71% · 뼈톡 한국 인스타 16% · 뼈톡 대만 인스타 12%",
+    "yesterday": "중단",
+    "paused": true
+   }
+  ]
+ },
+ "unit": "concept"
+}
