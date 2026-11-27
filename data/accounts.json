@@ -3803,6 +3803,18 @@
   },
   {
    "character": "건강봇 대만",
+   "platform": "유튜브",
+   "handle": "ahealth_bot_tw",
+   "url": "https://www.youtube.com/@ahealth_bot_tw",
+   "followers": 18,
+   "posts": 16,
+   "views": 5366,
+   "date": "2026-11-27",
+   "collected_at": "2026-11-27 09:22:10",
+   "account": "건강봇 대만 유튜브"
+  },
+  {
+   "character": "건강봇 대만",
    "platform": "인스타그램",
    "handle": "ahealth_bot_tw",
    "url": "https://www.instagram.com/ahealth_bot_tw/",
@@ -3810,20 +3822,56 @@
    "posts": 16,
    "views": 1938,
    "date": "2026-11-27",
-   "collected_at": "2026-11-27 02:48:25",
+   "collected_at": "2026-11-27 09:22:10",
    "account": "건강봇 대만 인스타그램"
+  },
+  {
+   "character": "건강봇 일본",
+   "platform": "유튜브",
+   "handle": "ahealth_bot_jp",
+   "url": "https://www.youtube.com/@ahealth_bot_jp",
+   "followers": 13,
+   "posts": 16,
+   "views": 9948,
+   "date": "2026-11-27",
+   "collected_at": "2026-11-27 09:22:10",
+   "account": "건강봇 일본 유튜브"
   },
   {
    "character": "건강봇 일본",
    "platform": "인스타그램",
    "handle": "ahealth_bot_jp",
    "url": "https://www.instagram.com/ahealth_bot_jp/",
-   "followers": 565,
+   "followers": 581,
    "posts": 16,
-   "views": 1271318,
+   "views": 1289974,
    "date": "2026-11-27",
-   "collected_at": "2026-11-27 02:48:25",
+   "collected_at": "2026-11-27 09:22:10",
    "account": "건강봇 일본 인스타그램"
+  },
+  {
+   "character": "건강봇 일본",
+   "platform": "틱톡",
+   "handle": "taesik_nextdoor",
+   "url": "https://www.tiktok.com/@taesik_nextdoor",
+   "followers": 0,
+   "posts": 16,
+   "views": 916,
+   "date": "2026-11-27",
+   "collected_at": "2026-11-27 09:22:10",
+   "account": "건강봇 일본 틱톡"
+  },
+  {
+   "character": "건강봇 한국",
+   "platform": "유튜브",
+   "handle": "ahealth_bot_kr",
+   "url": "https://www.youtube.com/@ahealth_bot_kr",
+   "followers": 13,
+   "posts": 16,
+   "views": 5654,
+   "date": "2026-11-27",
+   "collected_at": "2026-11-27 09:22:10",
+   "account": "건강봇 한국 유튜브"
   },
   {
    "character": "건강봇 한국",
@@ -3832,10 +3880,58 @@
    "url": "https://www.instagram.com/ahealth_bot_kr/",
    "followers": 5,
    "posts": 16,
-   "views": 14821,
+   "views": 14839,
    "date": "2026-11-27",
-   "collected_at": "2026-11-27 02:48:25",
+   "collected_at": "2026-11-27 09:22:10",
    "account": "건강봇 한국 인스타그램"
+  },
+  {
+   "character": "건강봇 한국",
+   "platform": "틱톡",
+   "handle": "ahealth_bot_kr",
+   "url": "https://www.tiktok.com/@ahealth_bot_kr",
+   "followers": 7,
+   "posts": 16,
+   "views": 3941,
+   "date": "2026-11-27",
+   "collected_at": "2026-11-27 09:22:10",
+   "account": "건강봇 한국 틱톡"
+  },
+  {
+   "character": "김춘자",
+   "platform": "유튜브",
+   "handle": "chun_ja82",
+   "url": "https://www.youtube.com/@chun_ja82",
+   "followers": 61,
+   "posts": 16,
+   "views": 28752,
+   "date": "2026-11-27",
+   "collected_at": "2026-11-27 09:22:10",
+   "account": "김춘자 유튜브"
+  },
+  {
+   "character": "김춘자",
+   "platform": "틱톡",
+   "handle": "chun_ja82",
+   "url": "https://www.tiktok.com/@chun_ja82",
+   "followers": 2551,
+   "posts": 16,
+   "views": 1252900,
+   "date": "2026-11-27",
+   "collected_at": "2026-11-27 09:22:10",
+   "account": "김춘자 틱톡"
+  },
+  {
+   "character": "김태식",
+   "platform": "유튜브",
+   "handle": "taesik_nextdoor",
+   "url": "https://www.youtube.com/@taesik_nextdoor",
+   "followers": 5,
+   "posts": 5,
+   "views": 9297,
+   "date": "2026-11-27",
+   "collected_at": "2026-11-27 09:22:10",
+   "account": "김태식 유튜브"
   },
   {
    "character": "김태식",
@@ -3844,10 +3940,22 @@
    "url": "https://www.instagram.com/taesik_nextdoor/",
    "followers": 14,
    "posts": 5,
-   "views": 7048,
+   "views": 7052,
    "date": "2026-11-27",
-   "collected_at": "2026-11-27 02:48:25",
+   "collected_at": "2026-11-27 09:22:10",
    "account": "김태식 인스타그램"
+  },
+  {
+   "character": "냉미남 대만",
+   "platform": "유튜브",
+   "handle": "ahealth_lover_tw",
+   "url": "https://www.youtube.com/@ahealth_lover_tw",
+   "followers": 0,
+   "posts": 5,
+   "views": 19,
+   "date": "2026-11-27",
+   "collected_at": "2026-11-27 09:22:10",
+   "account": "냉미남 대만 유튜브"
   },
   {
    "character": "냉미남 대만",
@@ -3858,8 +3966,20 @@
    "posts": 5,
    "views": 162,
    "date": "2026-11-27",
-   "collected_at": "2026-11-27 02:48:25",
+   "collected_at": "2026-11-27 09:22:10",
    "account": "냉미남 대만 인스타그램"
+  },
+  {
+   "character": "냉미남 일본",
+   "platform": "유튜브",
+   "handle": "ahealth_lover_jp",
+   "url": "https://www.youtube.com/@ahealth_lover_jp",
+   "followers": 0,
+   "posts": 5,
+   "views": 10,
+   "date": "2026-11-27",
+   "collected_at": "2026-11-27 09:22:10",
+   "account": "냉미남 일본 유튜브"
   },
   {
    "character": "냉미남 일본",
@@ -3868,10 +3988,22 @@
    "url": "https://www.instagram.com/ahealth_lover_jp/",
    "followers": 0,
    "posts": 5,
-   "views": 5309,
+   "views": 5310,
    "date": "2026-11-27",
-   "collected_at": "2026-11-27 02:48:25",
+   "collected_at": "2026-11-27 09:22:10",
    "account": "냉미남 일본 인스타그램"
+  },
+  {
+   "character": "냉미남 한국",
+   "platform": "유튜브",
+   "handle": "ahealth_lover_kr",
+   "url": "https://www.youtube.com/@ahealth_lover_kr",
+   "followers": 1,
+   "posts": 5,
+   "views": 3528,
+   "date": "2026-11-27",
+   "collected_at": "2026-11-27 09:22:10",
+   "account": "냉미남 한국 유튜브"
   },
   {
    "character": "냉미남 한국",
@@ -3882,8 +4014,20 @@
    "posts": 5,
    "views": 800,
    "date": "2026-11-27",
-   "collected_at": "2026-11-27 02:48:25",
+   "collected_at": "2026-11-27 09:22:10",
    "account": "냉미남 한국 인스타그램"
+  },
+  {
+   "character": "뇌해설 대만",
+   "platform": "유튜브",
+   "handle": "pretty_health_tw",
+   "url": "https://www.youtube.com/@pretty_health_tw",
+   "followers": 0,
+   "posts": 7,
+   "views": 73,
+   "date": "2026-11-27",
+   "collected_at": "2026-11-27 09:22:10",
+   "account": "뇌해설 대만 유튜브"
   },
   {
    "character": "뇌해설 대만",
@@ -3894,8 +4038,20 @@
    "posts": 7,
    "views": 172,
    "date": "2026-11-27",
-   "collected_at": "2026-11-27 02:48:25",
+   "collected_at": "2026-11-27 09:22:10",
    "account": "뇌해설 대만 인스타그램"
+  },
+  {
+   "character": "뇌해설 일본",
+   "platform": "유튜브",
+   "handle": "pretty_health_jp",
+   "url": "https://www.youtube.com/@pretty_health_jp",
+   "followers": 0,
+   "posts": 7,
+   "views": 168,
+   "date": "2026-11-27",
+   "collected_at": "2026-11-27 09:22:10",
+   "account": "뇌해설 일본 유튜브"
   },
   {
    "character": "뇌해설 일본",
@@ -3906,8 +4062,20 @@
    "posts": 7,
    "views": 5574,
    "date": "2026-11-27",
-   "collected_at": "2026-11-27 02:48:25",
+   "collected_at": "2026-11-27 09:22:10",
    "account": "뇌해설 일본 인스타그램"
+  },
+  {
+   "character": "뇌해설 한국",
+   "platform": "유튜브",
+   "handle": "pretty_health_kr",
+   "url": "https://www.youtube.com/@pretty_health_kr",
+   "followers": 3,
+   "posts": 7,
+   "views": 1281,
+   "date": "2026-11-27",
+   "collected_at": "2026-11-27 09:22:10",
+   "account": "뇌해설 한국 유튜브"
   },
   {
    "character": "뇌해설 한국",
@@ -3918,8 +4086,56 @@
    "posts": 7,
    "views": 851,
    "date": "2026-11-27",
-   "collected_at": "2026-11-27 02:48:25",
+   "collected_at": "2026-11-27 09:22:10",
    "account": "뇌해설 한국 인스타그램"
+  },
+  {
+   "character": "미자 할매 대만",
+   "platform": "유튜브",
+   "handle": "fit_mija82_tw",
+   "url": "https://www.youtube.com/@fit_mija82_tw",
+   "followers": 0,
+   "posts": 0,
+   "views": 0,
+   "date": "2026-11-27",
+   "collected_at": "2026-11-27 09:22:10",
+   "account": "미자 할매 대만 유튜브"
+  },
+  {
+   "character": "미자 할매 일본",
+   "platform": "유튜브",
+   "handle": "fit_mija82_jp",
+   "url": "https://www.youtube.com/@fit_mija82_jp",
+   "followers": 0,
+   "posts": 0,
+   "views": 0,
+   "date": "2026-11-27",
+   "collected_at": "2026-11-27 09:22:10",
+   "account": "미자 할매 일본 유튜브"
+  },
+  {
+   "character": "미자 할매 한국",
+   "platform": "유튜브",
+   "handle": "fit_mija82_kr",
+   "url": "https://www.youtube.com/@fit_mija82_kr",
+   "followers": 0,
+   "posts": 0,
+   "views": 0,
+   "date": "2026-11-27",
+   "collected_at": "2026-11-27 09:22:10",
+   "account": "미자 할매 한국 유튜브"
+  },
+  {
+   "character": "뼈톡 대만",
+   "platform": "유튜브",
+   "handle": "bonetalk_tw",
+   "url": "https://www.youtube.com/@bonetalk_tw",
+   "followers": 1,
+   "posts": 13,
+   "views": 26,
+   "date": "2026-11-27",
+   "collected_at": "2026-11-27 09:22:10",
+   "account": "뼈톡 대만 유튜브"
   },
   {
    "character": "뼈톡 대만",
@@ -3930,8 +4146,20 @@
    "posts": 13,
    "views": 1540,
    "date": "2026-11-27",
-   "collected_at": "2026-11-27 02:48:25",
+   "collected_at": "2026-11-27 09:22:10",
    "account": "뼈톡 대만 인스타그램"
+  },
+  {
+   "character": "뼈톡 일본",
+   "platform": "유튜브",
+   "handle": "bonetalk_jp",
+   "url": "https://www.youtube.com/@bonetalk_jp",
+   "followers": 0,
+   "posts": 13,
+   "views": 102,
+   "date": "2026-11-27",
+   "collected_at": "2026-11-27 09:22:10",
+   "account": "뼈톡 일본 유튜브"
   },
   {
    "character": "뼈톡 일본",
@@ -3942,8 +4170,20 @@
    "posts": 13,
    "views": 3829,
    "date": "2026-11-27",
-   "collected_at": "2026-11-27 02:48:25",
+   "collected_at": "2026-11-27 09:22:10",
    "account": "뼈톡 일본 인스타그램"
+  },
+  {
+   "character": "뼈톡 한국",
+   "platform": "유튜브",
+   "handle": "bonetalk_kr",
+   "url": "https://www.youtube.com/@bonetalk_kr",
+   "followers": 0,
+   "posts": 13,
+   "views": 84,
+   "date": "2026-11-27",
+   "collected_at": "2026-11-27 09:22:10",
+   "account": "뼈톡 한국 유튜브"
   },
   {
    "character": "뼈톡 한국",
@@ -3954,7 +4194,7 @@
    "posts": 13,
    "views": 1606,
    "date": "2026-11-27",
-   "collected_at": "2026-11-27 02:48:25",
+   "collected_at": "2026-11-27 09:22:10",
    "account": "뼈톡 한국 인스타그램"
   }
  ]
