@@ -391,6 +391,14 @@
    "channel": "틱톡",
    "clicks": 18,
    "installs": 0
+  },
+  {
+   "date": "2026-11-27",
+   "character": "건강봇",
+   "media_source": "Social_ahealth_bot",
+   "channel": "인스타그램",
+   "clicks": 2,
+   "installs": 0
   }
  ]
 }
